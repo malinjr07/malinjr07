@@ -1,3 +1,17 @@
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+
+```javascript
+const thai = {
+  pronouns: "he" | "him",
+  code: [Javascript, C, HTML, CSS,],
+  tools: [React, Redux, Node, SASS, Styled-Components, LESS, Bootstrap, Svelte],
+  architecture: ["microservices", "event-driven", "design system pattern"],
+  
+  challenge: "I am doing the #30DaysOfCode challenge focused on C & C++"
+}
+```
+
+
 <h2 align="center">You can reach me at :alien:</h2>
 
 <p align="center">
