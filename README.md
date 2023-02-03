@@ -29,9 +29,9 @@
 
 
 
-- 💻 &nbsp; C++ | C | JavaScript | PHP
+- 💻 &nbsp; JavaScript
 
-- 🌐 &nbsp; HTML | CSS | Bootstrap | ReactJS | Svelte | SASS/SCSS | LESS
+- 🌐 &nbsp; React.js | Next.js | React Native | Tailwind CSS | React-Spring | SASS/SCSS | LESS
 
 <!--
 
@@ -47,7 +47,7 @@
 
 <h3>🛠 To Learn</h3>
 
-- 🔧 &nbsp; AWS | Docker🐳 | Python | Java
+- 🔧 &nbsp; ThreeJs | Docker🐳 | Python
 
 <hr>
 
@@ -132,9 +132,9 @@
     <img src="https://www.vectorlogo.zone/logos/medium/medium-tile.svg" alt="Maruf's Medium Profile" height="30" width="30">
   </a> -->
   
-  <a href="https://www.youtube.com/channel/UCobico-6LEfrfDMrc9zHjmg">
+<!--   <a href="https://www.youtube.com/channel/UCobico-6LEfrfDMrc9zHjmg">
     <img src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg" alt="Maruf's YouTube Channel" height="30" width="30">
-  </a>
+  </a> -->
 </p>
 
 <h2 align="center">Github stats :bar_chart:</h2>
