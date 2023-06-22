@@ -97,7 +97,7 @@
     <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Maruf's DEV Profile" height="30" width="30">
   </a> -->
 
-  <a href="https://www.linkedin.com/in/m-ali-maruf/">
+  <a href="https://www.linkedin.com/in/malinjr07/">
     <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="Maruf's LinkedIn Profile" height="30" width="30">
   </a>
 
