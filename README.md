@@ -17,25 +17,24 @@
 
 - 🤔 &nbsp; Exploring new technologies and developing software solutions and quick hacks.
 
-- 🎓 &nbsp; Self Taught Front-End Web Developer and Competitive Programmer.
+- 🎓 &nbsp; Self Taught Front-End Web Developer and JavaScript/TypeScript & Python Programmer.
 
-- 🌱 &nbsp; Learning about Marketing, Outreach Program, Entreprenuership, 3D Web Developement.
+- 🌱 &nbsp; Learning about 3D Web Development, Marketing, Outreach Program, Entrepreneurship.
 
 <h3>🛠 Tech Stack</h3>
 
-- 💻 &nbsp; JavaScript
+- 💻 &nbsp; JavaScript & TypeScript
 
-- 🌐 &nbsp; React.js | Next.js | React Native | Tailwind CSS | React-Spring | SASS/SCSS | LESS | Styled Component | MUI
+- 🌐 &nbsp; React.js | Next.js | React Native | Tailwind CSS | Redux | Material UI | Ant Design | React-Spring | SASS/SCSS | LESS | Styled Component
 
 <!--
 
 - 🛢 &nbsp; MySQL | MongoDB
+-->
 
 - 🔧 &nbsp; Git
 
 - 🖥 &nbsp; Figma | Sketch | Adobe XD
-
--->
 
 <h3>🛠 To Learn</h3>
 
