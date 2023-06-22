@@ -131,7 +131,7 @@
 
 <h4 align="center">Top langs :tongue:</h4>
 
-<p align="center"><img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=malinjr07&langs_count=10&theme=tokyonight&layout=compact" alt="malinjr07 :: Top Langs" /></p>
+<p align="center"><img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=malinjr07&langs_count=8&theme=tokyonight&layout=compact" alt="malinjr07 :: Top Langs" /></p>
 
 <h4 align="center">Profile stats :musical_keyboard:</h4>
 
