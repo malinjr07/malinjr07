@@ -15,19 +15,13 @@
 
 <h3> 👨🏻•💻 About Me </h3>
 
-
-
 - 🤔 &nbsp; Exploring new technologies and developing software solutions and quick hacks.
 
 - 🎓 &nbsp; Self Taught Front-End Web Developer and Competitive Programmer.
 
 - 🌱 &nbsp; Learning about Marketing, Outreach Program, Entreprenuership, 3D Web Developement.
 
-
-
 <h3>🛠 Tech Stack</h3>
-
-
 
 - 💻 &nbsp; JavaScript
 
@@ -43,15 +37,11 @@
 
 -->
 
-
-
 <h3>🛠 To Learn</h3>
 
 - 🔧 &nbsp; ThreeJs | Docker🐳 | Python
 
 <hr>
-
-
 
 <br/><br/>
 
@@ -65,7 +55,7 @@
 <a href="https://github.com/malinjr07"><img src="https://img.shields.io/badge/scala-red.svg?style=for-the-badge&logo=scala&logoColor=red&labelColor=ffffff" alt="scala"></a>
 </p><br>
 
-<p align="center">					    
+<p align="center">
 <a href="https://github.com/malinjr07"><img src="https://img.shields.io/badge/react-61DAFB.svg?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=ffffff" alt="react"></a>
 <a href="https://github.com/malinjr07"><img src="https://img.shields.io/badge/React Native-3aabe8.svg?style=for-the-badge&logo=react&logoColor=3aabe8&labelColor=ffffff" alt="react native"></a>
 <a href="https://github.com/malinjr07"><img src="https://img.shields.io/badge/django-47474f.svg?style=for-the-badge&logo=django&logoColor=black&labelColor=ffffff" alt="django"></a>
@@ -123,15 +113,15 @@
   <!-- <a href="https://stackshare.io/anhello">
     <img src="https://cdn.worldvectorlogo.com/logos/stackshare.svg" alt="Maruf's StackShare Profile" height="30" width="30">
   </a> -->
-  
+
   <!-- <a href="https://gitlab.com/AnhellO">
     <img src="https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg" alt="Maruf's GitLab Profile" height="30" width="30">
   </a> -->
-  
+
   <!-- <a href="https://medium.com/@ajzavala">
     <img src="https://www.vectorlogo.zone/logos/medium/medium-tile.svg" alt="Maruf's Medium Profile" height="30" width="30">
   </a> -->
-  
+
 <!--   <a href="https://www.youtube.com/channel/UCobico-6LEfrfDMrc9zHjmg">
     <img src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg" alt="Maruf's YouTube Channel" height="30" width="30">
   </a> -->
@@ -141,7 +131,7 @@
 
 <h4 align="center">Top langs :tongue:</h4>
 
-<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=malinjr07&langs_count=5&theme=tokyonight&layout=compact" alt="malinjr07 :: Top Langs" /></p>
+<p align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=malinjr07&langs_count=10&theme=tokyonight&layout=compact" alt="malinjr07 :: Top Langs" /></p>
 
 <h4 align="center">Profile stats :musical_keyboard:</h4>
 
