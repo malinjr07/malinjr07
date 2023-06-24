@@ -1,10 +1,9 @@
 import './globals.css';
 import { Metadata } from 'next';
-import { Raleway } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import 'swiper/css';
-
-const raleway = Raleway({ subsets: ['latin'] });
+import { raleway } from './fonts';
+import '../fontawesome/css/all.min.css';
 
 export const metadata: Metadata = {
   title: 'Mosaddik Ali Maruf - Front-End Developer',
