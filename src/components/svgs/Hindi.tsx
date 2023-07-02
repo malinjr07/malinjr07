@@ -1,8 +1,11 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const Hindi = () => {
+const Hindi: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
+      width={width}
+      height={height}
       version='1.1'
       id='Layer_1'
       xmlns='http://www.w3.org/2000/svg'
@@ -104,3 +107,4 @@ const Hindi = () => {
 };
 
 export default Hindi;
+

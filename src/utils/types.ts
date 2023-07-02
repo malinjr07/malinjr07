@@ -13,7 +13,7 @@ export interface skillListObj {
   skillList: skillObj[];
 }
 
-export interface svgProps {
+export interface svgComponentProps {
   width: string;
   height: string;
 }

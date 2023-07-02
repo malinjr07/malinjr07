@@ -1,11 +1,12 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const ReactJs = () => {
+const ReactJs: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
-      height='2500'
+      height={height}
       viewBox='175.7 78 490.6 436.9'
-      width='2194'
+      width={width}
       xmlns='http://www.w3.org/2000/svg'
     >
       <g fill='#61dafb'>
@@ -17,3 +18,4 @@ const ReactJs = () => {
 };
 
 export default ReactJs;
+

@@ -1,7 +1,7 @@
-import { svgProps } from '@/utils/types';
+import { svgComponentProps } from '@/utils/types';
 import React, { FC } from 'react';
 
-const Photoshop: FC<svgProps> = ({ width, height }) => {
+const Photoshop: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
       viewBox='0 0 240 234'

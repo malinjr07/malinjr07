@@ -1,10 +1,13 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const RestApi = () => {
+const RestApi: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
       version='1.1'
       id='Layer_1'
+      width={width}
+      height={height}
       xmlns='http://www.w3.org/2000/svg'
       xmlnsXlink='http://www.w3.org/1999/xlink'
       x='0px'

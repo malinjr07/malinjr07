@@ -1,11 +1,12 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const FramerMotion = () => {
+const FramerMotion: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
-      height='2500'
+      height={height}
       viewBox='3.7 3.7 43.6 43.6'
-      width='2500'
+      width={width}
       xmlns='http://www.w3.org/2000/svg'
     >
       <path
@@ -22,3 +23,4 @@ const FramerMotion = () => {
 };
 
 export default FramerMotion;
+

@@ -1,10 +1,11 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const Sketch = () => {
+const Sketch: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
-      width='256px'
-      height='232px'
+      width={width}
+      height={height}
       viewBox='0 0 256 232'
       version='1.1'
       xmlns='http://www.w3.org/2000/svg'
@@ -54,3 +55,4 @@ const Sketch = () => {
 };
 
 export default Sketch;
+

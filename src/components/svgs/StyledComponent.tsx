@@ -1,13 +1,14 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const StyledComponent = () => {
+const StyledComponent: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
       viewBox='0 0 318 318'
       xmlns='http://www.w3.org/2000/svg'
       xmlnsXlink='http://www.w3.org/1999/xlink'
-      width={2500}
-      height={2500}
+      width={width}
+      height={height}
     >
       <defs>
         <path id='a' d='M0 0h318v318H0z' />

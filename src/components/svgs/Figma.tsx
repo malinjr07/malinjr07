@@ -1,10 +1,11 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const Figma = () => {
+const Figma: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
-      width='38'
-      height='57'
+      width={width}
+      height={height}
       viewBox='0 0 38 57'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
@@ -41,3 +42,4 @@ const Figma = () => {
 };
 
 export default Figma;
+

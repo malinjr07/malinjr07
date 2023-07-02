@@ -1,10 +1,11 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const TypeScript = () => {
+const TypeScript: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
-      width='800px'
-      height='800px'
+      width={width}
+      height={height}
       viewBox='0 0 400 400'
       id='Layer_1'
       xmlns='http://www.w3.org/2000/svg'
@@ -24,3 +25,4 @@ const TypeScript = () => {
 };
 
 export default TypeScript;
+

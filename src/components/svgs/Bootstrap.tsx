@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { FC } from 'react';
+import { svgComponentProps } from '@/utils/types';
 
-const Bootstrap = () => {
+const Bootstrap: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
-      width='800px'
-      height='800px'
+      width={width}
+      height={height}
       viewBox='0 0 256 256'
       xmlns='http://www.w3.org/2000/svg'
       preserveAspectRatio='xMinYMin meet'
@@ -22,3 +23,4 @@ const Bootstrap = () => {
 };
 
 export default Bootstrap;
+

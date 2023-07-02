@@ -1,11 +1,11 @@
-import { svgProps } from '@/utils/types';
+import { svgComponentProps } from '@/utils/types';
 import React, { FC } from 'react';
 
-const Xd: FC<svgProps> = ({ width, height }) => {
+const Xd: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
-      width='800px'
-      height='800px'
+      width={width}
+      height={height}
       viewBox='0 -3 240 240'
       id='ps_x5F_cc_x5F_app_x5F_RGB.svg'
       xmlns='http://www.w3.org/2000/svg'

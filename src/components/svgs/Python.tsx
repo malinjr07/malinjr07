@@ -1,10 +1,11 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const Python = () => {
+const Python: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
-      width='2500'
-      height='2490'
+      width={width}
+      height={height}
       viewBox='0 0 256 255'
       xmlns='http://www.w3.org/2000/svg'
       preserveAspectRatio='xMinYMin meet'

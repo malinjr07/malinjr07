@@ -1,11 +1,12 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const Tailwind = () => {
+const Tailwind: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
-      height='1499'
+      height={height}
       viewBox='.15 .13 799.7 479.69'
-      width='2500'
+      width={width}
       xmlns='http://www.w3.org/2000/svg'
     >
       <path
@@ -17,3 +18,4 @@ const Tailwind = () => {
 };
 
 export default Tailwind;
+

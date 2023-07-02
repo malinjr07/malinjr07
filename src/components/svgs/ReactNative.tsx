@@ -1,11 +1,12 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const ReactNative = () => {
+const ReactNative: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
       fill='none'
-      height='2005'
-      width='2500'
+      height={height}
+      width={width}
       xmlns='http://www.w3.org/2000/svg'
       viewBox='670.088 32.46226489559854 2224.1720000000005 2666.4877351044024'
     >
@@ -18,3 +19,4 @@ const ReactNative = () => {
 };
 
 export default ReactNative;
+

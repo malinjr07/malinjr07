@@ -1,12 +1,13 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const MUI = () => {
+const MUI: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
       viewBox='0 0 600 476.30000000000007'
       xmlns='http://www.w3.org/2000/svg'
-      width='2500'
-      height='1985'
+      width={width}
+      height={height}
     >
       <path d='M0 259.8V0l225 129.9v86.6L75 129.9v173.2z' fill='#00b0ff' />
       <path
@@ -23,3 +24,4 @@ const MUI = () => {
 };
 
 export default MUI;
+

@@ -1,11 +1,12 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const ThreeJs = () => {
+const ThreeJs: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
       fill='none'
-      height='2500'
-      width='2500'
+      height={height}
+      width={width}
       xmlns='http://www.w3.org/2000/svg'
       viewBox='27 26 173.23 174.94'
     >

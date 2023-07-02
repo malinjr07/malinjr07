@@ -1,6 +1,7 @@
-import React from 'react';
+import { svgComponentProps } from '@/utils/types';
+import React, { FC } from 'react';
 
-const English = () => {
+const English: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <svg
       version='1.1'
@@ -11,6 +12,8 @@ const English = () => {
       y='0px'
       viewBox='0 0 55.2 38.4'
       xmlSpace='preserve'
+      width={width}
+      height={height}
     >
       <style
         type='text/css'
@@ -181,3 +184,4 @@ const English = () => {
 };
 
 export default English;
+
