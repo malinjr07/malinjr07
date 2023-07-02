@@ -5,7 +5,7 @@ export type navType = {
   id: string;
 };
 export interface skillObj {
-  icon: ReactNode;
+  icon: (e: svgComponentProps) => ReactNode;
   title: string;
 }
 export interface skillListObj {

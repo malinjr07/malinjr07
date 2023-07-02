@@ -1,11 +1,11 @@
-import { svgComponentProps } from '@/utils/types';
-import React, { FC } from 'react';
+import React from 'react';
 
-const Chart: FC<svgComponentProps> = ({ width, height }) => {
+const Chart = ({ width, height }) => {
   return (
     <svg
       version='1.1'
       xmlns='http://www.w3.org/2000/svg'
+      viewBox='0 0 444 512'
       width={width}
       height={height}
     >

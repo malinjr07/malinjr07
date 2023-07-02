@@ -2,12 +2,12 @@ import { svgComponentProps } from '@/utils/types';
 import Image from 'next/image';
 import React, { FC } from 'react';
 
-const Python: FC<svgComponentProps> = ({ width, height }) => {
+const DevOps: FC<svgComponentProps> = ({ width, height }) => {
   return (
     <div className={`relative`} style={{ width, height }}>
       <Image
-        src={'/python.svg'}
-        alt='Python Logo'
+        src={'/devops.png'}
+        alt='devops image'
         fill
         className='object-contain'
       />
@@ -15,5 +15,5 @@ const Python: FC<svgComponentProps> = ({ width, height }) => {
   );
 };
 
-export default Python;
+export default DevOps;
 
