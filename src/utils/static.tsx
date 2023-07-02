@@ -1,9 +1,4 @@
-import { ReactNode } from 'react';
-
-export type navType = {
-  title: string;
-  id: string;
-};
+import { navType, skillListObj } from './types';
 
 export const navItems: navType[] = [
   {
@@ -19,15 +14,6 @@ export const navItems: navType[] = [
     id: 'portfolio',
   },
 ];
-
-export interface skillObj {
-  icon: ReactNode;
-  title: string;
-}
-export interface skillListObj {
-  skillTitle: string;
-  skillList: skillObj[];
-}
 
 export const skillLists: skillListObj[] = [
   {

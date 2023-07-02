@@ -1,5 +1,6 @@
 import { comfortaa } from '@/app/fonts';
-import { navItems, navType } from '@/utils/static';
+import { navItems } from '@/utils/static';
+import { navType } from '@/utils/types';
 import Link from 'next/link';
 import React, { FC } from 'react';
 
