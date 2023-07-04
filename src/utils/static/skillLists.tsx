@@ -28,22 +28,99 @@ import Tailwind from '@/components/svgs/Tailwind';
 import ThreeJs from '@/components/svgs/ThreeJs';
 import TypeScript from '@/components/svgs/TypeScript';
 import Xd from '@/components/svgs/Xd';
-import { navType, skillListObj } from './types';
+import { skillListObj, skillObj } from '../types';
 
-export const navItems: navType[] = [
-  {
-    title: 'about me',
-    id: 'about-me',
-  },
-  {
-    title: 'skills',
-    id: 'skills',
-  },
-  {
-    title: 'portfolio',
-    id: 'portfolio',
-  },
-];
+export const sass: skillObj = {
+  icon: (props) => <Sass {...props} />,
+  title: 'SASS',
+};
+
+export const styledComponent: skillObj = {
+  icon: (props) => <StyledComponent {...props} />,
+  title: 'Styled Component',
+};
+
+export const tailwindCss: skillObj = {
+  icon: (props) => <Tailwind {...props} />,
+  title: 'Tailwind CSS',
+};
+
+export const typeScript: skillObj = {
+  icon: (props) => <TypeScript {...props} />,
+  title: 'TypeScript',
+};
+
+export const reactJs: skillObj = {
+  icon: (props) => <ReactJs {...props} />,
+  title: 'React.js',
+};
+
+export const nextJs: skillObj = {
+  icon: (props) => <Next {...props} />,
+  title: 'Next.js',
+};
+
+export const reactNative: skillObj = {
+  icon: (props) => <ReactNative {...props} />,
+  title: 'React Native',
+};
+
+export const redux: skillObj = {
+  icon: (props) => <Redux {...props} />,
+  title: 'Redux',
+};
+
+export const mui: skillObj = {
+  icon: (props) => <MUI {...props} />,
+  title: 'Material UI',
+};
+
+export const antD: skillObj = {
+  icon: (props) => <AntDesign {...props} />,
+  title: 'Ant Design',
+};
+
+export const framerMotion: skillObj = {
+  icon: (props) => <FramerMotion {...props} />,
+  title: 'Framer Motion',
+};
+
+export const reactSpring: skillObj = {
+  icon: (props) => <ReactSpring {...props} />,
+  title: 'React Spring',
+};
+
+export const restfulApi: skillObj = {
+  icon: (props) => <RestApi {...props} />,
+  title: 'RESTful API',
+};
+
+export const graphQl: skillObj = {
+  icon: (props) => <GraphQl {...props} />,
+  title: 'GraphQL',
+};
+
+export const chart: skillObj = {
+  icon: (props) => <Chart {...props} />,
+  title: 'Chart',
+};
+
+export const git: skillObj = {
+  icon: (props) => <Git {...props} />,
+  title: 'Git',
+};
+
+export const figma: skillObj = {
+  icon: (props) => <Figma {...props} />,
+  title: 'Figma',
+};
+
+export const xd: skillObj = { icon: (props) => <Xd {...props} />, title: 'XD' };
+
+export const sketch: skillObj = {
+  icon: (props) => <Sketch {...props} />,
+  title: 'Sketch',
+};
 
 export const skillLists: skillListObj[] = [
   {
@@ -51,27 +128,24 @@ export const skillLists: skillListObj[] = [
     skillList: [
       { icon: (props) => <HTML {...props} />, title: 'HTML5' },
       { icon: (props) => <CSS {...props} />, title: 'CSS3' },
-      { icon: (props) => <Sass {...props} />, title: 'SASS' },
-      {
-        icon: (props) => <StyledComponent {...props} />,
-        title: 'Styled Component',
-      },
+      sass,
+      styledComponent,
       { icon: (props) => <Bootstrap {...props} />, title: 'Bootstrap' },
       { icon: (props) => <JavaScript {...props} />, title: 'JavaScript' },
-      { icon: (props) => <TypeScript {...props} />, title: 'TypeScript' },
-      { icon: (props) => <ReactJs {...props} />, title: 'React.js' },
-      { icon: (props) => <Next {...props} />, title: 'Next.js' },
-      { icon: (props) => <ReactNative {...props} />, title: 'React Native' },
-      { icon: (props) => <Redux {...props} />, title: 'Redux' },
-      { icon: (props) => <Tailwind {...props} />, title: 'Tailwind CSS' },
-      { icon: (props) => <MUI {...props} />, title: 'Material UI' },
-      { icon: (props) => <AntDesign {...props} />, title: 'Ant Design' },
-      { icon: (props) => <FramerMotion {...props} />, title: 'Framer Motion' },
-      { icon: (props) => <ReactSpring {...props} />, title: 'React Spring' },
-      { icon: (props) => <RestApi {...props} />, title: 'RESTful API' },
-      { icon: (props) => <GraphQl {...props} />, title: 'GraphQL' },
-      { icon: (props) => <Chart {...props} />, title: 'Chart' },
-      { icon: (props) => <Git {...props} />, title: 'Git' },
+      typeScript,
+      reactJs,
+      nextJs,
+      reactNative,
+      redux,
+      tailwindCss,
+      mui,
+      antD,
+      framerMotion,
+      reactSpring,
+      restfulApi,
+      graphQl,
+      chart,
+      git,
     ],
   },
   {
@@ -87,9 +161,9 @@ export const skillLists: skillListObj[] = [
     skillList: [
       { icon: (props) => <English {...props} />, title: 'English' },
       { icon: (props) => <Hindi {...props} />, title: 'Hindi' },
-      { icon: (props) => <Figma {...props} />, title: 'Figma' },
-      { icon: (props) => <Xd {...props} />, title: 'XD' },
-      { icon: (props) => <Sketch {...props} />, title: 'Sketch' },
+      figma,
+      xd,
+      sketch,
       { icon: (props) => <PremierPro {...props} />, title: 'Premier Pro' },
       { icon: (props) => <Photoshop {...props} />, title: 'Photoshop' },
     ],

@@ -18,7 +18,7 @@ const RestApi: FC<svgComponentProps> = ({ width, height }) => {
       <style
         type='text/css'
         dangerouslySetInnerHTML={{
-          __html: '\n\t.st0{fill-rule:evenodd;clip-rule:evenodd;}\n',
+          __html: '\n\t.st0{fillRule:evenodd;clipRule:evenodd;}\n',
         }}
       />
       <g>

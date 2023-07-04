@@ -17,4 +17,10 @@ export interface svgComponentProps {
   width: string;
   height: string;
 }
+export interface portfolioItem {
+  title: string;
+  description: string;
+  usedTechs: Array<skillObj>;
+  img: Array<string>;
+}
 

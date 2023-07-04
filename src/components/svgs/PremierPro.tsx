@@ -17,8 +17,8 @@ const PremierPro: FC<svgComponentProps> = ({ width, height }) => {
         gradientTransform='matrix(545.6736 0 0 528.3113 100439.305 -173525.125)'
         gradientUnits='userSpaceOnUse'
       >
-        <stop offset='0' stop-color='#4b2d4f' stop-opacity='.98' />
-        <stop offset='1' stop-color='#180024' />
+        <stop offset='0' stopColor='#4b2d4f' stopOpacity='.98' />
+        <stop offset='1' stopColor='#180024' />
       </radialGradient>
       <path
         d='M24.803 155.549h545.674v530.792H24.803V155.549z'
