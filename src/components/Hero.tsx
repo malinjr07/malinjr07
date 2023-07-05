@@ -4,7 +4,15 @@ import React, { FC } from 'react';
 
 const Hero: FC = () => {
   return (
-    <section className='mt-10'>
+    <section className='mt-10 flex flex-col items-start justify-start '>
+      <div className='main-hero static right-0 top-0 z-10 h-[880px] w-full bg-[#071420] lg:absolute lg:w-[1008px]'>
+        <Image
+          src='/hero.png'
+          alt="Maruf's Photo"
+          fill
+          className='mt-10 object-contain '
+        />
+      </div>{' '}
       <div className='flex flex-col items-start justify-start pl-64 pt-56 font-bold'>
         <h2 className='text-[40px] '>Hi, I am</h2>
         <h1 className='mt-14 text-6xl'>Mosaddik Ali Maruf</h1>
@@ -35,14 +43,6 @@ const Hero: FC = () => {
             <i className='fa-brands fa-linkedin'></i>
           </a>
         </div>
-      </div>
-      <div className='main-hero absolute right-0 top-0 z-10 h-[880px] w-[1008px] bg-[#071420]'>
-        <Image
-          src='/hero.png'
-          alt="Maruf's Photo"
-          fill
-          className='mt-10 object-contain '
-        />
       </div>
     </section>
   );

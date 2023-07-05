@@ -19,7 +19,7 @@ const Contact: FC = () => {
         <form
           onSubmit={() => {}}
           method='post'
-          className='mt-[120px] flex w-[610px] flex-col items-start justify-start gap-14'
+          className='mt-[120px] flex w-full md:w-[610px] flex-col items-start justify-start gap-14'
         >
           <input
             type='text'

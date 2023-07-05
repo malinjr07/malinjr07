@@ -114,6 +114,10 @@ export const figma: skillObj = {
   icon: (props) => <Figma {...props} />,
   title: 'Figma',
 };
+export const js: skillObj = {
+  icon: (props) => <JavaScript {...props} />,
+  title: 'JavaScript',
+};
 
 export const xd: skillObj = { icon: (props) => <Xd {...props} />, title: 'XD' };
 
@@ -131,7 +135,7 @@ export const skillLists: skillListObj[] = [
       sass,
       styledComponent,
       { icon: (props) => <Bootstrap {...props} />, title: 'Bootstrap' },
-      { icon: (props) => <JavaScript {...props} />, title: 'JavaScript' },
+      js,
       typeScript,
       reactJs,
       nextJs,

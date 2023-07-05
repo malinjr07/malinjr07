@@ -18,9 +18,9 @@ export interface svgComponentProps {
   height: string;
 }
 export interface portfolioItem {
-  title: string;
+  portfolioTitle: string;
   description: string;
-  usedTechs: Array<skillObj>;
+  usedTechs: Array<skillObj | string>;
   img: Array<string>;
 }
 export interface footerLink {

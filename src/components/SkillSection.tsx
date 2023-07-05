@@ -4,7 +4,7 @@ import SkillItem from './SkillItem';
 
 const SkillSection: FC<skillListObj> = ({ skillTitle, skillList }) => {
   return (
-    <section className='flex w-[1004px] flex-col items-start justify-start gap-[10px]  '>
+    <section className='flex w-full lg:w-[1004px] flex-col items-start justify-start gap-[10px]  '>
       <h3 className='text-3xl uppercase tracking-[5px] text-black '>
         {skillTitle}
       </h3>
