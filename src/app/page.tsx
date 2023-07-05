@@ -13,7 +13,8 @@ export default function Home() {
       <Hero />
       <Details />
       <Skills />
-      <Portfolio />
+      {process.env.NODE_ENV === 'development' && <Portfolio />}
+
       <Contact />
       <Footer />
     </>
