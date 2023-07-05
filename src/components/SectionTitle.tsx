@@ -5,8 +5,8 @@ type propsType = {
 };
 const SectionTitle: FC<propsType> = ({ title }) => {
   return (
-    <div className='py-4 px-32 border-2 border-black my-28 '>
-      <h4 className='font-bold text-3xl leading-[127%] tracking-[10px] uppercase '>
+    <div className='my-28 border-2 border-black px-32 py-4 '>
+      <h4 className='text-3xl font-bold uppercase leading-[127%] tracking-[10px] '>
         {title}
       </h4>
     </div>

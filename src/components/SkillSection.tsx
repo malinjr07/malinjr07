@@ -4,11 +4,11 @@ import SkillItem from './SkillItem';
 
 const SkillSection: FC<skillListObj> = ({ skillTitle, skillList }) => {
   return (
-    <section className='w-[1004px] flex flex-col justify-start items-start gap-[10px]  '>
-      <h3 className='text-black text-3xl tracking-[5px] uppercase '>
+    <section className='flex w-[1004px] flex-col items-start justify-start gap-[10px]  '>
+      <h3 className='text-3xl uppercase tracking-[5px] text-black '>
         {skillTitle}
       </h3>
-      <div className='flex flex-row flex-wrap w-full justify-start items-start  '>
+      <div className='flex w-full flex-row flex-wrap items-start justify-start  '>
         {skillList.map((item: skillObj, i: number) => (
           <SkillItem key={i} {...item} />
         ))}

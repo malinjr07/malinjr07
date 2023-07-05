@@ -6,7 +6,7 @@ import React, { FC } from 'react';
 
 const Header: FC = () => {
   return (
-    <header className='py-3 px-28 w-full flex justify-between items-center relative z-50 '>
+    <header className='relative z-50 flex w-full items-center justify-between px-28 py-3 '>
       <Link
         href={'/'}
         className={comfortaa.className + ` text-lg font-bold text-[#25282B] `}
@@ -14,7 +14,7 @@ const Header: FC = () => {
         Maruf
       </Link>
 
-      <div className='flex justify-end items-center gap-12'>
+      <div className='flex items-center justify-end gap-12'>
         {navItems.map((items: navType) => (
           <a
             key={items.id}
@@ -26,7 +26,7 @@ const Header: FC = () => {
         ))}
         <button
           type='button'
-          className='px-6 py-2 rounded-full capitalize bg-white'
+          className='rounded-full bg-white px-6 py-2 capitalize'
         >
           contact us
         </button>

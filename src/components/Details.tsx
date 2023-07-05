@@ -19,8 +19,8 @@ Thank you for visiting my portfolio website, and I look forward to the opportuni
 
   const [cropped, setCropped] = useState<boolean>(true);
   return (
-    <section className='details py-14 px-28 mt-56 '>
-      <div className='w-[1148px] flex flex-col justify-start items-start gap-8 text-white'>
+    <section className='details mt-56 px-28 py-14 '>
+      <div className='flex w-[1148px] flex-col items-start justify-start gap-8 text-white'>
         <h4 className='text-sm leading-8 transition-all'>
           {cropped ? info.substring(0, 699) : info}
         </h4>
