@@ -23,4 +23,8 @@ export interface portfolioItem {
   usedTechs: Array<skillObj>;
   img: Array<string>;
 }
+export interface footerLink {
+  icon: string;
+  url: string;
+}
 

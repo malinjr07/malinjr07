@@ -14,6 +14,10 @@
       ),
       #fff;
   }
+  input,
+  textarea {
+    @apply outline-0;
+  }
 }
 
 @layer components {

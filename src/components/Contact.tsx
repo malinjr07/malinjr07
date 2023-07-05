@@ -34,9 +34,23 @@ const Contact: FC = () => {
             name='user email'
             id=''
             required
-            placeholder='Enter your email*'
+            placeholder='enter your email*'
             className='w-full border-0 border-b-4 border-l-4 border-black bg-transparent px-4 py-2 tracking-widest placeholder:uppercase placeholder:text-gray-500 '
           />
+          <textarea
+            name='message'
+            id=''
+            required
+            rows={7}
+            placeholder='your message*'
+            className='w-full border-0 border-b-4 border-l-4 border-black bg-transparent px-4 py-2 tracking-widest placeholder:uppercase placeholder:text-gray-500 '
+          />
+          <button
+            type='submit'
+            className='mx-auto border-0 border-x-4 border-black px-5 text-base font-bold uppercase tracking-widest '
+          >
+            submit
+          </button>
         </form>
       </div>
     </section>

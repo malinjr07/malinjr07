@@ -1,4 +1,4 @@
-import { navType } from '../types';
+import { footerLink, navType } from '../types';
 
 export const navItems: navType[] = [
   {
@@ -13,5 +13,12 @@ export const navItems: navType[] = [
     title: 'portfolio',
     id: 'portfolio',
   },
+];
+
+export const footerLinks: Array<footerLink> = [
+  { icon: '', url: '' },
+  { icon: '', url: '' },
+  { icon: '', url: '' },
+  { icon: '', url: '' },
 ];
 
