@@ -10,6 +10,7 @@ const Hero: FC = () => {
           src='/hero.png'
           alt="Maruf's Photo"
           fill
+          sizes='100%'
           className='mt-10 object-contain '
         />
       </div>{' '}

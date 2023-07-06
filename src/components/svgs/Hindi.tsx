@@ -9,6 +9,7 @@ const Hindi: FC<svgComponentProps> = ({ width, height }) => {
         src={'/hindi.svg'}
         alt='devops image'
         fill
+        sizes='100%'
         className='object-contain'
       />
     </div>

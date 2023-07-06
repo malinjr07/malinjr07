@@ -9,6 +9,7 @@ const DevOps: FC<svgComponentProps> = ({ width, height }) => {
         src={'/devops.png'}
         alt='devops image'
         fill
+        sizes='100%'
         className='object-contain'
       />
     </div>

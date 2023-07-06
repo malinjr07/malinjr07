@@ -9,6 +9,7 @@ const Python: FC<svgComponentProps> = ({ width, height }) => {
         src={'/python.svg'}
         alt='Python Logo'
         fill
+        sizes='100%'
         className='object-contain'
       />
     </div>

@@ -19,8 +19,9 @@ export interface svgComponentProps {
 }
 export interface portfolioItem {
   portfolioTitle: string;
+  projectUrl: string;
   description: string;
-  usedTechs: Array<skillObj | string>;
+  usedTechs: Array<string>;
   img: Array<string>;
 }
 export interface footerLink {
