@@ -7,7 +7,7 @@ import '../fontawesome/css/all.min.css';
 
 export const metadata: Metadata = {
   title: 'Mosaddik Ali Maruf - Front-End Developer',
-  description: `Welcome to my portfolio website! I'm Mosaddik Ali Maruf, a skilled Front-End Web Application Developer with a passion for crafting exceptional user experiences. With a solid track record of three years as a successful freelancer on Upwork and valuable experience working with mDoc, Uptechunt, and Flerr, I bring a wealth of expertise to the table.
+  description: `Welcome to my portfolio! I'm Mosaddik Ali Maruf, a skilled Front-End Web Application Developer with a passion for crafting exceptional user experiences. With a solid track record of three years as a successful freelancer on Upwork and valuable experience working with mDoc, Uptechunt, and Flerr, I bring a wealth of expertise to the table.
 
 My portfolio showcases a diverse range of projects where I have leveraged my expertise in React.js, TypeScript, Next.js, Rest API, Material UI, Tailwind CSS, GraphQL, Stripe, and various Third Party APIs. From developing visually stunning interfaces to seamlessly integrating APIs and creating smooth animations using Framer Motion and React Spring, my work reflects a strong dedication to delivering high-quality and impactful web applications.
 
@@ -19,7 +19,7 @@ I invite you to explore my portfolio and witness the projects that highlight my 
 
 If you're looking for a Front-End Web Application Developer who can bring your digital vision to life, I would be thrilled to discuss how I can contribute to your next project. Let's connect and explore the possibilities of creating remarkable web experiences that captivate your users and drive your business forward.
 
-Thank you for visiting my portfolio website, and I look forward to the opportunity of working together!`,
+Thank you for visiting my portfolio, and I look forward to the opportunity of working together!`,
 };
 
 export default function RootLayout({
