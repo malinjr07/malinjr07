@@ -22,7 +22,7 @@ export interface portfolioItem {
   projectUrl: string;
   description: string;
   usedTechs: Array<string>;
-  img: Array<string>;
+  img: string;
 }
 export interface footerLink {
   icon: string;

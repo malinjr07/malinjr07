@@ -15,7 +15,7 @@ const PortfolioItem: FC<portfolioItem> = ({
   return (
     <div className='group relative h-[400px] w-1/3 '>
       <Image
-        src={img[0]}
+        src={img}
         alt={portfolioTitle + ' banner image'}
         fill
         sizes='100%'

@@ -4,11 +4,8 @@ export const portfolioArr: portfolioItem[] = [
   {
     portfolioTitle: 'Uptechunt',
     projectUrl: 'https://uptechunt.com/',
-    img: [
-      '/portfolio/uptechunt/portfolio-02.jpg',
-      '/portfolio/uptechunt/portfolio-01.jpg',
-      '/portfolio/uptechunt/portfolio-03.jpg',
-    ],
+    img: '/portfolio/uptechunt/portfolio-02.jpg',
+
     description: '',
     usedTechs: [
       'Next.js',
@@ -26,11 +23,8 @@ export const portfolioArr: portfolioItem[] = [
   {
     portfolioTitle: 'WithJoy',
     projectUrl: 'https://withjoy.com/',
-    img: [
-      '/portfolio/withjoy/portfolio-01.jpg',
-      '/portfolio/withjoy/portfolio-02.jpg',
-      '/portfolio/withjoy/portfolio-03.jpg',
-    ],
+    img: '/portfolio/withjoy/portfolio-01.jpg',
+
     description: '',
     usedTechs: [
       'Next.js',
@@ -47,11 +41,8 @@ export const portfolioArr: portfolioItem[] = [
   {
     portfolioTitle: 'ACME Fantasy Football League',
     projectUrl: 'https://acmerealfantasyfootball.com/',
-    img: [
-      '/portfolio/acme/portfolio-03.jpg',
-      '/portfolio/acme/portfolio-01.jpg',
-      '/portfolio/acme/portfolio-02.jpg',
-    ],
+    img: '/portfolio/acme/portfolio-03.jpg',
+
     description: '',
     usedTechs: [
       'Next.js',
@@ -69,11 +60,8 @@ export const portfolioArr: portfolioItem[] = [
   {
     portfolioTitle: 'Erzy',
     projectUrl: 'https://erzy.net/',
-    img: [
-      '/portfolio/erzy/portfolio-02.jpg',
-      '/portfolio/erzy/portfolio-01.jpg',
-      '/portfolio/erzy/portfolio-03.jpg',
-    ],
+    img: '/portfolio/erzy/portfolio-02.jpg',
+
     description: '',
     usedTechs: [
       'Next.js',
@@ -89,11 +77,8 @@ export const portfolioArr: portfolioItem[] = [
   {
     portfolioTitle: 'Lize Transport',
     projectUrl: 'https://lizetransport.com/',
-    img: [
-      '/portfolio/lize/portfolio-03.jpg',
-      '/portfolio/lize/portfolio-01.jpg',
-      '/portfolio/lize/portfolio-02.jpg',
-    ],
+    img: '/portfolio/lize/portfolio-03.jpg',
+
     description: '',
     usedTechs: [
       'Next.js',
@@ -111,11 +96,8 @@ export const portfolioArr: portfolioItem[] = [
   {
     portfolioTitle: 'DimuaDi',
     projectUrl: 'https://ecommerce.devfirmltd.com/',
-    img: [
-      '/portfolio/lize/portfolio-01.jpg',
-      '/portfolio/lize/portfolio-02.jpg',
-      '/portfolio/lize/portfolio-03.jpg',
-    ],
+    img: '/portfolio/lize/portfolio-01.jpg',
+
     description: '',
     usedTechs: [
       'Next.js',
@@ -131,11 +113,8 @@ export const portfolioArr: portfolioItem[] = [
   {
     portfolioTitle: 'Gigaland',
     projectUrl: 'https://devfirm-nft.web.app/',
-    img: [
-      '/portfolio/lize/portfolio-02.jpg',
-      '/portfolio/lize/portfolio-01.jpg',
-      '/portfolio/lize/portfolio-03.jpg',
-    ],
+    img: '/portfolio/lize/portfolio-02.jpg',
+
     description: '',
     usedTechs: [
       'Next.js',
