@@ -25,7 +25,12 @@ const PortfolioItem: FC<portfolioItem> = ({
         <h5 className='text-center text-3xl font-semibold   '>
           {portfolioTitle}
         </h5>
-        <p className='mt-5 text-base  '>{description}</p>
+        <p
+          className='mt-5 text-base  '
+          dangerouslySetInnerHTML={{
+            __html: `${description.substring(0, 550)}...`,
+          }}
+        />
 
         <button
           type='button'
@@ -74,13 +79,24 @@ const PortfolioItem: FC<portfolioItem> = ({
                     <i className='fa-solid fa-xmark'></i>
                   </button>
                   <Dialog.Title
-                    as='h3'
-                    className='text-2xl font-bold leading-6 text-gray-900'
+                    as='a'
+                    href={projectUrl}
+                    target='_blank'
+                    className='text-2xl font-bold leading-6 text-cyan-800'
                   >
-                    {portfolioTitle}
+                    {portfolioTitle}{' '}
+                    <sup>
+                      {' '}
+                      <i className='fa-solid fa-up-right-from-square text-base '></i>
+                    </sup>
                   </Dialog.Title>
-                  <div className='mt-2'>
-                    <p className='text-sm text-gray-500'>{description}</p>
+                  <div className='my-8'>
+                    <p
+                      className='text-base text-gray-900 '
+                      dangerouslySetInnerHTML={{
+                        __html: `${description}`,
+                      }}
+                    />
                   </div>
                   <div className='mt-2'>
                     <p className='text-lg font-semibold text-gray-500'>
@@ -98,15 +114,6 @@ const PortfolioItem: FC<portfolioItem> = ({
                         </p>
                       </div>
                     ))}
-                  </div>
-                  <div className='mt-4'>
-                    <a
-                      className='inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2'
-                      href={projectUrl}
-                      target={'_blank'}
-                    >
-                      Visit the Website!
-                    </a>
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
