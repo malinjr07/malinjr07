@@ -8,7 +8,7 @@ const Skills: FC = () => {
   return (
     <section className='container flex flex-col items-center'>
       <SectionTitle title='skills' />
-      <div className=' mt-[100px] flex flex-col items-start justify-start gap-[100px] '>
+      <div className=' mt-10 flex flex-col items-start justify-start gap-[100px] md:mt-20 lg:mt-[100px] '>
         {skillLists.map((item: skillListObj, i: number) => (
           <SkillSection key={i} {...item} />
         ))}

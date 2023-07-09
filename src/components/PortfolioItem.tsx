@@ -13,7 +13,7 @@ const PortfolioItem: FC<portfolioItem> = ({
 }) => {
   const [visible, setVisible] = useState<boolean>(false);
   return (
-    <div className='group relative h-[400px] w-1/3 '>
+    <div className='group relative h-[400px] w-full lg:w-1/3 '>
       <Image
         src={img}
         alt={portfolioTitle + ' banner image'}
