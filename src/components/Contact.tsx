@@ -17,13 +17,13 @@ const Contact: FC = () => {
           <h4 className='text-center text-base'>{sectionDescription}</h4>
         </div>
         <form
-          onSubmit={() => {}}
+          action='https://formsubmit.co/malinjr07@gmail.com'
           method='post'
-          className='mt-[120px] flex w-full md:w-[610px] flex-col items-start justify-start gap-14'
+          className='mt-[120px] flex w-full flex-col items-start justify-start gap-14 md:w-[610px]'
         >
           <input
             type='text'
-            name='user name'
+            name='name'
             id=''
             required
             placeholder='Enter your name*'
@@ -31,10 +31,16 @@ const Contact: FC = () => {
           />
           <input
             type='email'
-            name='user email'
+            name='email'
             id=''
             required
             placeholder='enter your email*'
+            className='w-full border-0 border-b-4 border-l-4 border-black bg-transparent px-4 py-2 tracking-widest placeholder:uppercase placeholder:text-gray-500 '
+          />
+          <input
+            type='text'
+            name='_subject'
+            placeholder='Querying About'
             className='w-full border-0 border-b-4 border-l-4 border-black bg-transparent px-4 py-2 tracking-widest placeholder:uppercase placeholder:text-gray-500 '
           />
           <textarea
@@ -45,6 +51,13 @@ const Contact: FC = () => {
             placeholder='your message*'
             className='w-full border-0 border-b-4 border-l-4 border-black bg-transparent px-4 py-2 tracking-widest placeholder:uppercase placeholder:text-gray-500 '
           />
+          <input
+            type='hidden'
+            name='_next'
+            value='https://malinjr07.vercel.app/'
+          />
+          <input type='hidden' name='_cc' value='devfirmltd@gmail.com' />
+          <input type='hidden' name='_captcha' value='false' />
           <button
             type='submit'
             className='mx-auto border-0 border-x-4 border-black px-5 text-base font-bold uppercase tracking-widest '
