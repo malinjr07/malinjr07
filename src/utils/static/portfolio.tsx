@@ -17,7 +17,7 @@ export const portfolioArr: portfolioItem[] = [
   {
     portfolioTitle: 'Uptechunt',
     projectUrl: 'https://uptechunt.com/',
-    img: '/portfolio/uptechunt/portfolio-02.jpg',
+    img: '/portfolio/uptechunt.jpeg',
 
     description: `Uptechunt is a freelance marketplace designed to connect clients and freelancers from various industries. As the lead developer on this project, I was responsible for ensuring the platform's seamless responsiveness across different devices and screen sizes.
 
@@ -45,7 +45,7 @@ Uptechunt has successfully provided a platform for freelancers to showcase their
   {
     portfolioTitle: 'WithJoy',
     projectUrl: 'https://withjoy.com/',
-    img: '/portfolio/withjoy/portfolio-01.jpg',
+    img: '/portfolio/withjoy.png',
 
     description: `I have had the privilege of working on a web application that closely resembles the functionality of Withjoy.com, a renowned wedding planning platform. As a key contributor to this project, I focused on developing the invitation card builder feature.
 <br/> <br/>
@@ -73,7 +73,7 @@ By contributing to the invitation card builder of this wedding planning platform
   {
     portfolioTitle: 'ACME Fantasy Football League',
     projectUrl: 'https://acmerealfantasyfootball.com/',
-    img: '/portfolio/acme/portfolio-03.jpg',
+    img: '/portfolio/Acme.jpg',
 
     description: `I had the incredible opportunity to work on the development of ACME Football, an official website for a popular football game. As a key member of the development team, my primary responsibilities included building the landing page, implementing a seamless subscription flow using Stripe, and creating an online live player drafting system with automation.
 <br/> <br/>
@@ -105,7 +105,7 @@ Please note that the above project description is for illustrative purposes only
   {
     portfolioTitle: 'Erzy',
     projectUrl: 'https://erzy.net/',
-    img: '/portfolio/erzy/portfolio-02.jpg',
+    img: '/portfolio/erzy.png',
 
     description: `I had the exciting opportunity to work on the official website of Erzy, a leading telegram marketing platform. As a key contributor to this project, I played a crucial role in building the landing page and implementing essential features.
 <br/> <br/>
@@ -132,7 +132,7 @@ By contributing to the Erzy official website, I played a vital role in enhancing
   {
     portfolioTitle: 'Lize Transport',
     projectUrl: 'https://lizetransport.com/',
-    img: '/portfolio/lize/portfolio-03.jpg',
+    img: '/portfolio/lize-transport.png',
 
     description: `I had the opportunity to spearhead the development of the official website for Lize Transport, a reputable private chartered airline company. This project involved building a comprehensive web application from the ground up, encompassing various essential functionalities, including an airline reservation system, a robust chatting system, and an efficient admin management system.
 <br/> <br/>
@@ -162,7 +162,7 @@ By spearheading the development of Lize Transport's official website, I played a
   {
     portfolioTitle: 'DimuaDi',
     projectUrl: 'https://ecommerce.devfirmltd.com/',
-    img: '/portfolio/lize/portfolio-01.jpg',
+    img: '/portfolio/Dimuadi.jpg',
 
     description: `I had the opportunity to work on an exciting project where I built a fully functional and user-friendly ecommerce website. This project aimed to provide a seamless online shopping experience for customers and empower businesses to expand their reach in the digital world.
 <br/> <br/>
@@ -195,7 +195,7 @@ By delivering this ecommerce website, I contributed to empowering businesses to 
   {
     portfolioTitle: 'Gigaland',
     projectUrl: 'https://devfirm-nft.web.app/',
-    img: '/portfolio/lize/portfolio-02.jpg',
+    img: '/portfolio/gigaland.jpg',
 
     description: `I had the exciting opportunity to work on the development of a cutting-edge web3 NFT marketplace site. As part of this project, I played a crucial role in building a platform that enables users to buy, sell, and trade non-fungible tokens (NFTs) seamlessly.
 <br/> <br/>
