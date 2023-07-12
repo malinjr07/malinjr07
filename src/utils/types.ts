@@ -17,11 +17,19 @@ export interface svgComponentProps {
   width: string;
   height: string;
 }
+
 export interface portfolioItem {
   portfolioTitle: string;
   projectUrl: string;
   description: string;
-  usedTechs: Array<string>;
+  usedTechs: Array<skillObj | string>;
+  img: string;
+}
+export interface PortfolioProps {
+  portfolioTitle: string;
+  projectUrl: string;
+  description: string;
+  children: ReactNode;
   img: string;
 }
 export interface footerLink {

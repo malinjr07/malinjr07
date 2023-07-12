@@ -1,4 +1,17 @@
 import { portfolioItem } from '../types';
+import {
+  graphQl,
+  js,
+  mui,
+  nextJs,
+  reactJs,
+  redux,
+  restfulApi,
+  sass,
+  styledComponent,
+  tailwindCss,
+  typeScript,
+} from './skillLists';
 
 export const portfolioArr: portfolioItem[] = [
   {
@@ -17,16 +30,16 @@ Throughout the development process, I focused on delivering a user-friendly and 
 Uptechunt has successfully provided a platform for freelancers to showcase their skills and connect with potential clients, facilitating collaboration and growth in the freelance industry. I am proud to have contributed to this project and look forward to continuing my journey in delivering high-quality web applications.
     `,
     usedTechs: [
-      'Next.js',
-      'Material UI',
+      nextJs,
+      mui,
       'stripe',
-      'TypeScript',
-      'REST API',
-      'Redux',
+      typeScript,
+      restfulApi,
+      redux,
       'sendgrid',
       'firebase',
-      'React.js',
-      'JavaScript',
+      reactJs,
+      js,
     ],
   },
   {
@@ -46,15 +59,15 @@ Throughout the development process, I paid meticulous attention to detail, ensur
 <br/> <br/>
 By contributing to the invitation card builder of this wedding planning platform, I played a crucial role in enabling couples to create memorable and personalized invitations for their special day. I am proud to have been part of this project and to have contributed to the success of the overall application.`,
     usedTechs: [
-      'Next.js',
-      'Tailwind CSS',
+      nextJs,
+      tailwindCss,
       'react spring',
       'zustand',
       'stripe',
-      'TypeScript',
-      'GraphQL',
-      'React.js',
-      'JavaScript',
+      typeScript,
+      graphQl,
+      reactJs,
+      js,
     ],
   },
   {
@@ -75,17 +88,18 @@ Throughout the development of ACME Football, I emphasized attention to detail an
 Working on ACME Football was an incredible experience, and I take great pride in my contributions to this dynamic and engaging platform. By building the landing page, subscription flow using Stripe, and the online live player drafting system with automation, I played a crucial role in creating a remarkable digital experience for football enthusiasts.
 <br/> <br/>
 Please note that the above project description is for illustrative purposes only. You may need to adapt it to accurately represent your specific role and contributions while showcasing your unique skills and achievements.`,
+
     usedTechs: [
-      'Next.js',
-      'Tailwind CSS',
-      'TypeScript',
+      nextJs,
+      tailwindCss,
+      typeScript,
       'stripe',
-      'REST API',
+      restfulApi,
       'firebase',
       'socket.io',
-      'Redux',
-      'React.js',
-      'JavaScript',
+      redux,
+      reactJs,
+      js,
     ],
   },
   {
@@ -105,14 +119,14 @@ Throughout the development process, I prioritized performance, responsiveness, a
 <br/> <br/>
 By contributing to the Erzy official website, I played a vital role in enhancing its online presence and showcasing its unique offerings to potential users. I am proud to have been part of this project and to have contributed to the success of the website.`,
     usedTechs: [
-      'Next.js',
-      'Styled Component',
-      'Sass',
-      'TypeScript',
-      'REST API',
-      'Redux',
-      'React.js',
-      'JavaScript',
+      nextJs,
+      styledComponent,
+      sass,
+      typeScript,
+      restfulApi,
+      redux,
+      reactJs,
+      js,
     ],
   },
   {
@@ -134,15 +148,15 @@ Throughout the project, I leveraged cutting-edge technologies such as React, Nod
 <br/> <br/>
 By spearheading the development of Lize Transport's official website, I played a pivotal role in establishing their online presence and enhancing their customer experience. The project showcased my ability to deliver innovative and comprehensive solutions while meeting the specific requirements of a dynamic industry.`,
     usedTechs: [
-      'Next.js',
-      'Tailwind CSS',
+      nextJs,
+      tailwindCss,
       'sendgrid',
       'twilio',
-      'TypeScript',
-      'REST API',
-      'Redux',
-      'React.js',
-      'JavaScript',
+      typeScript,
+      restfulApi,
+      redux,
+      reactJs,
+      js,
     ],
   },
   {
@@ -168,14 +182,14 @@ By delivering this ecommerce website, I contributed to empowering businesses to 
 
 `,
     usedTechs: [
-      'Next.js',
-      'Tailwind CSS',
+      nextJs,
+      tailwindCss,
       'stripe',
-      'TypeScript',
-      'GraphQL',
-      'Redux',
-      'React.js',
-      'JavaScript',
+      typeScript,
+      graphQl,
+      redux,
+      reactJs,
+      js,
     ],
   },
   {
@@ -194,15 +208,7 @@ To enhance the user experience, I implemented advanced search and filtering func
 Throughout the development process, I prioritized scalability, security, and performance optimization. I conducted extensive testing and implemented rigorous quality assurance measures to ensure the platform's reliability and smooth operation.
 <br/> <br/>
 By contributing to the development of this web3 NFT marketplace, I had the privilege of being part of the decentralized revolution in the digital art and collectibles space. The project provided an opportunity to explore the potential of blockchain technology and its transformative impact on various industries.`,
-    usedTechs: [
-      'Next.js',
-      'Material UI',
-      'TypeScript',
-      'GraphQL',
-      'Redux',
-      'React.js',
-      'JavaScript',
-    ],
+    usedTechs: [nextJs, mui, typeScript, graphQl, redux, reactJs, js],
   },
 ];
 

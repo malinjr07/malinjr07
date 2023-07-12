@@ -1,12 +1,12 @@
 'use client';
 import React, { FC, Fragment, useState } from 'react';
-import { portfolioItem } from '@/utils/types';
+import { PortfolioProps } from '@/utils/types';
 import Image from 'next/image';
 import { Dialog, Transition } from '@headlessui/react';
 
-const PortfolioItem: FC<portfolioItem> = ({
+const PortfolioItem: FC<PortfolioProps> = ({
   img,
-  usedTechs,
+  children,
   portfolioTitle,
   description,
   projectUrl,
@@ -104,16 +104,7 @@ const PortfolioItem: FC<portfolioItem> = ({
                     </p>
                   </div>
                   <div className='mt-2 flex w-full flex-row flex-wrap items-start justify-start gap-4 '>
-                    {usedTechs.map((item: string, i: number) => (
-                      <div
-                        key={i}
-                        className='flex h-14 w-[12%] flex-col items-center justify-center gap-4 rounded-2xl border border-cyan-700 bg-cyan-50 '
-                      >
-                        <p className='text-center text-xs uppercase tracking-[3.5px] text-gray-950 '>
-                          {item}
-                        </p>
-                      </div>
-                    ))}
+                    {children}
                   </div>
                 </Dialog.Panel>
               </Transition.Child>
