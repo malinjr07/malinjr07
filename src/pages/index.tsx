@@ -1,6 +1,7 @@
 import Fallback from '@/components/Fallback';
 import Image from 'next/image';
 import { Suspense } from 'react';
+import HTMLFlipBook from 'react-pageflip';
 
 export default function Home() {
   return (
@@ -17,15 +18,48 @@ export default function Home() {
       >
         <div className='relative z-10 w-screen h-screen'>
           <Image
-            src='/wooden-table.jpeg'
+            src='/wooden-table.webp'
             alt='Table-Background'
             fill
             className='object-cover'
             placeholder='blur'
-            blurDataURL='data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAFFAU1AAD//gAQTGF2YzYwLjMxLjEwMgD/2wBDAAgEBAQEBAUFBQUFBQYGBgYGBgYGBgYGBgYHBwcICAgHBwcGBgcHCAgICAkJCQgICAgJCQoKCgwMCwsODg4RERT/xAB7AAEBAQEAAAAAAAAAAAAAAAAGAgUDAQEBAQEBAAAAAAAAAAAAAAADBQQBAhAAAgEDBAIBBQEAAAAAAAAAAQIDBCEREkEiADETBVJxYlEyBhEAAQIEAwYHAQEAAAAAAAAAARECIRIAAzFxUWGBoUEyBLHB4TPwIgUUkf/AABEIAA0AFAMBEgACEgADEgD/2gAMAwEAAhEDEQA/AOC1EsoA9ECuwEiMKQg4xgkXuBncE9r4crGyDQHVlYHW8rPbxpcyZUfj47Bb9W8yMPcFebipjpgABvCcavuAJxGvRXGrqeJ86P8A+vpq+sWNqRQHSVWaWGN1LKo/lhrtc5sNsdR1iw8pPRFpQ2XDls+BzMhsP1jrWSgMyiBEjnNxPMFN0aFSnU4Lkn+JWb9Kx3F5jf53I4OVQCFQcz6Vql1Q/M6KPSfLVIjk9GjgowYGUnG54tc/fuw1I8ru5nkOWOA3LSPpU24jYdVl21bEr3K5Yo9R4iiLkgABlBdp20Nq33JtMmDZpQCjcTrEUwbtJzr/2Q=='
+            blurDataURL='/wooden-table-small.webp'
           />
         </div>
       </Suspense>
+
+      <section className='absolute w-screen h-screen z-20'>
+        <HTMLFlipBook
+          width={550}
+          height={733}
+          size='stretch'
+          minWidth={315}
+          maxWidth={1000}
+          minHeight={400}
+          maxHeight={1533}
+          maxShadowOpacity={0.5}
+          showCover={true}
+          mobileScrollSupport={true}
+          className='demo-book'
+          startPage={2}
+          style={{}}
+          drawShadow
+          flippingTime={0.5}
+          usePortrait={false}
+          startZIndex={40}
+          autoSize={false}
+          clickEventForward
+          useMouseEvents
+          swipeDistance={2}
+          showPageCorners
+          disableFlipByClick
+        >
+          <div className='demoPage bg-slate-600 w-full h-full '>Page 1</div>
+          <div className='demoPage bg-slate-600 w-full h-full '>Page 2</div>
+          <div className='demoPage bg-slate-600 w-full h-full '>Page 3</div>
+          <div className='demoPage bg-slate-600 w-full h-full '>Page 4</div>
+        </HTMLFlipBook>
+      </section>
     </>
   );
 }
