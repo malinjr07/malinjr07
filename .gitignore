@@ -35,17 +35,15 @@ yarn-error.log*
 next-env.d.ts
 
 # yarn v4
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-.pnp.js
-.yarnrc.yml
-.yarnrc
-.yarn-integrity
-.yarn-metadata.json
-.yarn-error.log
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 .yarn.lock
-```
+
+# vscode
+.vscode/*
 
 .DS_Store
