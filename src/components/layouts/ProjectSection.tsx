@@ -1,5 +1,6 @@
+'use client';
+
 import React, { FC, useEffect } from 'react';
-import SimpleParallax from 'simple-parallax-js';
 import Link from 'next/link';
 import { PortfolioItems } from '@/utils/lib/constants';
 import { tSections } from '@/utils/types/propTypes';
@@ -48,7 +49,7 @@ const ProjectSection: FC<tSections> = ({ hClass }) => {
                           ? 'thumbnail2'
                           : 'thumbnail'
                       }
-                      src={project.image.src}
+                      src={project.image}
                       alt=''
                     />
                   </div>

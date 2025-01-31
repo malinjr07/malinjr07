@@ -22,7 +22,7 @@ const BlogSection: FC = () => {
             >
               <div className='blog-card'>
                 <div className='image'>
-                  <img src={Blogs.screens.src} alt='' />
+                  <img src={Blogs.screens} alt='' />
                 </div>
                 <div className='content'>
                   <ul>

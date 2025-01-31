@@ -8,8 +8,9 @@ import ProjectSection from '@/components/layouts/ProjectSection';
 import TestimonialSection from '@/components/layouts/TestimonialSection';
 import BlogSection from '@/components/layouts/BlogSection';
 import ContactSection from '@/components/layouts/ContactSection';
+import { NextPage } from 'next';
 
-const HomePage5 = () => {
+const HomePage: NextPage = () => {
   return (
     <>
       <div className='page-wrapper'>
@@ -33,5 +34,5 @@ const HomePage5 = () => {
     </>
   );
 };
-export default HomePage5;
+export default HomePage;
 

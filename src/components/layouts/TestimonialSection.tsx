@@ -1,10 +1,8 @@
 import React, { FC } from 'react';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import ts1 from '../../images/testimonial/1.jpg';
-import ts2 from '../../images/testimonial/2.jpg';
-import quote from '../../images/testimonial/quote.svg';
+const ts1 = '/images/testimonial/1.jpg';
+const ts2 = '/images/testimonial/2.jpg';
+const quote = '/images/testimonial/quote.svg';
 import { tSections } from '@/utils/types/propTypes';
 
 const testimonial = [
@@ -50,7 +48,7 @@ const TestimonialSection: FC<tSections> = ({ hClass }) => {
               >
                 <div className='top-content'>
                   <div className='image'>
-                    <img src={tesmnl.tImg.src} alt='' />
+                    <img src={tesmnl.tImg} alt='' />
                   </div>
                   <div className='text'>
                     <h3>{tesmnl.Title}</h3>

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "gsap": "^3.12.7",
     "next": "15.1.6",
     "react": "^19.0.0",
@@ -17,17 +18,21 @@
     "react-modal-video": "^2.0.2",
     "react-scroll": "^1.9.0",
     "react-slick": "^0.30.3",
+    "sass": "^1.83.4",
     "simple-parallax-js": "^6.0.1",
-    "simple-react-validator": "^1.6.2"
+    "simple-react-validator": "^1.6.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/bootstrap": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/react-modal-video": "^1.2.3",
     "@types/react-scroll": "^1",
     "@types/react-slick": "^0",
+    "@types/slick-carousel": "^1",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
     "typescript": "^5"

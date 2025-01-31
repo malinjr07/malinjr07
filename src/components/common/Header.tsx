@@ -1,6 +1,7 @@
+'use client';
+
 import React, { useState, useEffect, FC } from 'react';
 import { Link } from 'react-scroll';
-import Logo from '../../images/logo.svg';
 import { tHeader } from '@/utils/types/propTypes';
 
 const Header: FC<tHeader> = ({ mClass, hClass }) => {
@@ -41,7 +42,7 @@ const Header: FC<tHeader> = ({ mClass, hClass }) => {
       </div>
       <header className={`${hClass} ${isSticky ? 'sticky' : ''}`} id='navbar'>
         <Link to='/' className='logo'>
-          <img src={Logo} alt='' />
+          <img src={'/next.svg'} alt='' />
         </Link>
         <div className='header-section'>
           <div
