@@ -1,6 +1,6 @@
 import React from 'react';
-import Header4 from '../../components/header4/header4';
-import Hero5 from '../../components/hero5/hero5';
+import Header from '@/components/core/Header';
+import Hero from '@/components/layouts/Hero';
 import FeatureSection from '../../components/FeatureSection/FeatureSection';
 import About4 from '../../components/about4/about4';
 import ServiceSectionS4 from '../../components/ServiceSectionS4/ServiceSectionS4';
@@ -13,13 +13,13 @@ const HomePage5 = () => {
   return (
     <>
       <div className='page-wrapper'>
-        <Header4
+        <Header
           mClass={'menu-open menu-open-s2'}
-          hclass={'header-section-s5'}
+          hClass={'header-section-s5'}
         />
         <div className='page-wrapper-2' id='smooth-wrapper'>
           <div id='smooth-content'>
-            <Hero5 />
+            <Hero />
             <FeatureSection />
             <About4 />
             <ServiceSectionS4 />
@@ -34,3 +34,4 @@ const HomePage5 = () => {
   );
 };
 export default HomePage5;
+

@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, FC } from 'react';
 import { Link } from 'react-scroll';
 import Logo from '../../images/logo.svg';
+import { tHeader } from '@/utils/types/propTypes';
 
-const Header4 = (props) => {
+const Header: FC<tHeader> = ({ mClass, hClass }) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isSticky, setSticky] = useState(false);
   const toggleMenu = () => {
@@ -32,16 +33,13 @@ const Header4 = (props) => {
 
   return (
     <div>
-      <div className={'' + props.mClass} onClick={toggleMenu}>
+      <div className={'' + mClass} onClick={toggleMenu}>
         <i
           className={isMenuOpen ? 'ti-close' : 'ti-align-justify'}
           id='bar_close'
         ></i>
       </div>
-      <header
-        className={`${props.hclass} ${isSticky ? 'sticky' : ''}`}
-        id='navbar'
-      >
+      <header className={`${hClass} ${isSticky ? 'sticky' : ''}`} id='navbar'>
         <Link to='/' className='logo'>
           <img src={Logo} alt='' />
         </Link>
@@ -136,5 +134,5 @@ const Header4 = (props) => {
   );
 };
 
-export default Header4;
+export default Header;
 

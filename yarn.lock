@@ -5,6 +5,15 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.8.7":
+  version: 7.26.7
+  resolution: "@babel/runtime@npm:7.26.7"
+  dependencies:
+    regenerator-runtime: "npm:^0.14.0"
+  checksum: 10c0/60199c049f90e5e41c687687430052a370aca60bac7859ff4ee761c5c1739b8ba1604d391d01588c22dc0e93828cbadb8ada742578ad1b1df240746bce98729a
+  languageName: node
+  linkType: hard
+
 "@emnapi/runtime@npm:^1.2.0":
   version: 1.3.1
   resolution: "@emnapi/runtime@npm:1.3.1"
@@ -481,7 +490,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19":
+"@types/react-modal-video@npm:^1.2.3":
+  version: 1.2.3
+  resolution: "@types/react-modal-video@npm:1.2.3"
+  dependencies:
+    "@types/react": "npm:*"
+  checksum: 10c0/8f44cf7d78a178a74f61c0bfc9e9714678928a627c528860d20617c390555e21a8c4770a6cdf8aa44429b30fb9facd949c371b9c3a26602a3eed4f07244110af
+  languageName: node
+  linkType: hard
+
+"@types/react-scroll@npm:^1":
+  version: 1.8.10
+  resolution: "@types/react-scroll@npm:1.8.10"
+  dependencies:
+    "@types/react": "npm:*"
+  checksum: 10c0/fd488a2446f3654c7594fa664a3592661d2685608717f80e32d3749f496974d20876bcb127522a69b8249c2f513895a84b89bf6eeb95442fc6f5e7023f6baaff
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*, @types/react@npm:^19":
   version: 19.0.8
   resolution: "@types/react@npm:19.0.8"
   dependencies:
@@ -640,11 +667,15 @@ __metadata:
     "@types/node": "npm:^20"
     "@types/react": "npm:^19"
     "@types/react-dom": "npm:^19"
+    "@types/react-modal-video": "npm:^1.2.3"
+    "@types/react-scroll": "npm:^1"
     eslint: "npm:^9"
     eslint-config-next: "npm:15.1.6"
     next: "npm:15.1.6"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
+    react-modal-video: "npm:^2.0.2"
+    react-scroll: "npm:^1.9.0"
     typescript: "npm:^5"
   languageName: unknown
   linkType: soft
@@ -963,6 +994,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"core-js@npm:^3.27.2":
+  version: 3.40.0
+  resolution: "core-js@npm:3.40.0"
+  checksum: 10c0/db7946ada881e845d8b157061945b1187618fa45cf162f392a151e8a497962aed2da688c982eaa1d444c864be97a70f8be4d73385294b515d224dd164d19f1d4
+  languageName: node
+  linkType: hard
+
 "cross-spawn@npm:^7.0.6":
   version: 7.0.6
   resolution: "cross-spawn@npm:7.0.6"
@@ -1084,6 +1122,16 @@ __metadata:
   dependencies:
     esutils: "npm:^2.0.2"
   checksum: 10c0/b6416aaff1f380bf56c3b552f31fdf7a69b45689368deca72d28636f41c16bb28ec3ebc40ace97db4c1afc0ceeb8120e8492fe0046841c94c2933b2e30a7d5ac
+  languageName: node
+  linkType: hard
+
+"dom-helpers@npm:^5.0.1":
+  version: 5.2.1
+  resolution: "dom-helpers@npm:5.2.1"
+  dependencies:
+    "@babel/runtime": "npm:^7.8.7"
+    csstype: "npm:^3.0.2"
+  checksum: 10c0/f735074d66dd759b36b158fa26e9d00c9388ee0e8c9b16af941c38f014a37fc80782de83afefd621681b19ac0501034b4f1c4a3bff5caa1b8667f0212b5e124c
   languageName: node
   linkType: hard
 
@@ -2255,6 +2303,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.throttle@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "lodash.throttle@npm:4.1.1"
+  checksum: 10c0/14628013e9e7f65ac904fc82fd8ecb0e55a9c4c2416434b1dd9cf64ae70a8937f0b15376a39a68248530adc64887ed0fe2b75204b2c9ec3eea1cb2d66ddd125d
+  languageName: node
+  linkType: hard
+
 "loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
@@ -2592,7 +2647,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -2635,6 +2690,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-modal-video@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "react-modal-video@npm:2.0.2"
+  dependencies:
+    core-js: "npm:^3.27.2"
+    react-transition-group: "npm:^4.4.2"
+  peerDependencies:
+    react: ^17.0.0 || ^18.2.0
+    react-dom: ^17.0.0 || ^18.2.0
+  checksum: 10c0/5e88cb4ebef95232e9daa952b0f8094ca0eeed3a9fd2aa16300eeece159d320115fe9ceff55581f480a9a39b8342252c11b736fe8480f033def05d37df0e776d
+  languageName: node
+  linkType: hard
+
+"react-scroll@npm:^1.9.0":
+  version: 1.9.0
+  resolution: "react-scroll@npm:1.9.0"
+  dependencies:
+    lodash.throttle: "npm:^4.1.1"
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    react: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/bcaa045740351ba1373d2e3f236b1ff0d383e4e5efd43d87644c165a3c1c4988bd0361515c487688daf39c122b035c8a014fcd9184f51deb4a0d2c232ac5fb61
+  languageName: node
+  linkType: hard
+
+"react-transition-group@npm:^4.4.2":
+  version: 4.4.5
+  resolution: "react-transition-group@npm:4.4.5"
+  dependencies:
+    "@babel/runtime": "npm:^7.5.5"
+    dom-helpers: "npm:^5.0.1"
+    loose-envify: "npm:^1.4.0"
+    prop-types: "npm:^15.6.2"
+  peerDependencies:
+    react: ">=16.6.0"
+    react-dom: ">=16.6.0"
+  checksum: 10c0/2ba754ba748faefa15f87c96dfa700d5525054a0141de8c75763aae6734af0740e77e11261a1e8f4ffc08fd9ab78510122e05c21c2d79066c38bb6861a886c82
+  languageName: node
+  linkType: hard
+
 "react@npm:^19.0.0":
   version: 19.0.0
   resolution: "react@npm:19.0.0"
@@ -2655,6 +2751,13 @@ __metadata:
     get-proto: "npm:^1.0.1"
     which-builtin-type: "npm:^1.2.1"
   checksum: 10c0/7facec28c8008876f8ab98e80b7b9cb4b1e9224353fd4756dda5f2a4ab0d30fa0a5074777c6df24e1e0af463a2697513b0a11e548d99cf52f21f7bc6ba48d3ac
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.14.0":
+  version: 0.14.1
+  resolution: "regenerator-runtime@npm:0.14.1"
+  checksum: 10c0/1b16eb2c4bceb1665c89de70dcb64126a22bc8eb958feef3cd68fe11ac6d2a4899b5cd1b80b0774c7c03591dc57d16631a7f69d2daa2ec98100e2f29f7ec4cc4
   languageName: node
   linkType: hard
 
