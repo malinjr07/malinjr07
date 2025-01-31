@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '@/components/core/Header';
-import Hero from '@/components/layouts/Hero';
-import ProjectSection3 from '../../components/ProjectSection3/ProjectSection3';
-import TestimonialSection3 from '../../components/TestimonialSection3/TestimonialSection3';
-import BlogSection from '../../components/BlogSection/BlogSection';
-import ContactSection2 from '../../components/ContactSection2/ContactSection2';
-import FeatureSection from '@/components/layouts/FeatureSection';
-import About from '@/components/layouts/About';
-import ServiceSection from '@/components/layouts/ServiceSection';
+import Header from '@common/Header';
+import Hero from '@layouts/Hero';
+import FeatureSection from '@layouts/FeatureSection';
+import About from '@layouts/About';
+import ServiceSection from '@layouts/ServiceSection';
+import ProjectSection from '@/components/layouts/ProjectSection';
+import TestimonialSection from '@/components/layouts/TestimonialSection';
+import BlogSection from '@/components/layouts/BlogSection';
+import ContactSection from '@/components/layouts/ContactSection';
 
 const HomePage5 = () => {
   return (
@@ -23,10 +23,10 @@ const HomePage5 = () => {
             <FeatureSection />
             <About />
             <ServiceSection />
-            <ProjectSection3 hclass={'portfolio-section-s4'} />
-            <TestimonialSection3 hclass={'testimonial-section-s3'} />
+            <ProjectSection hClass={'portfolio-section-s4'} />
+            <TestimonialSection hClass={'testimonial-section-s3'} />
             <BlogSection />
-            <ContactSection2 Cclass={'contact-section-s2 section-padding'} />
+            <ContactSection hClass={'contact-section-s2 section-padding'} />
           </div>
         </div>
       </div>

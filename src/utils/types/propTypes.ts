@@ -1,6 +1,10 @@
 import { ReactNode } from 'react';
 
-export type tHeader = {
-  mClass: string;
+export type tSections = {
   hClass: string;
 };
+
+export type tHeader = tSections & {
+  mClass: string;
+};
+
