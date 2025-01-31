@@ -5,3 +5,6 @@ export type tHeaderArr = {
   slug: string;
   icon: (fillColor?: string) => ReactNode;
 };
+
+export type tAnimateImageProps = (element: Element) => void;
+

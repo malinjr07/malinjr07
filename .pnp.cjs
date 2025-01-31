@@ -35,8 +35,10 @@ const RAW_RUNTIME_STATE =
           ["@types/react-scroll", "npm:1.8.10"],\
           ["eslint", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:9.19.0"],\
           ["eslint-config-next", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:15.1.6"],\
+          ["gsap", "npm:3.12.7"],\
           ["next", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:15.1.6"],\
           ["react", "npm:19.0.0"],\
+          ["react-countup", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:6.5.3"],\
           ["react-dom", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:19.0.0"],\
           ["react-modal-video", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:2.0.2"],\
           ["react-scroll", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:1.9.0"],\
@@ -894,8 +896,10 @@ const RAW_RUNTIME_STATE =
           ["@types/react-scroll", "npm:1.8.10"],\
           ["eslint", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:9.19.0"],\
           ["eslint-config-next", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:15.1.6"],\
+          ["gsap", "npm:3.12.7"],\
           ["next", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:15.1.6"],\
           ["react", "npm:19.0.0"],\
+          ["react-countup", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:6.5.3"],\
           ["react-dom", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:19.0.0"],\
           ["react-modal-video", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:2.0.2"],\
           ["react-scroll", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:1.9.0"],\
@@ -1266,6 +1270,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/core-js-npm-3.40.0-312b1d0da0/node_modules/core-js/",\
         "packageDependencies": [\
           ["core-js", "npm:3.40.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["countup.js", [\
+      ["npm:2.8.0", {\
+        "packageLocation": "../../../../.yarn/berry/cache/countup.js-npm-2.8.0-50d101021f-10c0.zip/node_modules/countup.js/",\
+        "packageDependencies": [\
+          ["countup.js", "npm:2.8.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2308,6 +2321,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["gsap", [\
+      ["npm:3.12.7", {\
+        "packageLocation": "../../../../.yarn/berry/cache/gsap-npm-3.12.7-90ff06cb97-10c0.zip/node_modules/gsap/",\
+        "packageDependencies": [\
+          ["gsap", "npm:3.12.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["has-bigints", [\
       ["npm:1.1.0", {\
         "packageLocation": "../../../../.yarn/berry/cache/has-bigints-npm-1.1.0-d481f8ed50-10c0.zip/node_modules/has-bigints/",\
@@ -3270,6 +3292,29 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../.yarn/berry/cache/react-npm-19.0.0-e33c9aa1c0-10c0.zip/node_modules/react/",\
         "packageDependencies": [\
           ["react", "npm:19.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-countup", [\
+      ["npm:6.5.3", {\
+        "packageLocation": "../../../../.yarn/berry/cache/react-countup-npm-6.5.3-aa265db4da-10c0.zip/node_modules/react-countup/",\
+        "packageDependencies": [\
+          ["react-countup", "npm:6.5.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:6.5.3", {\
+        "packageLocation": "./.yarn/__virtual__/react-countup-virtual-6c75366828/5/.yarn/berry/cache/react-countup-npm-6.5.3-aa265db4da-10c0.zip/node_modules/react-countup/",\
+        "packageDependencies": [\
+          ["react-countup", "virtual:5ed8acb9da598f92d4970a479653c185a4243c48708eb02d96148d5736dc5df58b30fe28816ad86fe709cb01bb5209e6d46bbffb3ab962586e4a1d14947f977c#npm:6.5.3"],\
+          ["@types/react", "npm:19.0.8"],\
+          ["countup.js", "npm:2.8.0"],\
+          ["react", "npm:19.0.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
         ],\
         "linkType": "HARD"\
       }]\

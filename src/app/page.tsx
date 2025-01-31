@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '@/components/core/Header';
 import Hero from '@/components/layouts/Hero';
-import FeatureSection from '../../components/FeatureSection/FeatureSection';
-import About4 from '../../components/about4/about4';
-import ServiceSectionS4 from '../../components/ServiceSectionS4/ServiceSectionS4';
 import ProjectSection3 from '../../components/ProjectSection3/ProjectSection3';
 import TestimonialSection3 from '../../components/TestimonialSection3/TestimonialSection3';
 import BlogSection from '../../components/BlogSection/BlogSection';
 import ContactSection2 from '../../components/ContactSection2/ContactSection2';
+import FeatureSection from '@/components/layouts/FeatureSection';
+import About from '@/components/layouts/About';
+import ServiceSection from '@/components/layouts/ServiceSection';
 
 const HomePage5 = () => {
   return (
@@ -21,8 +21,8 @@ const HomePage5 = () => {
           <div id='smooth-content'>
             <Hero />
             <FeatureSection />
-            <About4 />
-            <ServiceSectionS4 />
+            <About />
+            <ServiceSection />
             <ProjectSection3 hclass={'portfolio-section-s4'} />
             <TestimonialSection3 hclass={'testimonial-section-s3'} />
             <BlogSection />
