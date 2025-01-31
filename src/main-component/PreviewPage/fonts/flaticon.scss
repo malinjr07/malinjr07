@@ -1,0 +1,93 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?14bdddc18946dd850d6a0f69f4d63db6") format("truetype"),
+url("./flaticon.woff?14bdddc18946dd850d6a0f69f4d63db6") format("woff"),
+url("./flaticon.woff2?14bdddc18946dd850d6a0f69f4d63db6") format("woff2"),
+url("./flaticon.eot?14bdddc18946dd850d6a0f69f4d63db6#iefix") format("embedded-opentype"),
+url("./flaticon.svg?14bdddc18946dd850d6a0f69f4d63db6#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "creativity": "\f101",
+    "gift": "\f102",
+    "support": "\f103",
+    "laptop": "\f104",
+    "exchange": "\f105",
+    "font": "\f106",
+    "web-browser": "\f107",
+    "sass": "\f108",
+    "refresh": "\f109",
+    "contract": "\f10a",
+    "add-file-button": "\f10b",
+    "sketch": "\f10c",
+    "b": "\f10d",
+    "web-programming": "\f10e",
+    "eye-scan": "\f10f",
+    "user-experience": "\f110",
+    "settings": "\f111",
+);
+
+.flaticon-creativity:before {
+    content: map-get($flaticon-map, "creativity");
+}
+.flaticon-gift:before {
+    content: map-get($flaticon-map, "gift");
+}
+.flaticon-support:before {
+    content: map-get($flaticon-map, "support");
+}
+.flaticon-laptop:before {
+    content: map-get($flaticon-map, "laptop");
+}
+.flaticon-exchange:before {
+    content: map-get($flaticon-map, "exchange");
+}
+.flaticon-font:before {
+    content: map-get($flaticon-map, "font");
+}
+.flaticon-web-browser:before {
+    content: map-get($flaticon-map, "web-browser");
+}
+.flaticon-sass:before {
+    content: map-get($flaticon-map, "sass");
+}
+.flaticon-refresh:before {
+    content: map-get($flaticon-map, "refresh");
+}
+.flaticon-contract:before {
+    content: map-get($flaticon-map, "contract");
+}
+.flaticon-add-file-button:before {
+    content: map-get($flaticon-map, "add-file-button");
+}
+.flaticon-sketch:before {
+    content: map-get($flaticon-map, "sketch");
+}
+.flaticon-b:before {
+    content: map-get($flaticon-map, "b");
+}
+.flaticon-web-programming:before {
+    content: map-get($flaticon-map, "web-programming");
+}
+.flaticon-eye-scan:before {
+    content: map-get($flaticon-map, "eye-scan");
+}
+.flaticon-user-experience:before {
+    content: map-get($flaticon-map, "user-experience");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}

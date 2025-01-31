@@ -1,0 +1,59 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:    ProMax - Multipurpose HTML5 Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 navigation
+
+3. content
+	3.1 wpo-features-section
+	3.2 wpo-demo-section
+	3.3 wpo-inner-demo-section
+	3.4 wpo-awesome-features-section
+    
+4. footer    
+
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/preloader";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+
+
+
+

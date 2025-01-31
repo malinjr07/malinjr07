@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf?7be827e199392bb56ae95dacf43f5036") format("truetype"),
+        url("../fonts/flaticon.woff?7be827e199392bb56ae95dacf43f5036") format("woff"),
+        url("../fonts/flaticon.woff2?7be827e199392bb56ae95dacf43f5036") format("woff2"),
+        url("../fonts/flaticon.eot?7be827e199392bb56ae95dacf43f5036#iefix") format("embedded-opentype"),
+        url("../fonts/flaticon.svg?7be827e199392bb56ae95dacf43f5036#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before,
+i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.flaticon-creativity:before {
+    content: "\f101";
+}
+
+.flaticon-gift:before {
+    content: "\f102";
+}
+
+.flaticon-support:before {
+    content: "\f103";
+}
+
+.flaticon-laptop:before {
+    content: "\f104";
+}
+
+.flaticon-exchange:before {
+    content: "\f105";
+}
+
+.flaticon-font:before {
+    content: "\f106";
+}
+
+.flaticon-web-browser:before {
+    content: "\f107";
+}
+
+.flaticon-sass:before {
+    content: "\f108";
+}
+
+.flaticon-refresh:before {
+    content: "\f109";
+}
+
+.flaticon-contract:before {
+    content: "\f10a";
+}
+
+.flaticon-add-file-button:before {
+    content: "\f10b";
+}
+
+.flaticon-sketch:before {
+    content: "\f10c";
+}
+
+.flaticon-b:before {
+    content: "\f10d";
+}
+
+.flaticon-web-programming:before {
+    content: "\f10e";
+}
+
+.flaticon-eye-scan:before {
+    content: "\f10f";
+}
+
+.flaticon-user-experience:before {
+    content: "\f110";
+}
+
+.flaticon-settings:before {
+    content: "\f111";
+}
