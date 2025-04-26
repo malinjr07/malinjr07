@@ -227,6 +227,7 @@ Let's connect and build the future together! 🌟
   <img alt="" src="https://img.shields.io/badge/nuxt%20js-00C58E?style=for-the-badge&logo=nuxtdotjs&logoColor=white"/>
 
   <br>
+  <br>
  
   <img alt="" src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
   <img alt="" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
@@ -235,9 +236,11 @@ Let's connect and build the future together! 🌟
   <img alt="" src="https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white"/>
   
   <br>
+  <br>
 
   <img alt="" src="https://img.shields.io/badge/Turborepo-0C0606?style=for-the-badge&logo=turborepo&logoColor=EF4444"/>
 
+  <br>
   <br>
   
   <img alt="" src="https://img.shields.io/badge/Jenkins-49728B?style=for-the-badge&logo=jenkins&logoColor=white"/>
@@ -250,10 +253,6 @@ Let's connect and build the future together! 🌟
   <br>
     
   <img alt="" src="https://img.shields.io/badge/Jasmine-8A4182?style=for-the-badge&logo=Jasmine&logoColor=white"/>
- 
-  <br>
-
-  <img alt="" src="https://img.shields.io/badge/Turborepo-0C0606?style=for-the-badge&logo=turborepo&logoColor=EF4444"/>
 
 #### Web3 &amp; Blockchain
 
