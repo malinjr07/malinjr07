@@ -27,6 +27,8 @@ As the technology is advancing, so will your business. In today's technology wor
 
 Let's connect and build the future together! 🌟
 
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
 ###
 
 <picture>

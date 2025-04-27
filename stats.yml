@@ -2,7 +2,7 @@ name: Update stats
 
 on:
   schedule:
-    - cron: "0 11 * * *" # every 24 hours
+    - cron: '* */12 * * *' # execute every 12 hours
   push:
     branches:
       - master
@@ -22,9 +22,10 @@ jobs:
         shell: bash
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
-            git config user.name 'Orhun Parmaksız'
-            git config user.email 'orhunparmaksiz@gmail.com'
+            git config user.name 'Mosaddik Ali Maruf'
+            git config user.email 'malinjr07@gmail.com'
             git add *.md
             git commit -m "Update README.md"
             git push
           fi
+

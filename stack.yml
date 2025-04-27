@@ -3,38 +3,38 @@
   url: https://www.python.org/
   color: '#3776AB'
   projects:
-    - url: https://github.com/ashleymavericks/notion-portfolio-tracker
-    - url: https://github.com/ashleymavericks/notion-interactive-brokers
-    - url: https://github.com/ashleymavericks/notion-habit-tracker
+    - url: https://github.com/malinjr07/notion-portfolio-tracker
+    - url: https://github.com/malinjr07/notion-interactive-brokers
+    - url: https://github.com/malinjr07/notion-habit-tracker
     - url: https://github.com/hackclubnmit/certificate-generator
-    - url: https://github.com/ashleymavericks/todo-cli
-    - url: https://github.com/ashleymavericks/option-chain-notifier
-    - url: https://github.com/ashleymavericks/learnmate-backend
+    - url: https://github.com/malinjr07/todo-cli
+    - url: https://github.com/malinjr07/option-chain-notifier
+    - url: https://github.com/malinjr07/learnmate-backend
 
 - name: Go
   logo: Go
   url: https://go.dev/
   color: '#00ADD8'
   projects:
-    - url: https://github.com/ashleymavericks/rocket-server
-    - url: https://github.com/ashleymavericks/titan-shell
-    - url: https://github.com/ashleymavericks/dataload-db
+    - url: https://github.com/malinjr07/rocket-server
+    - url: https://github.com/malinjr07/titan-shell
+    - url: https://github.com/malinjr07/dataload-db
 
 - name: Flask
   logo: Flask
   url: https://flask.palletsprojects.com/en/2.1.x/
   color: '#000000'
   projects:
-    - url: https://github.com/ashleymavericks/bitgrit-personality-api
-    - url: https://github.com/ashleymavericks/tradingview-discord-middleware
+    - url: https://github.com/malinjr07/bitgrit-personality-api
+    - url: https://github.com/malinjr07/tradingview-discord-middleware
 
 - name: FastAPI
   logo: FastAPI
   url: https://fastapi.tiangolo.com/
   color: '#009688'
   projects:
-    - url: https://github.com/ashleymavericks/browser-hot-reloading
-    - url: https://github.com/ashleymavericks/strategical-trading
+    - url: https://github.com/malinjr07/browser-hot-reloading
+    - url: https://github.com/malinjr07/strategical-trading
       wip: true
 
 - name: Django
@@ -42,7 +42,7 @@
   url: https://www.djangoproject.com/
   color: '#092E20'
   projects:
-    - url: https://github.com/ashleymavericks/todo-list-battle
+    - url: https://github.com/malinjr07/todo-list-battle
       wip: true
 
 - name: TypeScript
@@ -50,49 +50,49 @@
   url: https://www.typescriptlang.org/
   color: '#3178C6'
   projects:
-    - url: https://github.com/ashleymavericks/nextjs-starter-template
-    - url: https://github.com/ashleymavericks/anuragsingh.dev
-    - url: https://github.com/ashleymavericks/supabase-uptime-monitor
+    - url: https://github.com/malinjr07/nextjs-starter-template
+    - url: https://github.com/malinjr07/anuragsingh.dev
+    - url: https://github.com/malinjr07/supabase-uptime-monitor
 
 - name: JavaScript
   logo: JavaScript
   url: https://javascript.info/
   color: '#F7DF1E'
   projects:
-    - url: https://github.com/ashleymavericks/unshorts
+    - url: https://github.com/malinjr07/unshorts
 
 - name: Node.js
   logo: Node.js
   url: https://nodejs.org/en/
   color: '#339933'
   projects:
-    - url: https://github.com/ashleymavericks/speaking-geo-assistant-backend
-    - url: https://github.com/ashleymavericks/dietary-care
+    - url: https://github.com/malinjr07/speaking-geo-assistant-backend
+    - url: https://github.com/malinjr07/dietary-care
 
 - name: Problem solving
   logo: LeetCode
-  url: https://hackattic.com/u/ashleymavericks
+  url: https://hackattic.com/u/malinjr07
   color: '#FFA116'
   projects:
-    - url: https://github.com/ashleymavericks/leetcoding
-    - url: https://github.com/ashleymavericks/hackerrank
-    - url: https://github.com/ashleymavericks/hackattic
-    - url: https://github.com/ashleymavericks/kata-log
-    - url: https://github.com/ashleymavericks/sadservers
-    - url: https://github.com/ashleymavericks/code.golf
-    - url: https://github.com/ashleymavericks/deep-ml
+    - url: https://github.com/malinjr07/leetcoding
+    - url: https://github.com/malinjr07/hackerrank
+    - url: https://github.com/malinjr07/hackattic
+    - url: https://github.com/malinjr07/kata-log
+    - url: https://github.com/malinjr07/sadservers
+    - url: https://github.com/malinjr07/code.golf
+    - url: https://github.com/malinjr07/deep-ml
 
 - name: Spark AR
   logo: Spark AR
   url: https://sparkar.facebook.com/ar-studio/
   color: '#FF5C83'
   projects:
-    - url: https://github.com/ashleymavericks/AR-PiZero
+    - url: https://github.com/malinjr07/AR-PiZero
 
 - name: Shell
   logo: GNU Bash
   url: https://www.gnu.org/
   color: '#4EAA25'
   projects:
-    - url: https://github.com/ashleymavericks/dotfiles-public
+    - url: https://github.com/malinjr07/dotfiles-public
 
