@@ -86,12 +86,7 @@ Let's connect and build the future together! 🌟
   <img alt="" src="https://img.shields.io/badge/GSAP-93CF2B?style=for-the-badge&logo=greensock&logoColor=white"/>
   <img alt="" src="https://img.shields.io/badge/reveal%20js-F2E142?style=for-the-badge&logo=reveal.js&logoColor=000"/>
   
-  <p>React Spring</p>
-  <p>LottieFiles</p>
-  <p>Framer Motion</p>
-  <p>Anime.js</p>
-  <p>Pixi.js</p>
-  <p>AceternityUI</p>
+  <p>React Spring | LottieFiles | Framer Motion | Anime.js | Pixi.js | AceternityUI</p>
  
 </div>
 
@@ -114,9 +109,7 @@ Let's connect and build the future together! 🌟
   <img alt="" src="https://img.shields.io/badge/Apollo%20GraphQL-311C87?&style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white"/>
   <img alt="" src="https://img.shields.io/badge/Apollo%20GraphQL-311C87?&style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white"/>
   <img alt="" src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
-  <p>Redux Persist</p>
-  <p>Redux Toolkit</p>
-  <p>Zustand</p>
+  <p>Redux Persist | Redux Toolkit | Zustand</p>
 </div>
 
 #### Testing Libraries
@@ -129,7 +122,7 @@ Let's connect and build the future together! 🌟
   <img alt="" src="https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=Playwright&logoColor=white"/>
   <img alt="" src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white"/>
   <img alt="" src="https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white"/>
-    <img alt="" src="https://img.shields.io/badge/Jasmine-8A4182?style=for-the-badge&logo=Jasmine&logoColor=white"/>
+  <img alt="" src="https://img.shields.io/badge/Jasmine-8A4182?style=for-the-badge&logo=Jasmine&logoColor=white"/>
 </div>
 
 #### Back-End Libraries and Frameworks
@@ -306,7 +299,7 @@ Let's connect and build the future together! 🌟
 ###
 
 <div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=malinjr07&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=malinjr07&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"  />
   <img src="https://github-profile-trophy.vercel.app?username=malinjr07&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
   <img src="https://github-readme-stats.vercel.app/api?username=malinjr07&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=malinjr07&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
