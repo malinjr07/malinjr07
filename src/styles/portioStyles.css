@@ -1,6 +1,3 @@
-/* Placeholder for styles from portio-react */
-/* This file will be updated with necessary styles during migration */
-
 .page-wrapper {
   position: relative;
   z-index: 1;
@@ -9,3 +6,4 @@
 .page-wrapper-2 {
   overflow: hidden;
 }
+

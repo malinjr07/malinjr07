@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
@@ -39,7 +41,10 @@ const Header4: React.FC<Header4Props> = ({ mClass, hclass }) => {
   return (
     <div>
       <div className={mClass} onClick={toggleMenu}>
-        <i className={isMenuOpen ? 'ti-close' : 'ti-align-justify'} id='bar_close'></i>
+        <i
+          className={isMenuOpen ? 'ti-close' : 'ti-align-justify'}
+          id='bar_close'
+        ></i>
       </div>
       <header className={`${hclass} ${isSticky ? 'sticky' : ''}`} id='navbar'>
         <Link href='/' className='logo'>
@@ -47,15 +52,32 @@ const Header4: React.FC<Header4Props> = ({ mClass, hclass }) => {
           <div>Logo Placeholder</div>
         </Link>
         <div className='header-section'>
-          <div className={`menu ${isMenuOpen ? 'open-mobilemenu' : ''}`} id='menu_wrap'>
+          <div
+            className={`menu ${isMenuOpen ? 'open-mobilemenu' : ''}`}
+            id='menu_wrap'
+          >
             <ul>
-              <li><Link href='#top'>Home</Link></li>
-              <li><Link href='#about'>About</Link></li>
-              <li><Link href='#Services'>Services</Link></li>
-              <li><Link href='#Portfolio'>Portfolio</Link></li>
-              <li><Link href='#testimonial'>Testimonial</Link></li>
-              <li><Link href='#blog'>Blog</Link></li>
-              <li><Link href='#Contact'>Contact Me</Link></li>
+              <li>
+                <Link href='#top'>Home</Link>
+              </li>
+              <li>
+                <Link href='#about'>About</Link>
+              </li>
+              <li>
+                <Link href='#Services'>Services</Link>
+              </li>
+              <li>
+                <Link href='#Portfolio'>Portfolio</Link>
+              </li>
+              <li>
+                <Link href='#testimonial'>Testimonial</Link>
+              </li>
+              <li>
+                <Link href='#blog'>Blog</Link>
+              </li>
+              <li>
+                <Link href='#Contact'>Contact Me</Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -65,3 +87,4 @@ const Header4: React.FC<Header4Props> = ({ mClass, hclass }) => {
 };
 
 export default Header4;
+

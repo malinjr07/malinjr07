@@ -41,8 +41,6 @@ next-env.d.ts
 .yarn/install-state.gz
 .pnp.cjs
 .pnp.loader.mjs
-.yarnrc.yml
-.yarnrc
 .yarn-integrity
 .yarn-metadata.json
 .yarn-error.log

@@ -1,3 +1,5 @@
+'use client';
+
 // Placeholder for FeatureSection component
 import React from 'react';
 import CountUp from 'react-countup';

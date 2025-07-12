@@ -1,4 +1,4 @@
-// Placeholder for ContactSection2 component
+'use client';
 import React from 'react';
 import { toast } from 'react-toastify';
 
@@ -24,7 +24,11 @@ const ContactSection2: React.FC<ContactSection2Props> = ({ Cclass }) => {
                 <h2>Have Any Questions? Contact Me</h2>
               </div>
               <div className='contact-text'>
-                <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                <p>
+                  Feel free to get in touch with me. I am always open to
+                  discussing new projects, creative ideas or opportunities to be
+                  part of your vision.
+                </p>
               </div>
               <div className='contact-address'>
                 <div className='address-box'>
@@ -33,11 +37,15 @@ const ContactSection2: React.FC<ContactSection2Props> = ({ Cclass }) => {
                 </div>
                 <div className='address-box'>
                   <i className='fi flaticon-email'></i>
-                  <p><a href='mailto:example@example.com'>example@example.com</a></p>
+                  <p>
+                    <a href='mailto:example@example.com'>example@example.com</a>
+                  </p>
                 </div>
                 <div className='address-box'>
                   <i className='fi flaticon-phone-call'></i>
-                  <p><a href='tel:1234567890'>+1 123 456 7890</a></p>
+                  <p>
+                    <a href='tel:1234567890'>+1 123 456 7890</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -46,19 +54,40 @@ const ContactSection2: React.FC<ContactSection2Props> = ({ Cclass }) => {
             <div className='contact-form'>
               <form onSubmit={handleSubmit}>
                 <div className='form-group'>
-                  <input type='text' className='form-control' placeholder='Your Name' required />
+                  <input
+                    type='text'
+                    className='form-control'
+                    placeholder='Your Name'
+                    required
+                  />
                 </div>
                 <div className='form-group'>
-                  <input type='email' className='form-control' placeholder='Email Address' required />
+                  <input
+                    type='email'
+                    className='form-control'
+                    placeholder='Email Address'
+                    required
+                  />
                 </div>
                 <div className='form-group'>
-                  <input type='text' className='form-control' placeholder='Subject' required />
+                  <input
+                    type='text'
+                    className='form-control'
+                    placeholder='Subject'
+                    required
+                  />
                 </div>
                 <div className='form-group'>
-                  <textarea className='form-control' placeholder='Message' required></textarea>
+                  <textarea
+                    className='form-control'
+                    placeholder='Message'
+                    required
+                  ></textarea>
                 </div>
                 <div className='form-group'>
-                  <button type='submit' className='btn s2'>Send Message</button>
+                  <button type='submit' className='btn s2'>
+                    Send Message
+                  </button>
                 </div>
               </form>
             </div>
@@ -70,3 +99,4 @@ const ContactSection2: React.FC<ContactSection2Props> = ({ Cclass }) => {
 };
 
 export default ContactSection2;
+

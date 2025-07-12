@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import Slider from 'react-slick';
 
@@ -5,7 +7,9 @@ interface TestimonialSection3Props {
   hclass: string;
 }
 
-const TestimonialSection3: React.FC<TestimonialSection3Props> = ({ hclass }) => {
+const TestimonialSection3: React.FC<TestimonialSection3Props> = ({
+  hclass,
+}) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -18,9 +22,9 @@ const TestimonialSection3: React.FC<TestimonialSection3Props> = ({ hclass }) => 
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-        }
-      }
-    ]
+        },
+      },
+    ],
   };
 
   return (
@@ -38,7 +42,11 @@ const TestimonialSection3: React.FC<TestimonialSection3Props> = ({ hclass }) => 
                 <div>Client Image Placeholder</div>
               </div>
               <div className='testimonial-content'>
-                <p>“John is an exceptional designer. He understood our requirements perfectly and delivered a website that exceeded our expectations. Highly recommended!”</p>
+                <p>
+                  “John is an exceptional designer. He understood our
+                  requirements perfectly and delivered a website that exceeded
+                  our expectations. Highly recommended!”
+                </p>
                 <h4>Jane Smith</h4>
                 <span>CEO, TechCorp</span>
                 <div className='testimonial-rating'>
@@ -56,7 +64,11 @@ const TestimonialSection3: React.FC<TestimonialSection3Props> = ({ hclass }) => 
                 <div>Client Image Placeholder</div>
               </div>
               <div className='testimonial-content'>
-                <p>“Working with John was a pleasure. His attention to detail and creative ideas helped us achieve a fantastic mobile app. Will definitely hire him again.”</p>
+                <p>
+                  “Working with John was a pleasure. His attention to detail and
+                  creative ideas helped us achieve a fantastic mobile app. Will
+                  definitely hire him again.”
+                </p>
                 <h4>Michael Brown</h4>
                 <span>CTO, AppWorld</span>
                 <div className='testimonial-rating'>
@@ -74,7 +86,11 @@ const TestimonialSection3: React.FC<TestimonialSection3Props> = ({ hclass }) => 
                 <div>Client Image Placeholder</div>
               </div>
               <div className='testimonial-content'>
-                <p>“John’s expertise in UI/UX design transformed our product. The user feedback has been overwhelmingly positive. Thank you for the great work!”</p>
+                <p>
+                  “John’s expertise in UI/UX design transformed our product. The
+                  user feedback has been overwhelmingly positive. Thank you for
+                  the great work!”
+                </p>
                 <h4>Sarah Johnson</h4>
                 <span>Product Manager, DesignHub</span>
                 <div className='testimonial-rating'>
@@ -94,3 +110,4 @@ const TestimonialSection3: React.FC<TestimonialSection3Props> = ({ hclass }) => 
 };
 
 export default TestimonialSection3;
+
