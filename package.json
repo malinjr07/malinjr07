@@ -10,26 +10,38 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
+    "@types/gsap": "^3.0.0",
     "@types/node": "^24.0.13",
     "@types/react": "^19.1.8",
+    "@types/react-countup": "^4.3.1",
     "@types/react-dom": "^19.1.6",
+    "@types/react-modal": "^3.16.3",
     "bootstrap": "^5.3.7",
     "gsap": "^3.13.0",
     "next": "15.3.5",
     "react": "19.1.0",
     "react-countup": "^6.5.3",
     "react-dom": "19.1.0",
+    "react-modal": "^3.16.3",
     "react-modal-video": "^2.0.2",
+    "react-responsive-masonry": "^2.7.1",
+    "react-scroll": "^1.9.3",
     "react-slick": "^0.30.3",
     "react-toastify": "^11.0.5",
+    "simple-parallax-js": "^6.2.1",
+    "simple-react-validator": "^1.6.2",
     "slick-carousel": "^1.8.1",
-    "typescript": "^5.8.3"
+    "swiper": "^11.2.10",
+    "typescript": "^5.8.3",
+    "yet-another-react-lightbox": "^3.24.0"
   },
   "devDependencies": {
     "@types/react-modal-video": "^1.2.3",
+    "@types/react-scroll": "^1",
     "@types/react-slick": "^0.23.13",
     "eslint": "^9.31.0",
-    "eslint-config-next": "15.3.5"
+    "eslint-config-next": "15.3.5",
+    "sass": "^1.89.2"
   },
   "packageManager": "yarn@4.9.2"
 }
