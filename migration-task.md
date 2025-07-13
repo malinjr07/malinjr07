@@ -154,47 +154,122 @@ Configuration file: `tsconfig.json` (already exists and properly configured)
 
 ## Main Components (src/main-component/)
 
+Components are listed in alphabetical order for better organization and tracking.
+
+### Core Components
+
 - [x] `src/main-component/App/App.js` → `src/main-component/App.tsx`
-
   - Create new file `src/main-component/App.tsx` and copy content from `App.js`
-  - Create `src/types/main-component/App.d.ts` for:
-    - Global state types
-    - Context types
-    - Theme types
-  - Convert all PropTypes to TypeScript types
-  - Type context providers if used
-  - Delete `App.js` after successful migration
+  - Create `src/types/main-component/App.d.ts` with type definitions
+  - Convert all PropTypes to TypeScript interfaces
+  - Add proper type annotations for global state and context
+  - Delete original `App.js` after successful migration
 
-- [x] `src/main-component/HomePage5/HomePage5.js` → `src/main-component/HomePage5/index.tsx`
+### Page Components
 
-  - Created new file `src/main-component/HomePage5/index.tsx` with TypeScript types
-  - Created `src/types/main-component/HomePage5.d.ts` with type definitions
-  - Added proper TypeScript types for all component props and state
-  - Updated router import to use the new TypeScript file path
-  - Verified component works in development server
-  - Deleted `HomePage5.js` after successful migration
+- [x] `src/main-component/AboutPage/AboutPage.js` → `src/main-component/AboutPage/index.tsx`
+
+  - Create new file `src/main-component/AboutPage/index.tsx` and copy content from `AboutPage.js`
+  - Create `src/types/main-component/AboutPage.d.ts` for:
+    - Team member types
+    - Skill/experience data structures
+    - Section component props
+  - Update the component to use the new type definitions
+  - Add proper TypeScript types for all props and state
+  - Update router imports to use new TypeScript file
+  - Delete original `AboutPage.js` after successful migration
+
+- [x] `src/main-component/BlogDetails/BlogDetails.js` → `src/main-component/BlogDetails/index.tsx`
+
+  - Create new file `src/main-component/BlogDetails/index.tsx` and copy content from `BlogDetails.js`
+  - Create `src/types/main-component/BlogDetails.d.ts` for:
+    - Blog post data structure
+    - Pagination types
+    - Category/tag filter types
+  - Update the component to use the new type definitions
+  - Type all API responses and state management
+  - Update router imports
+  - Delete original `BlogDetails.js` after successful migration
+
+- [x] `src/main-component/BlogPage/BlogPage.js` → `src/main-component/BlogPage/index.tsx`
+  - Create new file `src/main-component/BlogPage/index.tsx` and copy content from `BlogPage.js`
+  - Create `src/types/main-component/BlogPage.d.ts` for:
+    - Page props interface
+    - Component state types
+    - Any custom props for child components
+  - Update the component to use the new type definitions
+  - Type all component props and state
+  - Update router imports to use TypeScript path
+  - Ensure proper typing for all imported components (Header6, PageTitle, BlogList, FooterScetion)
+  - Delete original `BlogPage.js` after successful migration
 
 - [ ] `src/main-component/ContactPage/ContactPage.js` → `src/main-component/ContactPage/index.tsx`
-
   - Create new file `src/main-component/ContactPage/index.tsx` and copy content from `ContactPage.js`
   - Create `src/types/main-component/ContactPage.d.ts` for:
-    - Form state type
-    - Validation error types
-    - API call types
-    - Validation rules
-  - Type form state and handlers
-  - Delete `ContactPage.js` after successful migration
+    - Page props interface
+    - Component state types
+    - Contact form configuration types
+  - Update the component to use the new type definitions
+  - Type all component props and state
+  - Update router imports to use TypeScript path
+  - Delete original `ContactPage.js` after successful migration
+
+- [ ] `src/main-component/ContactPage/ContactForm.js` → `src/main-component/ContactPage/ContactForm.tsx`
+  - Create new file `src/main-component/ContactPage/ContactForm.tsx` and copy content from `ContactForm.js`
+  - Extend types in `src/types/main-component/ContactPage.d.ts` with:
+    - `ContactFormData` interface for form state
+    - `ContactFormProps` for component props
+    - Form validation error types
+  - Update the component to use the new type definitions
+  - Add proper TypeScript types for all form fields and handlers
+  - Implement form validation with type safety
+  - Add proper event typing for all form interactions
+  - Delete original `ContactForm.js` after successful migration
+
+- [x] `src/main-component/HomePage5/HomePage5.js` → `src/main-component/HomePage5/index.tsx`
+  - Created new file `src/main-component/HomePage5/index.tsx` and copy content from `HomePage5.js`
+  - Copied content from `HomePage5.js` to the new file
+  - Created `src/types/main-component/HomePage5.d.ts`
+  - Updated the component to use the new type definitions
+  - Added TypeScript types for all props and state
+  - Updated router import to use TypeScript path
+  - Verified component functionality
+  - Deleted original `HomePage5.js`
 
 - [ ] `src/main-component/ProjectPage/ProjectPage.js` → `src/main-component/ProjectPage/index.tsx`
-
   - Create new file `src/main-component/ProjectPage/index.tsx` and copy content from `ProjectPage.js`
   - Create `src/types/main-component/ProjectPage.d.ts` for:
     - Project data structure
     - Filter/sort option types
-    - Modal state types
-  - Type project data structure
-  - Add proper types for filtering/sorting
-  - Delete `ProjectPage.js` after successful migration
+    - Modal/lightbox state types
+  - Update the component to use the new type definitions
+  - Type all props and state variables
+  - Add proper types for event handlers
+  - Update router imports
+  - Delete original `ProjectPage.js` after successful migration
+
+- [ ] `src/main-component/ProjectSinglePage/ProjectSinglePage.js` → `src/main-component/ProjectSinglePage/index.tsx`
+  - Create new file `src/main-component/ProjectSinglePage/index.tsx` and copy content from `ProjectSinglePage.js`
+  - Create `src/types/main-component/ProjectSinglePage.d.ts` for:
+    - Project detail types
+    - Related projects data structure
+    - Page component props and state
+  - Update the component to use the new type definitions
+  - Type all component props and API responses
+  - Update router imports
+  - Delete original `ProjectSinglePage.js` after successful migration
+
+- [ ] `src/main-component/ProjectSinglePage/ProjectSingleSlider.js` → `src/main-component/ProjectSinglePage/ProjectSingleSlider.tsx`
+  - Create new file `src/main-component/ProjectSinglePage/ProjectSingleSlider.tsx` and copy content from `ProjectSingleSlider.js`
+  - Extend `src/types/main-component/ProjectSinglePage.d.ts` with:
+    - `ProjectImage` type for slider images
+    - `ProjectSingleSliderProps` interface
+    - Swiper/thumbs state types
+  - Update the component to use the new type definitions
+  - Add proper TypeScript types for all props and state
+  - Type all event handlers and Swiper configurations
+  - Add proper type imports from 'swiper' package
+  - Delete original `ProjectSingleSlider.js` after successful migration
 
 - [ ] `src/main-component/ServicePage/ServicePage.js` → `src/main-component/ServicePage/index.tsx`
 
@@ -202,20 +277,51 @@ Configuration file: `tsconfig.json` (already exists and properly configured)
   - Create `src/types/main-component/ServicePage.d.ts` for:
     - Service data structure
     - Tab/accordion state types
-    - Interactive element types
-  - Type service data structure
-  - Add proper types for interactive elements
-  - Delete `ServicePage.js` after successful migration
+    - Service category types
+  - Type all interactive elements and state
+  - Add proper types for service filtering
+  - Update router imports
+  - Delete original `ServicePage.js` after successful migration
 
-- [ ] `src/main-component/router/index.js` → `src/main-component/router/index.tsx`
-  - Create new file `src/main-component/router/index.tsx` and copy content from `index.js`
-  - Create `src/types/router.d.ts` for:
+- [ ] `src/main-component/ServiceSinglePage/ServiceSinglePage.js` → `src/main-component/ServiceSinglePage/index.tsx`
+
+  - Create new file `src/main-component/ServiceSinglePage/index.tsx` and copy content from `ServiceSinglePage.js`
+  - Migrate `ServiceWidget.js` to TypeScript
+  - Create `src/main-component/ServiceSinglePage/ServiceWidget.tsx` and copy content from `ServiceWidget.js`
+  - Create `src/types/main-component/ServiceSinglePage.d.ts` for:
+    - Service detail types
+    - Widget/feature types
+    - Related services data
+  - Update the components to use the new type definitions
+  - Type all component props and API responses
+  - Update router imports
+  - Delete original `ServiceSinglePage.js` and `ServiceWidget.js` after successful migration
+
+- [ ] `src/main-component/TestimonialPage/TestimonialPage.js` → `src/main-component/TestimonialPage/index.tsx`
+  - Create new file `src/main-component/TestimonialPage/index.tsx` and copy content from `TestimonialPage.js`
+  - Create `src/types/main-component/TestimonialPage.d.ts` for:
+    - Testimonial data structure
+    - Filter/sort option types
+    - Rating component props
+  - Update the component to use the new type definitions
+  - Type all component props and state
+  - Add proper types for testimonial filtering
+  - Update router imports
+  - Delete original `TestimonialPage.js` after successful migration
+
+### Router and Navigation
+
+- [x] `src/main-component/router/index.js` → `src/main-component/router/index.tsx`
+  - Created new file `src/main-component/router/index.tsx`
+  - Copied content from `index.js` to the new file
+  - Created `src/types/router.d.ts` with:
     - Route configuration types
-    - Route guard types
+    - Route parameter types
     - Navigation function types
-  - Define proper route types
-  - Type all route guards and middleware
-  - Delete `index.js` after successful migration
+  - Updated the router to use the new type definitions
+  - Updated all route imports to use TypeScript paths
+  - Added proper type safety for route parameters
+  - Deleted original `index.js` after successful migration
 
 ## Components (src/components/)
 

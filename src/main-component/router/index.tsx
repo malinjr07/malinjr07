@@ -7,7 +7,7 @@ import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
 import ProjectPage from '../ProjectPage/ProjectPage';
 import ProjectSinglePage from '../ProjectSinglePage/ProjectSinglePage';
 import TestimonialPage from '../TestimonialPage/TestimonialPage';
-import BlogPage from '../BlogPage/BlogPage';
+import BlogPage from '../BlogPage';
 import BlogDetails from '../BlogDetails';
 import ContactPage from '../ContactPage/ContactPage';
 import ErrorPage from '../../components/404';
