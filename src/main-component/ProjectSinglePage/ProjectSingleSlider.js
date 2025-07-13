@@ -1,11 +1,11 @@
 import React, { useState } from 'react'; 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Thumbs, FreeMode } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
-import 'swiper/css/thumbs';
-import { Navigation, Thumbs } from 'swiper/core'; 
+import 'swiper/css/thumbs'; 
 
 import PS1 from '../../images/project-single/1.jpg';
 import PS2 from '../../images/project-single/2.jpg';
@@ -30,7 +30,7 @@ const ProjectSingleSlider = () => {
                 spaceBetween={10}
                 navigation={true}
                 thumbs={{ swiper: thumbsSwiper }}
-                modules={[Navigation, Thumbs]} 
+                modules={[Navigation, Thumbs, FreeMode]} 
                 className="mySwiper2"
             >
                 <SwiperSlide>
