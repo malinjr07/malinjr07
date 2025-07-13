@@ -332,17 +332,36 @@ Components are listed in alphabetical order for better organization and tracking
 
 ## Components (src/components/)
 
+Components are listed in alphabetical order for better organization and tracking.
+
 - [x] `src/components/404/404.js` → `src/components/404/index.tsx`
 
-  - Created new file `src/components/404/index.tsx` with TypeScript types
-  - Added comprehensive props interface with JSDoc comments
-  - Created `src/types/components/404.d.ts` for type declarations
-  - Added responsive CSS with proper scoping
-  - Improved accessibility with ARIA attributes and semantic HTML
-  - Added smooth scrolling behavior with proper TypeScript types
-  - Maintained existing styling without modifications
-  - Added support for custom content and styling through props
-  - Improved type safety with proper event handling
+  - Create new file `src/components/404/index.tsx` and copy content from `404.js`
+  - Create `src/types/components/404.d.ts` for component props
+  - Add proper props typing using TypeScript types
+  - Ensure style imports use `import './404.css'`
+  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/components/404/index.tsx` path
+  - Delete `404.js` after successful migration
+
+- [ ] `src/components/about2/about2.js` → `src/components/about2/index.tsx`
+
+  - Create new file `src/components/about2/index.tsx` and copy content from `about2.js`
+  - Create `src/types/components/about2.d.ts` for:
+    - About content data types
+    - Component props types
+  - Type all props and state
+  - Add proper types for any animations or effects
+  - Delete `about2.js` after successful migration
+
+- [ ] `src/components/about4/about4.js` → `src/components/about4/index.tsx`
+
+  - Create new file `src/components/about4/index.tsx` and copy content from `about4.js`
+  - Create `src/types/components/about4.d.ts` for:
+    - About content data types
+    - Component props types
+  - Type all props and state
+  - Add proper types for any animations or effects
+  - Delete `about4.js` after successful migration
 
 - [x] `src/components/BlogDetails/BlogSingle.js` → `src/components/BlogDetails/index.tsx`
 
@@ -355,27 +374,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Created `index.ts` for cleaner imports
   - Deleted original `BlogSingle.js` after successful migration
 
-- [ ] `src/components/BlogDetails/CommentForm.js` → `src/components/BlogDetails/CommentForm/index.tsx`
-
-  - Create new file `src/components/BlogDetails/CommentForm/index.tsx` and copy content from `CommentForm.js`
-  - Create `src/types/components/CommentForm.d.ts` for:
-    - Form data types
-    - Event handler types
-  - Type all form fields and validation
-  - Convert any PropTypes to TypeScript types
-  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/components/BlogDetails/CommentForm/index.tsx` path
-  - Delete `CommentForm.js` after successful migration
-
-- [ ] `src/components/404/404.js` → `404/index.tsx`
-
-  - Create new file `index.tsx` in `src/components/404/` and copy content from `404.js`
-  - Create `src/types/components/404.d.ts` for component props
-  - Add proper props typing using TypeScript types
-  - Ensure style imports use `import './404.css'`
-  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/components/404/index.tsx` path
-  - Delete `404.js` after successful migration
-
-- [ ] `src/components/BlogDetails/CommentForm.js` → `src/components/BlogDetails/CommentForm/index.tsx`
+- [x] `src/components/BlogDetails/CommentForm.js` → `src/components/BlogDetails/CommentForm/index.tsx`
 
   - Create new file `src/components/BlogDetails/CommentForm/index.tsx` and copy content from `CommentForm.js`
   - Create `src/types/components/CommentForm.d.ts` for:
@@ -416,6 +415,24 @@ Components are listed in alphabetical order for better organization and tracking
   - Add proper types for disabled/enabled states
   - Delete `Pagination.js` after successful migration
 
+- [ ] `src/components/BlogSection/BlogSection.js` → `src/components/BlogSection/index.tsx`
+
+  - Create new file `src/components/BlogSection/index.tsx` and copy content from `BlogSection.js`
+  - Create `src/types/components/BlogSection.d.ts` for:
+    - Blog section data types
+    - Component props types
+  - Type all props and state
+  - Delete `BlogSection.js` after successful migration
+
+- [ ] `src/components/BlogSidebar/BlogSidebar.js` → `src/components/BlogSidebar/index.tsx`
+
+  - Create new file `src/components/BlogSidebar/index.tsx` and copy content from `BlogSidebar.js`
+  - Create `src/types/components/BlogSidebar.d.ts` for:
+    - Sidebar widget data types
+    - Search/filter types
+  - Type all props and state
+  - Delete `BlogSidebar.js` after successful migration
+
 - [ ] `src/components/ContactFrom/ContactForm.js` → `src/components/ContactFrom/ContactForm/index.tsx`
 
   - Create new file `src/components/ContactFrom/ContactForm/index.tsx` and copy content from `ContactForm.js`
@@ -428,7 +445,45 @@ Components are listed in alphabetical order for better organization and tracking
   - Add proper types for submission handling
   - Delete `ContactForm.js` after successful migration
 
+- [ ] `src/components/ContactSection2/ContactSection2.js` → `src/components/ContactSection2/index.tsx`
+
+  - Create new file `src/components/ContactSection2/index.tsx` and copy content from `ContactSection2.js`
+  - Create `src/types/components/ContactSection2.d.ts` for:
+    - Contact info data types
+    - Component props types
+  - Type all props and state
+  - Delete `ContactSection2.js` after successful migration
+
+- [ ] `src/components/FeatureSection/FeatureSection.js` → `src/components/FeatureSection/index.tsx`
+
+  - Create new file `src/components/FeatureSection/index.tsx` and copy content from `FeatureSection.js`
+  - Create `src/types/components/FeatureSection.d.ts` for:
+    - Feature item data types
+    - Component props types
+  - Type all props and state
+  - Delete `FeatureSection.js` after successful migration
+
+- [ ] `src/components/FooterScetion/FooterScetion.js` → `src/components/FooterScetion/index.tsx`
+
+  - Create new file `src/components/FooterScetion/index.tsx` and copy content from `FooterScetion.js`
+  - Create `src/types/components/FooterScetion.d.ts` for:
+    - Footer content data types
+    - Social link types
+  - Type all props and state
+  - Delete `FooterScetion.js` after successful migration
+
+- [ ] `src/components/header4/header4.js` → `src/components/header4/index.tsx`
+
+  - Create new file `src/components/header4/index.tsx` and copy content from `header4.js`
+  - Create `src/types/components/header4.d.ts` for:
+    - Navigation data types
+    - Component props and state types
+  - Type all props and state
+  - Add proper types for menu interactions
+  - Delete `header4.js` after successful migration
+
 - [ ] `src/components/Header6/Header6.js` → `src/components/Header6/index.tsx`
+
   - Create new file `src/components/Header6/index.tsx` and copy content from `Header6.js`
   - Create `src/types/components/Header6.d.ts` for:
     - Navigation item types
@@ -437,6 +492,99 @@ Components are listed in alphabetical order for better organization and tracking
   - Type all props and state
   - Type all event handlers and refs
   - Delete `Header6.js` after successful migration
+
+- [ ] `src/components/hero5/hero5.js` → `src/components/hero5/index.tsx`
+
+  - Create new file `src/components/hero5/index.tsx` and copy content from `hero5.js`
+  - Create `src/types/components/hero5.d.ts` for:
+    - Hero content data types
+    - Component props types
+  - Type all props and state
+  - Add proper types for any animations or effects
+  - Delete `hero5.js` after successful migration
+
+- [ ] `src/components/ModalVideo/ModalVideo.js` → `src/components/ModalVideo/index.tsx`
+
+  - Create new file `src/components/ModalVideo/index.tsx` and copy content from `ModalVideo.js`
+  - Create `src/types/components/ModalVideo.d.ts` for:
+    - Video data types
+    - Modal state types
+  - Type all props and state
+  - Add proper types for video player integration
+  - Delete `ModalVideo.js` after successful migration
+
+- [ ] `src/components/pagetitle/pagetitle.js` → `src/components/pagetitle/index.tsx`
+
+  - Create new file `src/components/pagetitle/index.tsx` and copy content from `pagetitle.js`
+  - Create `src/types/components/pagetitle.d.ts` for:
+    - Page title data types
+    - Component props types
+  - Type all props
+  - Delete `pagetitle.js` after successful migration
+
+- [ ] `src/components/ProjectSection2/ProjectSection2.js` → `src/components/ProjectSection2/index.tsx`
+
+  - Create new file `src/components/ProjectSection2/index.tsx` and copy content from `ProjectSection2.js`
+  - Create `src/types/components/ProjectSection2.d.ts` for:
+    - Project data types
+    - Component props types
+  - Type all props and state
+  - Delete `ProjectSection2.js` after successful migration
+
+- [ ] `src/components/ProjectSection3/ProjectSection3.js` → `src/components/ProjectSection3/index.tsx`
+
+  - Create new file `src/components/ProjectSection3/index.tsx` and copy content from `ProjectSection3.js`
+  - Create `src/types/components/ProjectSection3.d.ts` for:
+    - Project data types
+    - Component props types
+  - Type all props and state
+  - Delete `ProjectSection3.js` after successful migration
+
+- [ ] `src/components/ServiceSectionS2/ServiceSectionS2.js` → `src/components/ServiceSectionS2/index.tsx`
+
+  - Create new file `src/components/ServiceSectionS2/index.tsx` and copy content from `ServiceSectionS2.js`
+  - Create `src/types/components/ServiceSectionS2.d.ts` for:
+    - Service data types
+    - Component props types
+  - Type all props and state
+  - Delete `ServiceSectionS2.js` after successful migration
+
+- [ ] `src/components/ServiceSectionS4/ServiceSectionS4.js` → `src/components/ServiceSectionS4/index.tsx`
+
+  - Create new file `src/components/ServiceSectionS4/index.tsx` and copy content from `ServiceSectionS4.js`
+  - Create `src/types/components/ServiceSectionS4.d.ts` for:
+    - Service data types
+    - Component props types
+  - Type all props and state
+  - Delete `ServiceSectionS4.js` after successful migration
+
+- [ ] `src/components/ServiceSectionS6/ServiceSectionS6.js` → `src/components/ServiceSectionS6/index.tsx`
+
+  - Create new file `src/components/ServiceSectionS6/index.tsx` and copy content from `ServiceSectionS6.js`
+  - Create `src/types/components/ServiceSectionS6.d.ts` for:
+    - Service data types
+    - Component props types
+  - Type all props and state
+  - Delete `ServiceSectionS6.js` after successful migration
+
+- [ ] `src/components/TestimonialSection2/TestimonialSection2.js` → `src/components/TestimonialSection2/index.tsx`
+
+  - Create new file `src/components/TestimonialSection2/index.tsx` and copy content from `TestimonialSection2.js`
+  - Create `src/types/components/TestimonialSection2.d.ts` for:
+    - Testimonial data types
+    - Component props types
+  - Type all props and state
+  - Add proper types for slider/carousel if applicable
+  - Delete `TestimonialSection2.js` after successful migration
+
+- [ ] `src/components/TestimonialSection3/TestimonialSection3.js` → `src/components/TestimonialSection3/index.tsx`
+  - Create new file `src/components/TestimonialSection3/index.tsx` and copy content from `TestimonialSection3.js`
+  - Create `src/types/components/TestimonialSection3.d.ts` for:
+    - Testimonial data types
+    - Component props types
+  - Type all props and state
+  - Add proper types for slider/carousel if applicable
+  - Delete `TestimonialSection3.js` after successful migration
 
 ## Type Dependencies
 
