@@ -1,4 +1,15 @@
 // Type definitions for API responses
+
+type Testimonial = {
+  id: number;
+  name: string;
+  role: string;
+  content: string;
+  rating: number;
+  category: 'design' | 'development' | 'marketing';
+  image: string;
+};
+
 type Project = {
   id: number;
   category: string;
@@ -55,5 +66,5 @@ type ApiData = {
   blogs: BlogPost[];
 };
 
-export type { Project, ResumeItem, Service, BlogPost, ApiData };
+export type { Project, ResumeItem, Service, BlogPost, ApiData, Testimonial };
 
