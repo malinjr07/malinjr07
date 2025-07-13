@@ -192,6 +192,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Delete original `BlogDetails.js` after successful migration
 
 - [x] `src/main-component/BlogPage/BlogPage.js` → `src/main-component/BlogPage/index.tsx`
+
   - Create new file `src/main-component/BlogPage/index.tsx` and copy content from `BlogPage.js`
   - Create `src/types/main-component/BlogPage.d.ts` for:
     - Page props interface
@@ -203,7 +204,8 @@ Components are listed in alphabetical order for better organization and tracking
   - Ensure proper typing for all imported components (Header6, PageTitle, BlogList, FooterScetion)
   - Delete original `BlogPage.js` after successful migration
 
-- [ ] `src/main-component/ContactPage/ContactPage.js` → `src/main-component/ContactPage/index.tsx`
+- [x] `src/main-component/ContactPage/ContactPage.js` → `src/main-component/ContactPage/index.tsx`
+
   - Create new file `src/main-component/ContactPage/index.tsx` and copy content from `ContactPage.js`
   - Create `src/types/main-component/ContactPage.d.ts` for:
     - Page props interface
@@ -211,10 +213,11 @@ Components are listed in alphabetical order for better organization and tracking
     - Contact form configuration types
   - Update the component to use the new type definitions
   - Type all component props and state
-  - Update router imports to use TypeScript path
+  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/main-component/ContactPage/index.tsx` path
   - Delete original `ContactPage.js` after successful migration
 
-- [ ] `src/main-component/ContactPage/ContactForm.js` → `src/main-component/ContactPage/ContactForm.tsx`
+- [x] `src/main-component/ContactPage/ContactForm.js` → `src/main-component/ContactPage/ContactForm.tsx`
+
   - Create new file `src/main-component/ContactPage/ContactForm.tsx` and copy content from `ContactForm.js`
   - Extend types in `src/types/main-component/ContactPage.d.ts` with:
     - `ContactFormData` interface for form state
@@ -227,16 +230,18 @@ Components are listed in alphabetical order for better organization and tracking
   - Delete original `ContactForm.js` after successful migration
 
 - [x] `src/main-component/HomePage5/HomePage5.js` → `src/main-component/HomePage5/index.tsx`
+
   - Created new file `src/main-component/HomePage5/index.tsx` and copy content from `HomePage5.js`
   - Copied content from `HomePage5.js` to the new file
   - Created `src/types/main-component/HomePage5.d.ts`
   - Updated the component to use the new type definitions
   - Added TypeScript types for all props and state
-  - Updated router import to use TypeScript path
+  - Updated router file imports `src/main-component/router/index.tsx` to use TypeScript `src/main-component/HomePage5/index.tsx` path
   - Verified component functionality
   - Deleted original `HomePage5.js`
 
 - [ ] `src/main-component/ProjectPage/ProjectPage.js` → `src/main-component/ProjectPage/index.tsx`
+
   - Create new file `src/main-component/ProjectPage/index.tsx` and copy content from `ProjectPage.js`
   - Create `src/types/main-component/ProjectPage.d.ts` for:
     - Project data structure
@@ -245,10 +250,11 @@ Components are listed in alphabetical order for better organization and tracking
   - Update the component to use the new type definitions
   - Type all props and state variables
   - Add proper types for event handlers
-  - Update router imports
+  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/main-component/ProjectPage/index.tsx` path
   - Delete original `ProjectPage.js` after successful migration
 
 - [ ] `src/main-component/ProjectSinglePage/ProjectSinglePage.js` → `src/main-component/ProjectSinglePage/index.tsx`
+
   - Create new file `src/main-component/ProjectSinglePage/index.tsx` and copy content from `ProjectSinglePage.js`
   - Create `src/types/main-component/ProjectSinglePage.d.ts` for:
     - Project detail types
@@ -256,10 +262,11 @@ Components are listed in alphabetical order for better organization and tracking
     - Page component props and state
   - Update the component to use the new type definitions
   - Type all component props and API responses
-  - Update router imports
+  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/main-component/ProjectSinglePage/index.tsx` path
   - Delete original `ProjectSinglePage.js` after successful migration
 
 - [ ] `src/main-component/ProjectSinglePage/ProjectSingleSlider.js` → `src/main-component/ProjectSinglePage/ProjectSingleSlider.tsx`
+
   - Create new file `src/main-component/ProjectSinglePage/ProjectSingleSlider.tsx` and copy content from `ProjectSingleSlider.js`
   - Extend `src/types/main-component/ProjectSinglePage.d.ts` with:
     - `ProjectImage` type for slider images
@@ -280,7 +287,7 @@ Components are listed in alphabetical order for better organization and tracking
     - Service category types
   - Type all interactive elements and state
   - Add proper types for service filtering
-  - Update router imports
+  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/main-component/ServicePage/index.tsx` path
   - Delete original `ServicePage.js` after successful migration
 
 - [ ] `src/main-component/ServiceSinglePage/ServiceSinglePage.js` → `src/main-component/ServiceSinglePage/index.tsx`
@@ -294,7 +301,7 @@ Components are listed in alphabetical order for better organization and tracking
     - Related services data
   - Update the components to use the new type definitions
   - Type all component props and API responses
-  - Update router imports
+  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/main-component/ServiceSinglePage/index.tsx` path
   - Delete original `ServiceSinglePage.js` and `ServiceWidget.js` after successful migration
 
 - [ ] `src/main-component/TestimonialPage/TestimonialPage.js` → `src/main-component/TestimonialPage/index.tsx`
@@ -306,7 +313,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Update the component to use the new type definitions
   - Type all component props and state
   - Add proper types for testimonial filtering
-  - Update router imports
+  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/main-component/TestimonialPage/index.tsx` path
   - Delete original `TestimonialPage.js` after successful migration
 
 ### Router and Navigation
@@ -356,6 +363,7 @@ Components are listed in alphabetical order for better organization and tracking
     - Event handler types
   - Type all form fields and validation
   - Convert any PropTypes to TypeScript types
+  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/components/BlogDetails/CommentForm/index.tsx` path
   - Delete `CommentForm.js` after successful migration
 
 - [ ] `src/components/404/404.js` → `404/index.tsx`
@@ -364,6 +372,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Create `src/types/components/404.d.ts` for component props
   - Add proper props typing using TypeScript types
   - Ensure style imports use `import './404.css'`
+  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/components/404/index.tsx` path
   - Delete `404.js` after successful migration
 
 - [ ] `src/components/BlogDetails/CommentForm.js` → `src/components/BlogDetails/CommentForm/index.tsx`
@@ -375,6 +384,7 @@ Components are listed in alphabetical order for better organization and tracking
     - Submit handler types
   - Type form state and handlers
   - Add proper validation types
+  - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/components/BlogDetails/CommentForm/index.tsx` path
   - Delete `CommentForm.js` after successful migration
 
 - [ ] `src/components/BlogList/BlogCard.js` → `src/components/BlogList/BlogCard.tsx`
@@ -439,4 +449,3 @@ Make sure these type definitions are installed:
 - @types/react-slick
 - @types/react-scroll
 - @types/slick-carousel
-

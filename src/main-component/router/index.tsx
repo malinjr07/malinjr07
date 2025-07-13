@@ -9,7 +9,7 @@ import ProjectSinglePage from '../ProjectSinglePage/ProjectSinglePage';
 import TestimonialPage from '../TestimonialPage/TestimonialPage';
 import BlogPage from '../BlogPage';
 import BlogDetails from '../BlogDetails';
-import ContactPage from '../ContactPage/ContactPage';
+import ContactPage from '../ContactPage';
 import ErrorPage from '../../components/404';
 
 const AllRoute: React.FC = () => {
@@ -35,4 +35,3 @@ const AllRoute: React.FC = () => {
 };
 
 export default AllRoute;
-
