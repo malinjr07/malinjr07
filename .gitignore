@@ -44,7 +44,9 @@ next-env.d.ts
 .yarn-integrity
 .yarn-metadata.json
 .yarn-error.log
-.yarn.lock
+.yarn/sdks
 
 
 .DS_Store
+
+.vscode
