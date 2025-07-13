@@ -21,9 +21,11 @@ import { FunctionComponent, SVGProps } from 'react';
 type Service = {
   id: number;
   title: string;
+  slug: string;
   icon: string | FunctionComponent<SVGProps<SVGSVGElement>>;
   description: string;
   image: string;
+  sSImg: string;
 };
 
 type BlogPost = {
@@ -54,3 +56,4 @@ type ApiData = {
 };
 
 export type { Project, ResumeItem, Service, BlogPost, ApiData };
+

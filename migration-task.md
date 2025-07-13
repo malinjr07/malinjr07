@@ -290,7 +290,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/main-component/ServicePage/index.tsx` path
   - Delete original `ServicePage.js` after successful migration
 
-- [ ] `src/main-component/ServiceSinglePage/ServiceSinglePage.js` → `src/main-component/ServiceSinglePage/index.tsx`
+- [x] `src/main-component/ServiceSinglePage/ServiceSinglePage.js` → `src/main-component/ServiceSinglePage/index.tsx`
 
   - Create new file `src/main-component/ServiceSinglePage/index.tsx` and copy content from `ServiceSinglePage.js`
   - Migrate `ServiceWidget.js` to TypeScript

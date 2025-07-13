@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage5 from '../HomePage5';
 import AboutPage from '../AboutPage/AboutPage';
 import ServicePage from '../ServicePage';
-import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
+import ServiceSinglePage from '../ServiceSinglePage';
 import ProjectPage from '../ProjectPage';
 import ProjectSinglePage from '../ProjectSinglePage';
 import TestimonialPage from '../TestimonialPage/TestimonialPage';

@@ -1,11 +1,9 @@
-import { Service } from '../types/api';
+// Service data for the application
 
-// Import images
-import simg1 from '../images/service/img-1.jpg';
-import simg2 from '../images/service/img-2.jpg';
-import simg3 from '../images/service/img-3.jpg';
+import { Service } from 'types';
+import simg1 from '../images/service-single/img-1.jpg';
+import simg2 from '../images/service-single/img-2.jpg';
 
-// Import icons
 import icon1 from '../images/service/1.svg';
 import icon2 from '../images/service/2.svg';
 import icon3 from '../images/service/3.svg';
@@ -17,45 +15,64 @@ const services: Service[] = [
   {
     id: 1,
     title: 'Web Design',
-    icon: icon1,
-    description: 'Creating beautiful, responsive websites that work seamlessly across all devices.',
+    slug: 'web-design',
+    icon: icon1 as unknown as string,
+    description:
+      'Creating beautiful, responsive websites that work seamlessly across all devices.',
+    sSImg: simg1,
     image: simg1,
   },
   {
     id: 2,
     title: 'Web Development',
-    icon: icon2,
-    description: 'Building robust and scalable web applications with modern technologies.',
+    slug: 'web-development',
+    icon: icon2 as unknown as string,
+    description:
+      'Building robust and scalable web applications with modern technologies.',
+    sSImg: simg2,
     image: simg2,
   },
   {
     id: 3,
     title: 'UI/UX Design',
-    icon: icon3,
-    description: 'Designing intuitive and engaging user experiences that drive user satisfaction.',
-    image: simg3,
+    slug: 'ui-ux-design',
+    icon: icon3 as unknown as string,
+    description:
+      'Designing intuitive and engaging user experiences that drive user satisfaction.',
+    sSImg: simg2,
+    image: simg2,
   },
   {
     id: 4,
     title: 'Mobile App Development',
-    icon: icon4,
-    description: 'Creating cross-platform mobile applications with React Native.',
+    slug: 'mobile-app-development',
+    icon: icon4 as unknown as string,
+    description:
+      'Creating cross-platform mobile applications with React Native.',
+    sSImg: simg1,
     image: simg1,
   },
   {
     id: 5,
     title: 'E-commerce Solutions',
-    icon: icon5,
-    description: 'Building online stores with secure payment gateways and inventory management.',
+    slug: 'e-commerce-solutions',
+    icon: icon5 as unknown as string,
+    description:
+      'Building online stores with secure payment gateways and inventory management.',
+    sSImg: simg2,
     image: simg2,
   },
   {
     id: 6,
     title: 'SEO & Digital Marketing',
-    icon: icon6,
-    description: 'Improving online visibility and driving traffic through SEO and marketing strategies.',
-    image: simg3,
+    slug: 'seo-digital-marketing',
+    icon: icon6 as unknown as string,
+    description:
+      'Improving online visibility and driving traffic through SEO and marketing strategies.',
+    sSImg: simg2,
+    image: simg2,
   },
 ];
 
 export default services;
+
