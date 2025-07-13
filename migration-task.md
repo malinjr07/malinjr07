@@ -41,7 +41,6 @@ For each file, follow these steps:
   - Add type annotations for ReactDOM render function
   - Ensure proper typing for the root component
   - Create `src/types/index.d.ts` for any shared types
-  - Test the application
   - Delete `index.js` after successful migration
 
 - [ ] `src/App.js` → `App/index.tsx`
@@ -51,7 +50,6 @@ For each file, follow these steps:
     - App component props and state types
     - Any custom types used in the App component
   - Convert all PropTypes to TypeScript types
-  - Test the application
   - Delete `App.js` after successful migration
 
 - [ ] `src/App.test.js` → `src/App.test.tsx`
@@ -67,14 +65,12 @@ For each file, follow these steps:
 
   - Create new file `src/reportWebVitals.ts` and copy content from `reportWebVitals.js`
   - Create `src/types/vitals.d.ts` for web vitals related types
-  - Test the application
   - Delete `reportWebVitals.js` after successful migration
 
 - [ ] `src/setupTests.js` → `src/setupTests.ts`
   - Create new file `src/setupTests.ts` and copy content from `setupTests.js`
   - Add types for testing libraries (Jest, React Testing Library)
   - Move any global test types to `src/types/global.d.ts`
-  - Run tests to ensure they work with TypeScript
   - Delete `setupTests.js` after successful migration
 
 ## API Files
@@ -86,7 +82,6 @@ For each file, follow these steps:
     - Project-related request/response types
     - Filter/sort parameter types
   - Convert any JSDoc types to TypeScript types
-  - Test all project-related API calls
   - Delete `Project.js` after successful migration
 
 - [ ] `src/api/Resume.js` → `src/api/Resume.ts`
@@ -96,7 +91,6 @@ For each file, follow these steps:
     - Resume data structure types
     - Experience/education item types
   - Add proper error handling with typed errors
-  - Test resume data fetching functionality
   - Delete `Resume.js` after successful migration
 
 - [ ] `src/api/Services.js` → `src/api/Services.ts`
@@ -106,7 +100,6 @@ For each file, follow these steps:
     - Service-related types
     - Category/tag types
   - Document expected response types using JSDoc
-  - Test all service endpoints
   - Delete `Services.js` after successful migration
 
 - [ ] `src/api/blogs.js` → `src/api/blogs.ts`
@@ -116,7 +109,6 @@ For each file, follow these steps:
     - Blog post types (full and summary views)
     - Comment/author types
   - Add proper error typing and handling
-  - Test all blog-related functionality
   - Delete `blogs.js` after successful migration
 
 - [ ] `src/api/index.js` → `src/api/index.ts`
@@ -125,7 +117,6 @@ For each file, follow these steps:
     - API response/request types
     - Common parameter types
   - Ensure consistent typing across all API functions
-  - Test all API imports and exports
   - Delete `index.js` after successful migration
 
 ## Utility Files
@@ -136,7 +127,6 @@ For each file, follow these steps:
     - Component props type
     - Any custom types used in the component
   - Convert any PropTypes to TypeScript types
-  - Test the component in the application
   - Delete `BackgroundVideo.js` after successful migration
 
 ## Components (src/components/)
@@ -147,7 +137,6 @@ For each file, follow these steps:
   - Create `src/types/components/404.d.ts` for component props
   - Add proper props typing using TypeScript types
   - Ensure style imports use `import './404.css'`
-  - Test the 404 page
   - Delete `404.js` after successful migration
 
 - [ ] `src/components/BlogDetails/BlogSingle.js` → `src/components/BlogDetails/index.tsx`
@@ -157,7 +146,6 @@ For each file, follow these steps:
     - Blog post data type
     - Comment related types
   - Type all event handlers with proper event types
-  - Test the component with different blog post data
   - Delete `BlogSingle.js` after successful migration
 
 - [ ] `src/components/BlogDetails/CommentForm.js` → `src/components/BlogDetails/CommentForm/index.tsx`
@@ -169,7 +157,6 @@ For each file, follow these steps:
     - Submit handler types
   - Type form state and handlers
   - Add proper validation types
-  - Test form submission and validation
   - Delete `CommentForm.js` after successful migration
 
 - [ ] `src/components/BlogList/BlogCard.js` → `src/components/BlogList/BlogCard.tsx`
@@ -180,7 +167,6 @@ For each file, follow these steps:
     - Tag/category types
   - Type all props with proper interfaces
   - Add proper types for any media elements
-  - Test the component with different blog post data
   - Delete `BlogCard.js` after successful migration
 
 - [ ] `src/components/BlogList/BlogList.js` → `src/components/BlogList/index.tsx`
@@ -190,7 +176,6 @@ For each file, follow these steps:
     - Blog list data structure
     - Filter/sort option types
   - Type all props and state
-  - Test the component with different data sets
   - Delete `BlogList.js` after successful migration
 
 - [ ] `src/components/BlogList/Pagination.js` → `src/components/BlogList/Pagination.tsx`
@@ -201,7 +186,6 @@ For each file, follow these steps:
     - Click handler types
   - Type all event handlers
   - Add proper types for disabled/enabled states
-  - Test pagination functionality
   - Delete `Pagination.js` after successful migration
 
 - [ ] `src/components/ContactFrom/ContactForm.js` → `src/components/ContactFrom/ContactForm/index.tsx`
@@ -214,7 +198,6 @@ For each file, follow these steps:
     - Validation rules
   - Type form state and handlers
   - Add proper types for submission handling
-  - Test form submission and validation
   - Delete `ContactForm.js` after successful migration
 
 - [ ] `src/components/Header6/Header6.js` → `src/components/Header6/index.tsx`
@@ -225,7 +208,6 @@ For each file, follow these steps:
     - Scroll position types
   - Type all props and state
   - Type all event handlers and refs
-  - Test all header functionality
   - Delete `Header6.js` after successful migration
 
 ## Main Components (src/main-component/)
@@ -239,7 +221,6 @@ For each file, follow these steps:
     - Theme types
   - Convert all PropTypes to TypeScript types
   - Type context providers if used
-  - Test all application routes and features
   - Delete `App.js` after successful migration
 
 - [ ] `src/main-component/HomePage5/HomePage5.js` → `src/main-component/HomePage5/index.tsx`
@@ -251,7 +232,6 @@ For each file, follow these steps:
     - Data structure types
   - Type all props and state
   - Define interfaces for data passed to child components
-  - Test all interactive elements
   - Delete `HomePage5.js` after successful migration
 
 - [ ] `src/main-component/ContactPage/ContactPage.js` → `src/main-component/ContactPage/index.tsx`
@@ -263,7 +243,6 @@ For each file, follow these steps:
     - API call types
     - Validation rules
   - Type form state and handlers
-  - Test form submission and validation
   - Delete `ContactPage.js` after successful migration
 
 - [ ] `src/main-component/ProjectPage/ProjectPage.js` → `src/main-component/ProjectPage/index.tsx`
@@ -275,7 +254,6 @@ For each file, follow these steps:
     - Modal state types
   - Type project data structure
   - Add proper types for filtering/sorting
-  - Test all project page functionality
   - Delete `ProjectPage.js` after successful migration
 
 - [ ] `src/main-component/ServicePage/ServicePage.js` → `src/main-component/ServicePage/index.tsx`
@@ -287,7 +265,6 @@ For each file, follow these steps:
     - Interactive element types
   - Type service data structure
   - Add proper types for interactive elements
-  - Test all service page functionality
   - Delete `ServicePage.js` after successful migration
 
 - [ ] `src/main-component/router/index.js` → `src/main-component/router/index.tsx`
@@ -298,7 +275,6 @@ For each file, follow these steps:
     - Navigation function types
   - Define proper route types
   - Type all route guards and middleware
-  - Test all navigation functionality
   - Delete `index.js` after successful migration
 
 ## Migration Notes
