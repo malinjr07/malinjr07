@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomePage5 from '../HomePage5/HomePage5';
+import HomePage5 from '../HomePage5';
 import AboutPage from '../AboutPage/AboutPage';
 import ServicePage from '../ServicePage/ServicePage';
 import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
