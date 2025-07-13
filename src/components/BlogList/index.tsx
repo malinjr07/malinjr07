@@ -35,3 +35,4 @@ const BlogList: FC<BlogListProps> = ({ hClass }): ReactElement => {
 };
 
 export default BlogList;
+

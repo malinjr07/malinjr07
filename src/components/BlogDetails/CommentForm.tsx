@@ -1,4 +1,5 @@
 import React, { FC, ReactElement, useState, ChangeEvent, FormEvent } from 'react';
+import Comment from './Comment';
 
 interface FormData {
   name: string;

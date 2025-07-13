@@ -1,0 +1,3 @@
+interface CtaProps {
+  hclass?: string;
+}

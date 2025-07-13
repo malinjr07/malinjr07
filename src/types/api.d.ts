@@ -39,22 +39,25 @@ type Service = {
   sSImg: string;
 };
 
-type BlogPost = {
+interface BlogPost {
   id: number;
-  type?: string;
-  title: string;
-  date: string;
-  author: string;
-  excerpt: string;
-  content?: string;
-  image: string;
   slug: string;
+  title: string;
+  type?: 'image' | 'video';
+  tags?: string[];
+  description: string;
+  excerpt?: string;
+  content?: string;
+  author: string;
+  create_at: string;
+  date?: string;
+  image: string;
+  screens?: string;
   featuredImage?: string;
   comments?: number;
-  tags?: string[];
   blClass?: string;
   animation?: string;
-};
+}
 
 type ApiData = {
   projects: Project[];
@@ -67,4 +70,3 @@ type ApiData = {
 };
 
 export type { Project, ResumeItem, Service, BlogPost, ApiData, Testimonial };
-

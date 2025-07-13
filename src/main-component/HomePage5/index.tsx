@@ -2,7 +2,7 @@ import React, { FC, Fragment, ReactElement } from 'react';
 import Header4 from '../../components/header4/header4';
 import Hero5 from '../../components/hero5/hero5';
 import FeatureSection from '../../components/FeatureSection/FeatureSection';
-import About4 from '../../components/about4/about4';
+import About4 from '../../components/about4';
 import ServiceSectionS4 from '../../components/ServiceSectionS4/ServiceSectionS4';
 import ProjectSection3 from '../../components/ProjectSection3/ProjectSection3';
 import TestimonialSection3 from '../../components/TestimonialSection3/TestimonialSection3';

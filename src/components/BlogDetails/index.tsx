@@ -36,12 +36,12 @@ const BlogSingle: React.FC = () => {
     // Map the API blog post to our extended BlogPost type
     return {
       ...post,
-      create_at: post.date, // Map date to create_at
-      blogSingleImg: post.image, // Use the main image as the single view image
+      create_at: post.date || '', // Map date to create_at, ensure it's a string
+      blogSingleImg: post.featuredImage || '',
       comment: post.comments?.toString() || '0',
-      day: new Date(post.date).getDate().toString(),
-      month: new Date(post.date).toLocaleString('default', { month: 'long' }),
-      screens: post.image, // Use the main image as screens
+      day: post.date ? new Date(post.date).getDate().toString() : '',
+      month: post.date ? new Date(post.date).toLocaleString('default', { month: 'long' }) : '',
+      screens: post.image,
       description: post.excerpt || '',
       blClass: post.blClass || 'format-standard-image',
       animation: post.animation || '1000',

@@ -3444,6 +3444,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-modal-video@npm:^1.2.3":
+  version: 1.2.3
+  resolution: "@types/react-modal-video@npm:1.2.3"
+  dependencies:
+    "@types/react": "npm:*"
+  checksum: 10/123b6ad99f40945dfffc592c7971b20c9e2271c5449bc912c5d37c9331ee7950276ef0f94a0109116bb620dda0c62556bdb21db266cead63b3692f9058276b18
+  languageName: node
+  linkType: hard
+
 "@types/react-router-dom@npm:^5.3.3":
   version: 5.3.3
   resolution: "@types/react-router-dom@npm:5.3.3"
@@ -4134,6 +4143,7 @@ __metadata:
     "@types/node": "npm:^24.0.13"
     "@types/react": "npm:^19.1.8"
     "@types/react-dom": "npm:^19.1.6"
+    "@types/react-modal-video": "npm:^1.2.3"
     "@types/react-router-dom": "npm:^5.3.3"
     "@types/react-scroll": "npm:^1.8.10"
     "@types/react-slick": "npm:^0.23.13"
