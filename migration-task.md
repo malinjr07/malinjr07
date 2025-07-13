@@ -265,7 +265,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/main-component/ProjectSinglePage/index.tsx` path
   - Delete original `ProjectSinglePage.js` after successful migration
 
-- [ ] `src/main-component/ProjectSinglePage/ProjectSingleSlider.js` → `src/main-component/ProjectSinglePage/ProjectSingleSlider.tsx`
+- [x] `src/main-component/ProjectSinglePage/ProjectSingleSlider.js` → `src/main-component/ProjectSinglePage/ProjectSingleSlider.tsx`
 
   - Create new file `src/main-component/ProjectSinglePage/ProjectSingleSlider.tsx` and copy content from `ProjectSingleSlider.js`
   - Extend `src/types/main-component/ProjectSinglePage.d.ts` with:
@@ -278,7 +278,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Add proper type imports from 'swiper' package
   - Delete original `ProjectSingleSlider.js` after successful migration
 
-- [ ] `src/main-component/ServicePage/ServicePage.js` → `src/main-component/ServicePage/index.tsx`
+- [x] `src/main-component/ServicePage/ServicePage.js` → `src/main-component/ServicePage/index.tsx`
 
   - Create new file `src/main-component/ServicePage/index.tsx` and copy content from `ServicePage.js`
   - Create `src/types/main-component/ServicePage.d.ts` for:

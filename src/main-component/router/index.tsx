@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage5 from '../HomePage5';
 import AboutPage from '../AboutPage/AboutPage';
-import ServicePage from '../ServicePage/ServicePage';
+import ServicePage from '../ServicePage';
 import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
 import ProjectPage from '../ProjectPage';
 import ProjectSinglePage from '../ProjectSinglePage';
