@@ -343,7 +343,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/components/404/index.tsx` path
   - Delete `404.js` after successful migration
 
-- [ ] `src/components/about2/about2.js` → `src/components/about2/index.tsx`
+- [x] `src/components/about2/about2.js` → `src/components/about2/index.tsx`
 
   - Create new file `src/components/about2/index.tsx` and copy content from `about2.js`
   - Create `src/types/components/about2.d.ts` for:
@@ -353,7 +353,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Add proper types for any animations or effects
   - Delete `about2.js` after successful migration
 
-- [ ] `src/components/about4/about4.js` → `src/components/about4/index.tsx`
+- [x] `src/components/about4/about4.js` → `src/components/about4/index.tsx`
 
   - Create new file `src/components/about4/index.tsx` and copy content from `about4.js`
   - Create `src/types/components/about4.d.ts` for:
@@ -382,18 +382,18 @@ Components are listed in alphabetical order for better organization and tracking
     - Validation error types
     - Submit handler types
   - Type form state and handlers
-  - Add proper validation types
+  - Add proper types for submission handling
   - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/components/BlogDetails/CommentForm/index.tsx` path
   - Delete `CommentForm.js` after successful migration
 
-- [ ] `src/components/BlogList/BlogCard.js` → `src/components/BlogList/BlogCard.tsx`
+- [x] `src/components/BlogList/BlogCard.js` → `src/components/BlogList/BlogCard/index.tsx`
 
-  - Create new file `src/components/BlogList/BlogCard.tsx` and copy content from `BlogCard.js`
+  - Create new file `src/components/BlogList/BlogCard/index.tsx` and copy content from `BlogCard.js`
   - Create `src/types/components/BlogCard.d.ts` for:
-    - Blog post summary type
-    - Tag/category types
-  - Type all props with proper interfaces
-  - Add proper types for any media elements
+    - Blog post data types (referencing API types)
+    - Component props types
+  - Type all props and state
+  - Add proper types for Swiper slider navigation
   - Delete `BlogCard.js` after successful migration
 
 - [ ] `src/components/BlogList/BlogList.js` → `src/components/BlogList/index.tsx`
@@ -597,4 +597,3 @@ Make sure these type definitions are installed:
 - @types/react-slick
 - @types/react-scroll
 - @types/slick-carousel
-

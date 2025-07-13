@@ -1,0 +1,1 @@
+interface About4Props {}
