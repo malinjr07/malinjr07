@@ -4,7 +4,7 @@ import HomePage5 from '../HomePage5';
 import AboutPage from '../AboutPage/AboutPage';
 import ServicePage from '../ServicePage/ServicePage';
 import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
-import ProjectPage from '../ProjectPage/ProjectPage';
+import ProjectPage from '../ProjectPage';
 import ProjectSinglePage from '../ProjectSinglePage/ProjectSinglePage';
 import TestimonialPage from '../TestimonialPage/TestimonialPage';
 import BlogPage from '../BlogPage';

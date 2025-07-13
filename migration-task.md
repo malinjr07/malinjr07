@@ -240,7 +240,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Verified component functionality
   - Deleted original `HomePage5.js`
 
-- [ ] `src/main-component/ProjectPage/ProjectPage.js` → `src/main-component/ProjectPage/index.tsx`
+- [x] `src/main-component/ProjectPage/ProjectPage.js` → `src/main-component/ProjectPage/index.tsx`
 
   - Create new file `src/main-component/ProjectPage/index.tsx` and copy content from `ProjectPage.js`
   - Create `src/types/main-component/ProjectPage.d.ts` for:
