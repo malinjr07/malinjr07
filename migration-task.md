@@ -253,7 +253,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Update router file imports `src/main-component/router/index.tsx` to use TypeScript `src/main-component/ProjectPage/index.tsx` path
   - Delete original `ProjectPage.js` after successful migration
 
-- [ ] `src/main-component/ProjectSinglePage/ProjectSinglePage.js` → `src/main-component/ProjectSinglePage/index.tsx`
+- [x] `src/main-component/ProjectSinglePage/ProjectSinglePage.js` → `src/main-component/ProjectSinglePage/index.tsx`
 
   - Create new file `src/main-component/ProjectSinglePage/index.tsx` and copy content from `ProjectSinglePage.js`
   - Create `src/types/main-component/ProjectSinglePage.d.ts` for:

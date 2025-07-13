@@ -5,7 +5,7 @@ import AboutPage from '../AboutPage/AboutPage';
 import ServicePage from '../ServicePage/ServicePage';
 import ServiceSinglePage from '../ServiceSinglePage/ServiceSinglePage';
 import ProjectPage from '../ProjectPage';
-import ProjectSinglePage from '../ProjectSinglePage/ProjectSinglePage';
+import ProjectSinglePage from '../ProjectSinglePage';
 import TestimonialPage from '../TestimonialPage/TestimonialPage';
 import BlogPage from '../BlogPage';
 import BlogDetails from '../BlogDetails';
