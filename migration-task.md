@@ -24,6 +24,7 @@
    - Ensure all type imports use the `type` keyword
 
 4. **Cleanup**:
+
    - Once the new `.tsx`/`.ts` file is working correctly, delete the original `.js` file
    - Update any imports that referenced the old `.js` file
 
@@ -59,6 +60,29 @@
 - **DO NOT** change class names or styling structure
 - If a component uses inline styles, keep them as they are
 - The focus should be solely on TypeScript type safety, not on improving or modifying the styling
+
+## Migration Notes
+
+5. After each migration step, run `yarn start` to check for runtime errors.
+6. Fix TypeScript errors as they appear - don't use `any` type unless absolutely necessary.
+
+7. For each file:
+   - Rename the file to .tsx (for React components) or .ts (for non-React files)
+   - Add proper TypeScript types
+   - Fix any type errors
+   - Test the component/functionality
+   - Commit the changes
+
+## Important Notes
+
+- **DO NOT** run `yarn test` manually during the migration process. Tests are configured to run automatically when files change, and running them manually may cause unnecessary test runs or conflicts.
+- All test runs should be handled automatically by the development environment.
+- If you need to run tests for a specific file, use the test watcher interface (press 'p' to filter by filename pattern).
+
+## TypeScript Configuration
+
+Current TypeScript version: 5.8.3
+Configuration file: `tsconfig.json` (already exists and properly configured)
 
 ## Configuration Files
 
@@ -117,21 +141,88 @@
   - Added proper type imports and exports
   - Fixed type issues with SVG imports and React components
 
-## Background Video Component - COMPLETED ✅
+## Utility Files
 
-- [x] `src/js/BackgroundVideo.js` → `src/utils/BackgroundVideo.tsx`
-  - Created new file `src/utils/BackgroundVideo.tsx` with TypeScript types
-  - Added comprehensive props interface with TypeScript types
-  - Created `src/types/utils/BackgroundVideo.d.ts` for type declarations
-  - Added CSS modules support with TypeScript
-  - Improved component with additional props and better type safety
-  - Deleted original `BackgroundVideo.js` after successful migration
-  - Added responsive design and better default values
-  - Improved accessibility with proper ARIA attributes
+- [x] `src/utils/index.js` → `src/utils/index.ts`
+  - Created new file `src/utils/index.ts` with TypeScript types
+  - Created `src/types/utils/index.d.ts` with type definitions for:
+    - Product, WishListItem, and CartItem interfaces
+    - Type-safe function parameters and return types
+  - Improved type safety for all utility functions
+  - Added JSDoc comments for better code documentation
+  - Deleted `src/utils/index.js` after successful migration
 
-## 404 Component - COMPLETED ✅
+## Main Components (src/main-component/)
+
+- [x] `src/main-component/App/App.js` → `src/main-component/App.tsx`
+
+  - Create new file `src/main-component/App.tsx` and copy content from `App.js`
+  - Create `src/types/main-component/App.d.ts` for:
+    - Global state types
+    - Context types
+    - Theme types
+  - Convert all PropTypes to TypeScript types
+  - Type context providers if used
+  - Delete `App.js` after successful migration
+
+- [ ] `src/main-component/HomePage5/HomePage5.js` → `src/main-component/HomePage5/index.tsx`
+
+  - Create new file `src/main-component/HomePage5/index.tsx` and copy content from `HomePage5.js`
+  - Create `src/types/main-component/HomePage5.d.ts` for:
+    - Section component props
+    - Animation state types
+    - Data structure types
+  - Type all props and state
+  - Define interfaces for data passed to child components
+  - Delete `HomePage5.js` after successful migration
+
+- [ ] `src/main-component/ContactPage/ContactPage.js` → `src/main-component/ContactPage/index.tsx`
+
+  - Create new file `src/main-component/ContactPage/index.tsx` and copy content from `ContactPage.js`
+  - Create `src/types/main-component/ContactPage.d.ts` for:
+    - Form state type
+    - Validation error types
+    - API call types
+    - Validation rules
+  - Type form state and handlers
+  - Delete `ContactPage.js` after successful migration
+
+- [ ] `src/main-component/ProjectPage/ProjectPage.js` → `src/main-component/ProjectPage/index.tsx`
+
+  - Create new file `src/main-component/ProjectPage/index.tsx` and copy content from `ProjectPage.js`
+  - Create `src/types/main-component/ProjectPage.d.ts` for:
+    - Project data structure
+    - Filter/sort option types
+    - Modal state types
+  - Type project data structure
+  - Add proper types for filtering/sorting
+  - Delete `ProjectPage.js` after successful migration
+
+- [ ] `src/main-component/ServicePage/ServicePage.js` → `src/main-component/ServicePage/index.tsx`
+
+  - Create new file `src/main-component/ServicePage/index.tsx` and copy content from `ServicePage.js`
+  - Create `src/types/main-component/ServicePage.d.ts` for:
+    - Service data structure
+    - Tab/accordion state types
+    - Interactive element types
+  - Type service data structure
+  - Add proper types for interactive elements
+  - Delete `ServicePage.js` after successful migration
+
+- [ ] `src/main-component/router/index.js` → `src/main-component/router/index.tsx`
+  - Create new file `src/main-component/router/index.tsx` and copy content from `index.js`
+  - Create `src/types/router.d.ts` for:
+    - Route configuration types
+    - Route guard types
+    - Navigation function types
+  - Define proper route types
+  - Type all route guards and middleware
+  - Delete `index.js` after successful migration
+
+## Components (src/components/)
 
 - [x] `src/components/404/404.js` → `src/components/404/index.tsx`
+
   - Created new file `src/components/404/index.tsx` with TypeScript types
   - Added comprehensive props interface with JSDoc comments
   - Created `src/types/components/404.d.ts` for type declarations
@@ -142,10 +233,9 @@
   - Added support for custom content and styling through props
   - Improved type safety with proper event handling
 
-## BlogDetails/BlogSingle Component
+- [x] `src/components/BlogDetails/BlogSingle.js` → `src/components/BlogDetails/index.tsx`
 
-- [ ] `src/components/BlogDetails/BlogSingle.js` → `src/components/BlogDetails/BlogSingle.tsx`
-  - Created new file `src/components/BlogDetails/BlogSingle.tsx` with TypeScript types
+  - Created new file `src/components/BlogDetails/index.tsx` with TypeScript types
   - Created `src/types/components/BlogDetails.d.ts` with proper type definitions
   - Added TypeScript types for all props and state
   - Typed all event handlers with proper event types
@@ -154,9 +244,8 @@
   - Created `index.ts` for cleaner imports
   - Deleted original `BlogSingle.js` after successful migration
 
-## CommentForm Component
-
 - [ ] `src/components/BlogDetails/CommentForm.js` → `src/components/BlogDetails/CommentForm/index.tsx`
+
   - Create new file `src/components/BlogDetails/CommentForm/index.tsx` and copy content from `CommentForm.js`
   - Create `src/types/components/CommentForm.d.ts` for:
     - Form data types
@@ -164,18 +253,6 @@
   - Type all form fields and validation
   - Convert any PropTypes to TypeScript types
   - Delete `CommentForm.js` after successful migration
-
-## Utility Files
-
-- [ ] `src/js/BackgroundVideo.js` → `src/utils/BackgroundVideo.tsx`
-  - Create new file `src/utils/BackgroundVideo.tsx` and copy content from `BackgroundVideo.js`
-  - Create `src/types/utils/BackgroundVideo.d.ts` for:
-    - Component props type
-    - Any custom types used in the component
-  - Convert any PropTypes to TypeScript types
-  - Delete `BackgroundVideo.js` after successful migration
-
-## Components (src/components/)
 
 - [ ] `src/components/404/404.js` → `404/index.tsx`
 
@@ -246,96 +323,6 @@
   - Type all props and state
   - Type all event handlers and refs
   - Delete `Header6.js` after successful migration
-
-## Main Components (src/main-component/)
-
-- [ ] `src/main-component/App/App.js` → `src/main-component/App.tsx`
-
-  - Create new file `src/main-component/App.tsx` and copy content from `App.js`
-  - Create `src/types/main-component/App.d.ts` for:
-    - Global state types
-    - Context types
-    - Theme types
-  - Convert all PropTypes to TypeScript types
-  - Type context providers if used
-  - Delete `App.js` after successful migration
-
-- [ ] `src/main-component/HomePage5/HomePage5.js` → `src/main-component/HomePage5/index.tsx`
-
-  - Create new file `src/main-component/HomePage5/index.tsx` and copy content from `HomePage5.js`
-  - Create `src/types/main-component/HomePage5.d.ts` for:
-    - Section component props
-    - Animation state types
-    - Data structure types
-  - Type all props and state
-  - Define interfaces for data passed to child components
-  - Delete `HomePage5.js` after successful migration
-
-- [ ] `src/main-component/ContactPage/ContactPage.js` → `src/main-component/ContactPage/index.tsx`
-
-  - Create new file `src/main-component/ContactPage/index.tsx` and copy content from `ContactPage.js`
-  - Create `src/types/main-component/ContactPage.d.ts` for:
-    - Form state type
-    - Validation error types
-    - API call types
-    - Validation rules
-  - Type form state and handlers
-  - Delete `ContactPage.js` after successful migration
-
-- [ ] `src/main-component/ProjectPage/ProjectPage.js` → `src/main-component/ProjectPage/index.tsx`
-
-  - Create new file `src/main-component/ProjectPage/index.tsx` and copy content from `ProjectPage.js`
-  - Create `src/types/main-component/ProjectPage.d.ts` for:
-    - Project data structure
-    - Filter/sort option types
-    - Modal state types
-  - Type project data structure
-  - Add proper types for filtering/sorting
-  - Delete `ProjectPage.js` after successful migration
-
-- [ ] `src/main-component/ServicePage/ServicePage.js` → `src/main-component/ServicePage/index.tsx`
-
-  - Create new file `src/main-component/ServicePage/index.tsx` and copy content from `ServicePage.js`
-  - Create `src/types/main-component/ServicePage.d.ts` for:
-    - Service data structure
-    - Tab/accordion state types
-    - Interactive element types
-  - Type service data structure
-  - Add proper types for interactive elements
-  - Delete `ServicePage.js` after successful migration
-
-- [ ] `src/main-component/router/index.js` → `src/main-component/router/index.tsx`
-  - Create new file `src/main-component/router/index.tsx` and copy content from `index.js`
-  - Create `src/types/router.d.ts` for:
-    - Route configuration types
-    - Route guard types
-    - Navigation function types
-  - Define proper route types
-  - Type all route guards and middleware
-  - Delete `index.js` after successful migration
-
-## Migration Notes
-
-1. After each migration step, run `yarn start` to check for runtime errors.
-2. Fix TypeScript errors as they appear - don't use `any` type unless absolutely necessary.
-
-3. For each file:
-   - Rename the file to .tsx (for React components) or .ts (for non-React files)
-   - Add proper TypeScript types
-   - Fix any type errors
-   - Test the component/functionality
-   - Commit the changes
-
-## Important Notes
-
-- **DO NOT** run `yarn test` manually during the migration process. Tests are configured to run automatically when files change, and running them manually may cause unnecessary test runs or conflicts.
-- All test runs should be handled automatically by the development environment.
-- If you need to run tests for a specific file, use the test watcher interface (press 'p' to filter by filename pattern).
-
-## TypeScript Configuration
-
-Current TypeScript version: 5.8.3
-Configuration file: `tsconfig.json` (already exists and properly configured)
 
 ## Type Dependencies
 

@@ -8,7 +8,7 @@ import ProjectPage from '../ProjectPage/ProjectPage';
 import ProjectSinglePage from '../ProjectSinglePage/ProjectSinglePage';
 import TestimonialPage from '../TestimonialPage/TestimonialPage';
 import BlogPage from '../BlogPage/BlogPage';
-import BlogDetails from '../../components/BlogDetails';
+import BlogDetails from '../BlogDetails';
 import ContactPage from '../ContactPage/ContactPage';
 import ErrorPage from '../../components/404';
 
