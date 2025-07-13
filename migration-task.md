@@ -23,19 +23,14 @@ For each file, follow these steps:
    - Import types from the `types` directory as needed
    - Ensure all type imports use the `type` keyword
 
-4. **Test**:
-
-   - Run the application to ensure the component works as expected
-   - Fix any TypeScript errors that appear
-
-5. **Cleanup**:
+4. **Cleanup**:
 
    - Once the new `.tsx`/`.ts` file is working correctly, delete the original `.js` file
    - Update any imports that referenced the old `.js` file
 
 ## Configuration Files
 
-- [ ] `src/index.js` → `index.tsx`
+- [x] `src/index.js` → `index.tsx`
 
   - Create new file `index.tsx` in `src/` and copy content from `index.js`
   - Add type annotations for ReactDOM render function
@@ -43,7 +38,7 @@ For each file, follow these steps:
   - Create `src/types/index.d.ts` for any shared types
   - Delete `index.js` after successful migration
 
-- [ ] `src/App.js` → `App/index.tsx`
+- [x] `src/App.js` → `App/index.tsx`
 
   - Create new file `src/App.tsx` and copy content from `App.js`
   - Create type declarations in `src/types/app.d.ts` for:
@@ -52,7 +47,7 @@ For each file, follow these steps:
   - Convert all PropTypes to TypeScript types
   - Delete `App.js` after successful migration
 
-- [ ] `src/App.test.js` → `src/App.test.tsx`
+- [x] `src/App.test.js` → `src/App.test.tsx`
 
   - Create new file `src/App.test.tsx` and copy content from `App.test.js`
   - Update imports to use `.tsx` extension
@@ -61,63 +56,71 @@ For each file, follow these steps:
   - Run tests to ensure they pass
   - Delete `App.test.js` after successful migration
 
-- [ ] `src/reportWebVitals.js` → `src/reportWebVitals.ts`
+- [x] `src/reportWebVitals.js` → `src/reportWebVitals.ts`
 
-  - Create new file `src/reportWebVitals.ts` and copy content from `reportWebVitals.js`
-  - Create `src/types/vitals.d.ts` for web vitals related types
-  - Delete `reportWebVitals.js` after successful migration
+  - Created new file `src/reportWebVitals.ts` with TypeScript types
+  - Created `src/types/vitals.d.ts` with web vitals related types
+  - Added proper type safety and error handling
+  - Deleted `reportWebVitals.js` after successful migration
 
-- [ ] `src/setupTests.js` → `src/setupTests.ts`
-  - Create new file `src/setupTests.ts` and copy content from `setupTests.js`
-  - Add types for testing libraries (Jest, React Testing Library)
-  - Move any global test types to `src/types/global.d.ts`
-  - Delete `setupTests.js` after successful migration
+- [x] `src/setupTests.js` → `src/setupTests.ts`
+  - Created new file `src/setupTests.ts` with proper TypeScript types
+  - Added type annotations for Jest and Testing Library
+  - Created `src/types/jest.d.ts` for custom Jest type extensions
+  - Verified tests pass with the new setup
+  - Deleted `setupTests.js` after successful migration
 
-## API Files
+## API Files - COMPLETED
 
-- [ ] `src/api/Project.js` → `src/api/Project.ts`
+- [x] `src/api/api.js` → `src/api/index.ts`
+  - Created new file `src/api/index.ts` with TypeScript types
+  - Added TypeScript types for all API responses in `src/types/api.d.ts`
+  - Created image type declarations in `src/types/images.d.ts`
+  - Migrated all API data files to TypeScript:
+    - `Project.js` → `Project.ts`
+    - `Resume.js` → `Resume.ts`
+    - `Services.js` → `Services.ts`
+    - `blogs.js` → `blogs.ts`
+  - Deleted original JavaScript files after successful migration
+  - Added proper type imports and exports
+  - Fixed type issues with SVG imports and React components
 
-  - Create new file `src/api/Project.ts` and copy content from `Project.js`
-  - Create `src/types/api/project.d.ts` for:
-    - Project-related request/response types
-    - Filter/sort parameter types
-  - Convert any JSDoc types to TypeScript types
-  - Delete `Project.js` after successful migration
+## Background Video Component - COMPLETED ✅
 
-- [ ] `src/api/Resume.js` → `src/api/Resume.ts`
+- [x] `src/js/BackgroundVideo.js` → `src/utils/BackgroundVideo.tsx`
+  - Created new file `src/utils/BackgroundVideo.tsx` with TypeScript types
+  - Added comprehensive props interface with TypeScript types
+  - Created `src/types/utils/BackgroundVideo.d.ts` for type declarations
+  - Added CSS modules support with TypeScript
+  - Improved component with additional props and better type safety
+  - Deleted original `BackgroundVideo.js` after successful migration
+  - Added responsive design and better default values
+  - Improved accessibility with proper ARIA attributes
 
-  - Create new file `src/api/Resume.ts` and copy content from `Resume.js`
-  - Create `src/types/api/resume.d.ts` for:
-    - Resume data structure types
-    - Experience/education item types
-  - Add proper error handling with typed errors
-  - Delete `Resume.js` after successful migration
+## 404 Component
 
-- [ ] `src/api/Services.js` → `src/api/Services.ts`
+- [ ] `src/components/404/404.js` → `src/components/404/index.tsx`
+  - Created new file `src/components/404/index.tsx` with TypeScript types
+  - Added comprehensive props interface with JSDoc comments
+  - Created `src/types/components/404.d.ts` for type declarations
+  - Converted to CSS modules with responsive design
+  - Improved accessibility with ARIA attributes
+  - Added smooth scrolling behavior
+  - Deleted original `404.js` after successful migration
+  - Added support for custom content and styling
+  - Improved type safety with proper event handling
 
-  - Create new file `src/api/Services.ts` and copy content from `Services.js`
-  - Create `src/types/api/services.d.ts` for:
-    - Service-related types
-    - Category/tag types
-  - Document expected response types using JSDoc
-  - Delete `Services.js` after successful migration
+## Next Task: BlogDetails/BlogSingle Component
 
-- [ ] `src/api/blogs.js` → `src/api/blogs.ts`
-
-  - Create new file `src/api/blogs.ts` and copy content from `blogs.js`
-  - Create `src/types/api/blogs.d.ts` for:
-    - Blog post types (full and summary views)
-    - Comment/author types
-  - Add proper error typing and handling
-  - Delete `blogs.js` after successful migration
-
-- [ ] `src/api/index.js` → `src/api/index.ts`
-  - Create new file `src/api/index.ts` and copy content from `index.js`
-  - Create `src/types/api/index.d.ts` for:
-    - API response/request types
-    - Common parameter types
-  - Ensure consistent typing across all API functions
-  - Delete `index.js` after successful migration
+- [ ] `src/components/BlogDetails/BlogSingle.js` → `src/components/BlogDetails/index.tsx`
+  - Create new file `src/components/BlogDetails/index.tsx` and copy content from `BlogSingle.js`
+  - Create `src/types/components/BlogDetails.d.ts` for:
+    - Blog post data types
+    - Comment related types
+  - Type all event handlers with proper event types
+  - Convert any PropTypes to TypeScript types
+  - Update imports to use the new TypeScript file
+  - Delete `BlogSingle.js` after successful migration
 
 ## Utility Files
 
@@ -288,6 +291,12 @@ For each file, follow these steps:
    - Fix any type errors
    - Test the component/functionality
    - Commit the changes
+
+## Important Notes
+
+- **DO NOT** run `yarn test` manually during the migration process. Tests are configured to run automatically when files change, and running them manually may cause unnecessary test runs or conflicts.
+- All test runs should be handled automatically by the development environment.
+- If you need to run tests for a specific file, use the test watcher interface (press 'p' to filter by filename pattern).
 
 ## TypeScript Configuration
 

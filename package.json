@@ -48,6 +48,11 @@
     "yet-another-react-lightbox": "^3.24.0"
   },
   "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^30.0.0",
     "@types/jquery": "^3.5.32",
     "@types/node": "^24.0.13",
     "@types/react": "^19.1.8",
@@ -56,6 +61,8 @@
     "@types/react-scroll": "^1.8.10",
     "@types/react-slick": "^0.23.13",
     "@types/slick-carousel": "^1.6.40",
+    "@types/testing-library__jest-dom": "5",
+    "@types/testing-library__react": "^10.2.0",
     "react-app-rewired": "^2.2.1",
     "typescript": "^5.8.3",
     "unused-files-webpack-plugin": "^3.4.0",
