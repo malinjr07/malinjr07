@@ -2,7 +2,7 @@
 
 ## Migration Steps for Each File
 
-For each file, follow these steps:
+### For Regular Components:
 
 1. **Create TypeScript Version**:
 
@@ -24,9 +24,41 @@ For each file, follow these steps:
    - Ensure all type imports use the `type` keyword
 
 4. **Cleanup**:
-
    - Once the new `.tsx`/`.ts` file is working correctly, delete the original `.js` file
    - Update any imports that referenced the old `.js` file
+
+### For Route Components:
+
+1. **Follow all Regular Component Steps** as mentioned above
+
+2. **Additional Steps for Route Components**:
+
+   - Create type definitions for all props received from React Router (use `useParams`, `useLocation`, etc. types from 'react-router-dom')
+   - Type any route parameters explicitly
+   - Ensure proper typing for any data fetching in route components
+   - Add proper return types for loader/action functions if using React Router's data APIs
+
+3. **Router Update**:
+
+   - After migrating a route component to TypeScript, update the import in `src/main-component/router/index.tsx`
+   - Change the import to point to the new TypeScript file (e.g., `import HomePage5 from '../HomePage5'` instead of `import HomePage5 from '../HomePage5/HomePage5'`)
+   - Ensure the component is properly typed when used in the Route component
+
+4. **Testing**:
+   - Test the route thoroughly after migration
+   - Verify that all route parameters are properly typed and accessible
+   - Check that navigation works as expected
+
+## Important Styling Instructions
+
+- **DO NOT** modify any existing styling during the migration
+- **DO NOT** create new CSS files or modify existing ones unless absolutely necessary for TypeScript compatibility
+- **DO NOT** enhance or modify the UI/UX during the migration
+- **PRESERVE** all existing styling exactly as is
+- **DO NOT** convert CSS to CSS Modules unless the component already uses them
+- **DO NOT** change class names or styling structure
+- If a component uses inline styles, keep them as they are
+- The focus should be solely on TypeScript type safety, not on improving or modifying the styling
 
 ## Configuration Files
 
@@ -97,30 +129,41 @@ For each file, follow these steps:
   - Added responsive design and better default values
   - Improved accessibility with proper ARIA attributes
 
-## 404 Component
+## 404 Component - COMPLETED ✅
 
-- [ ] `src/components/404/404.js` → `src/components/404/index.tsx`
+- [x] `src/components/404/404.js` → `src/components/404/index.tsx`
   - Created new file `src/components/404/index.tsx` with TypeScript types
   - Added comprehensive props interface with JSDoc comments
   - Created `src/types/components/404.d.ts` for type declarations
-  - Converted to CSS modules with responsive design
-  - Improved accessibility with ARIA attributes
-  - Added smooth scrolling behavior
-  - Deleted original `404.js` after successful migration
-  - Added support for custom content and styling
+  - Added responsive CSS with proper scoping
+  - Improved accessibility with ARIA attributes and semantic HTML
+  - Added smooth scrolling behavior with proper TypeScript types
+  - Maintained existing styling without modifications
+  - Added support for custom content and styling through props
   - Improved type safety with proper event handling
 
-## Next Task: BlogDetails/BlogSingle Component
+## BlogDetails/BlogSingle Component
 
-- [ ] `src/components/BlogDetails/BlogSingle.js` → `src/components/BlogDetails/index.tsx`
-  - Create new file `src/components/BlogDetails/index.tsx` and copy content from `BlogSingle.js`
-  - Create `src/types/components/BlogDetails.d.ts` for:
-    - Blog post data types
-    - Comment related types
-  - Type all event handlers with proper event types
+- [ ] `src/components/BlogDetails/BlogSingle.js` → `src/components/BlogDetails/BlogSingle.tsx`
+  - Created new file `src/components/BlogDetails/BlogSingle.tsx` with TypeScript types
+  - Created `src/types/components/BlogDetails.d.ts` with proper type definitions
+  - Added TypeScript types for all props and state
+  - Typed all event handlers with proper event types
+  - Implemented proper error handling for missing blog posts
+  - Added proper type imports and exports
+  - Created `index.ts` for cleaner imports
+  - Deleted original `BlogSingle.js` after successful migration
+
+## CommentForm Component
+
+- [ ] `src/components/BlogDetails/CommentForm.js` → `src/components/BlogDetails/CommentForm/index.tsx`
+  - Create new file `src/components/BlogDetails/CommentForm/index.tsx` and copy content from `CommentForm.js`
+  - Create `src/types/components/CommentForm.d.ts` for:
+    - Form data types
+    - Event handler types
+  - Type all form fields and validation
   - Convert any PropTypes to TypeScript types
-  - Update imports to use the new TypeScript file
-  - Delete `BlogSingle.js` after successful migration
+  - Delete `CommentForm.js` after successful migration
 
 ## Utility Files
 
@@ -141,15 +184,6 @@ For each file, follow these steps:
   - Add proper props typing using TypeScript types
   - Ensure style imports use `import './404.css'`
   - Delete `404.js` after successful migration
-
-- [ ] `src/components/BlogDetails/BlogSingle.js` → `src/components/BlogDetails/index.tsx`
-
-  - Create new file `src/components/BlogDetails/index.tsx` and copy content from `BlogSingle.js`
-  - Create `src/types/components/BlogSingle.d.ts` for:
-    - Blog post data type
-    - Comment related types
-  - Type all event handlers with proper event types
-  - Delete `BlogSingle.js` after successful migration
 
 - [ ] `src/components/BlogDetails/CommentForm.js` → `src/components/BlogDetails/CommentForm/index.tsx`
 
