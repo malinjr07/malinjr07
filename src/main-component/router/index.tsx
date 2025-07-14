@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage5 from '../HomePage5';
-import AboutPage from '../AboutPage/AboutPage';
+import AboutPage from '../AboutPage';
 import ServicePage from '../ServicePage';
 import ServiceSinglePage from '../ServiceSinglePage';
 import ProjectPage from '../ProjectPage';
@@ -35,3 +35,4 @@ const AllRoute: React.FC = () => {
 };
 
 export default AllRoute;
+

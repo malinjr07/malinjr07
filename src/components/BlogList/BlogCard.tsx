@@ -2,7 +2,7 @@ import React, { FC, ReactElement, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.css';
-import VideoModal from '../ModalVideo/VideoModal';
+import VideoModal from '../ModalVideo';
 
 import Blog1 from '../../images/blog/img-1.jpg';
 import Blog2 from '../../images/blog/img-2.jpg';

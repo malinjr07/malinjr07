@@ -2,7 +2,7 @@ import React, { FC, ReactElement } from 'react';
 import blogs from '../../api/blogs';
 import BlogCard from './BlogCard';
 import Pagination from './Pagination';
-import BlogSidebar from '../BlogSidebar/BlogSidebar';
+import BlogSidebar from '../BlogSidebar';
 
 const ClickHandler = (): void => {
   window.scrollTo(10, 0);

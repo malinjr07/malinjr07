@@ -15,10 +15,11 @@ declare module '*.png' {
 }
 
 declare module '*.svg' {
-  import React from 'react';
+  import * as React from 'react';
   
-  const content: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
-  export default content;
+  export const ReactComponent: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  const src: string;
+  export default src;
 }
 
 declare module '*.gif' {

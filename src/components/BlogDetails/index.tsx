@@ -7,7 +7,7 @@ import gsap from 'gsap';
 import { Power2 } from 'gsap/all';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { BlogPost } from '../../types/components/BlogDetails';
-import BlogSidebar from '../BlogSidebar/BlogSidebar';
+import BlogSidebar from '../BlogSidebar';
 import CommentForm from './CommentForm';
 
 // Import images
