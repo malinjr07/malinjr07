@@ -602,17 +602,17 @@ Components are listed in alphabetical order for better organization and tracking
   - [x] Update all import statements from `'../ServiceSectionS6/ServiceSectionS6'` to `'../ServiceSectionS6'`
   - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
-- [ ] `src/components/TestimonialSection2/TestimonialSection2.js` → `src/components/TestimonialSection2/index.tsx`
+- [x] `src/components/TestimonialSection2/TestimonialSection2.js` → `src/components/TestimonialSection2/index.tsx`
 
-  - Create new file `src/components/TestimonialSection2/index.tsx` and copy content from `TestimonialSection2.js`
-  - Create `src/types/components/TestimonialSection2.d.ts` for:
-    - Testimonial data types
-    - Component props types
-  - Type all props and state
-  - Add proper types for slider/carousel if applicable
-  - Delete `TestimonialSection2.js` after successful migration
-  - Update all import statements from `'../TestimonialSection2/TestimonialSection2'` to `'../TestimonialSection2'`
-  - Run `yarn tsc --noEmit` and fix any TypeScript errors
+  - [x] Create new file `src/components/TestimonialSection2/index.tsx` and copy content from `TestimonialSection2.js`
+  - [x] Create `src/types/components/TestimonialSection2.d.ts` for:
+    - [x] Testimonial data types
+    - [x] Component props types
+  - [x] Type all props and state
+  - [x] Add proper types for slider/carousel if applicable
+  - [x] Delete `TestimonialSection2.js` after successful migration
+  - [x] Update all import statements from `'../TestimonialSection2/TestimonialSection2'` to `'../TestimonialSection2'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [ ] `src/components/TestimonialSection3/TestimonialSection3.js` → `src/components/TestimonialSection3/index.tsx`
   - Create new file `src/components/TestimonialSection3/index.tsx` and copy content from `TestimonialSection3.js`

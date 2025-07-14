@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Header6 from '../../components/Header6';
 import PageTitle from '../../components/pagetitle';
-import TestimonialSection2 from '../../components/TestimonialSection2/TestimonialSection2';
+import TestimonialSection2 from '../../components/TestimonialSection2';
 import FooterScetion from '../../components/FooterSection';
 const TestimonialPage = () => {
   return (
