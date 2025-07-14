@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Header6 from '../../components/Header6/Header6';
+import Header6 from '../../components/Header6';
 import PageTitle from '../../components/pagetitle/PageTitle';
 import TestimonialSection2 from '../../components/TestimonialSection2/TestimonialSection2';
 import FooterScetion from '../../components/FooterSection';

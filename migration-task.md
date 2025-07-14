@@ -462,6 +462,7 @@ Components are listed in alphabetical order for better organization and tracking
     - Component props types
   - Type all props and state
   - Delete `ContactSection2.js` after successful migration
+  - Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [x] `src/components/FeatureSection/FeatureSection.js` → `src/components/FeatureSection/index.tsx`
 
@@ -472,6 +473,7 @@ Components are listed in alphabetical order for better organization and tracking
   - [x] Type all props and state
   - [x] Delete `FeatureSection.js` after successful migration
   - [x] Update all import statements from `'../FeatureSection/FeatureSection'` to `'../FeatureSection'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [x] `src/components/FooterScetion/FooterScetion.js` → `src/components/FooterScetion/index.tsx`
 
@@ -482,6 +484,7 @@ Components are listed in alphabetical order for better organization and tracking
   - [x] Type all props and state
   - [x] Delete `FooterScetion.js` after successful migration
   - [x] Update all import statements from `'../FooterScetion/FooterScetion'` to `'../FooterScetion'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [x] `src/components/header4/header4.js` → `src/components/header4/index.tsx`
 
@@ -493,6 +496,7 @@ Components are listed in alphabetical order for better organization and tracking
   - [x] Add proper types for menu interactions
   - [x] Delete `header4.js` after successful migration
   - [x] Update all import statements from `'../header4/header4'` to `'../header4'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [x] `src/components/Header6/Header6.js` → `src/components/Header6/index.tsx`
 
@@ -504,19 +508,21 @@ Components are listed in alphabetical order for better organization and tracking
   - [x] Add proper types for menu interactions
   - [x] Delete `Header6.js` after successful migration
   - [x] Update all import statements from `'../Header6/Header6'` to `'../Header6'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
     - [x] Scroll position types
   - [x] Type all event handlers and refs
 
-- [ ] `src/components/hero5/hero5.js` → `src/components/hero5/index.tsx`
+- [x] `src/components/hero5/hero5.js` → `src/components/hero5/index.tsx`
 
-  - Create new file `src/components/hero5/index.tsx` and copy content from `hero5.js`
-  - Create `src/types/components/hero5.d.ts` for:
-    - Hero content data types
-    - Component props types
-  - Type all props and state
-  - Add proper types for any animations or effects
-  - Delete `hero5.js` after successful migration
-  - Update all import statements from `'../hero5/hero5'` to `'../hero5'`
+  - [x] Create new file `src/components/hero5/index.tsx` and copy content from `hero5.js`
+  - [x] Create `src/types/components/hero5.d.ts` for:
+    - [x] Hero content data types
+    - [x] Component props types
+  - [x] Type all props and state
+  - [x] Add proper types for any animations or effects
+  - [x] Delete `hero5.js` after successful migration
+  - [x] Update all import statements from `'../hero5/hero5'` to `'../hero5'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [x] `src/components/ModalVideo/ModalVideo.js` → `src/components/ModalVideo/index.tsx`
 
@@ -528,6 +534,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Add proper types for video player integration
   - Delete `ModalVideo.js` after successful migration
   - Update all import statements from `'../ModalVideo/ModalVideo'` to `'../ModalVideo'`
+  - Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [ ] `src/components/pagetitle/pagetitle.js` → `src/components/pagetitle/index.tsx`
 
@@ -538,6 +545,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Type all props
   - Delete `pagetitle.js` after successful migration
   - Update all import statements from `'../pagetitle/pagetitle'` to `'../pagetitle'`
+  - Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [ ] `src/components/ProjectSection2/ProjectSection2.js` → `src/components/ProjectSection2/index.tsx`
 
@@ -548,6 +556,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Type all props and state
   - Delete `ProjectSection2.js` after successful migration
   - Update all import statements from `'../ProjectSection2/ProjectSection2'` to `'../ProjectSection2'`
+  - Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [ ] `src/components/ProjectSection3/ProjectSection3.js` → `src/components/ProjectSection3/index.tsx`
 
@@ -558,6 +567,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Type all props and state
   - Delete `ProjectSection3.js` after successful migration
   - Update all import statements from `'../ProjectSection3/ProjectSection3'` to `'../ProjectSection3'`
+  - Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [ ] `src/components/ServiceSectionS2/ServiceSectionS2.js` → `src/components/ServiceSectionS2/index.tsx`
 
@@ -568,6 +578,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Type all props and state
   - Delete `ServiceSectionS2.js` after successful migration
   - Update all import statements from `'../ServiceSectionS2/ServiceSectionS2'` to `'../ServiceSectionS2'`
+  - Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [ ] `src/components/ServiceSectionS4/ServiceSectionS4.js` → `src/components/ServiceSectionS4/index.tsx`
 
@@ -578,6 +589,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Type all props and state
   - Delete `ServiceSectionS4.js` after successful migration
   - Update all import statements from `'../ServiceSectionS4/ServiceSectionS4'` to `'../ServiceSectionS4'`
+  - Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [ ] `src/components/ServiceSectionS6/ServiceSectionS6.js` → `src/components/ServiceSectionS6/index.tsx`
 
@@ -588,6 +600,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Type all props and state
   - Delete `ServiceSectionS6.js` after successful migration
   - Update all import statements from `'../ServiceSectionS6/ServiceSectionS6'` to `'../ServiceSectionS6'`
+  - Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [ ] `src/components/TestimonialSection2/TestimonialSection2.js` → `src/components/TestimonialSection2/index.tsx`
 
@@ -599,6 +612,7 @@ Components are listed in alphabetical order for better organization and tracking
   - Add proper types for slider/carousel if applicable
   - Delete `TestimonialSection2.js` after successful migration
   - Update all import statements from `'../TestimonialSection2/TestimonialSection2'` to `'../TestimonialSection2'`
+  - Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [ ] `src/components/TestimonialSection3/TestimonialSection3.js` → `src/components/TestimonialSection3/index.tsx`
   - Create new file `src/components/TestimonialSection3/index.tsx` and copy content from `TestimonialSection3.js`
@@ -608,40 +622,8 @@ Components are listed in alphabetical order for better organization and tracking
   - Type all props and state
   - Add proper types for slider/carousel if applicable
   - Delete `TestimonialSection3.js` after successful migration
-
-- [x] `src/components/Brand/Brand.js` → `src/components/Brand/Brand.tsx`
-
-  - Create new file `src/components/Brand/Brand.tsx` and copy content from `Brand.js`
-  - Create `src/types/components/Brand.d.ts` for:
-    - Component props types
-  - Type all props
-  - Add proper types for slider configuration
-  - Delete `Brand.js` after successful migration
-
-- [x] `src/components/ChooseUs/ChooseUs.js` → `src/components/ChooseUs/ChooseUs.tsx`
-
-  - Create new file `src/components/ChooseUs/ChooseUs.tsx` and copy content from `ChooseUs.js`
-  - Create `src/types/components/ChooseUs.d.ts` for:
-    - Component props types
-  - Type all props
-  - Delete `ChooseUs.js` after successful migration
-
-- [x] `src/components/Cta/Cta.js` → `src/components/Cta/Cta.tsx`
-
-  - Create new file `src/components/Cta/Cta.tsx` and copy content from `Cta.js`
-  - Create `src/types/components/Cta.d.ts` for:
-    - Component props types
-  - Type all props
-  - Delete `Cta.js` after successful migration
-
-- [x] `src/components/Faq/Faq.js` → `src/components/Faq/Faq.tsx`
-
-  - Create new file `src/components/Faq/Faq.tsx` and copy content from `Faq.js`
-  - Create `src/types/components/Faq.d.ts` for:
-    - FAQ item data types
-    - Component props types
-  - Type all state and event handlers
-  - Delete `Faq.js` after successful migration
+  - Update all import statements from `'../TestimonialSection3/TestimonialSection3'` to `'../TestimonialSection3'`
+  - Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 ## Type Dependencies
 
@@ -654,3 +636,4 @@ Make sure these type definitions are installed:
 - @types/react-slick
 - @types/react-scroll
 - @types/slick-carousel
+

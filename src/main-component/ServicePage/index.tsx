@@ -1,5 +1,5 @@
 import React, { FC, ReactElement, Fragment } from 'react';
-import Header6 from '../../components/Header6/Header6';
+import Header6 from '../../components/Header6';
 import PageTitle from '../../components/pagetitle/PageTitle';
 import ServiceSectionS2 from '../../components/ServiceSectionS2/ServiceSectionS2';
 import FooterScetion from '../../components/FooterSection';

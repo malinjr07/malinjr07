@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { useParams } from 'react-router-dom';
-import Header6 from '../../components/Header6/Header6';
+import Header6 from '../../components/Header6';
 import PageTitle from '../../components/pagetitle/PageTitle';
 import FooterScetion from '../../components/FooterSection';
 import blogs from '../../api/blogs';

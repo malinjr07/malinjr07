@@ -1,5 +1,5 @@
 import { FC, ReactElement } from 'react';
-import Header6 from '../../components/Header6/Header6';
+import Header6 from '../../components/Header6';
 import PageTitle from '../../components/pagetitle/PageTitle';
 import FooterScetion from '../../components/FooterSection';
 import ContactForm from './ContactForm';
