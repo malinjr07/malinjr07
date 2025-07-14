@@ -1,3 +1,0 @@
-interface BrandProps {
-  hclass?: string;
-}

@@ -1,3 +1,0 @@
-interface ContactProps {
-  hclass?: string;
-}

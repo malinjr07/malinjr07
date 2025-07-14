@@ -1,3 +1,0 @@
-interface BlogListProps {
-  hClass?: string;
-}
