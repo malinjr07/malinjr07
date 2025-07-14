@@ -1,0 +1,3 @@
+interface FaqProps {
+  hclass?: string;
+}

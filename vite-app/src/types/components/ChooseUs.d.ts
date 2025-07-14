@@ -1,0 +1,3 @@
+interface ChooseUsProps {
+  hclass?: string;
+}
