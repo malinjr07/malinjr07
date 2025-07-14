@@ -1,7 +1,7 @@
 import React, { FC, ReactElement, Fragment } from 'react';
 import Header6 from '../../components/Header6';
-import PageTitle from '../../components/pagetitle/PageTitle';
-import ProjectSection2 from '../../components/ProjectSection2/ProjectSection2';
+import PageTitle from '../../components/pagetitle';
+import ProjectSection2 from '../../components/ProjectSection2';
 import FooterScetion from '../../components/FooterSection';
 
 const ProjectPage: FC = (): ReactElement => {

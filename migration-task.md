@@ -526,81 +526,81 @@ Components are listed in alphabetical order for better organization and tracking
 
 - [x] `src/components/ModalVideo/ModalVideo.js` → `src/components/ModalVideo/index.tsx`
 
-  - Create new file `src/components/ModalVideo/index.tsx` and copy content from `ModalVideo.js`
-  - Create `src/types/components/ModalVideo.d.ts` for:
-    - Video data types
-    - Modal state types
-  - Type all props and state
-  - Add proper types for video player integration
-  - Delete `ModalVideo.js` after successful migration
-  - Update all import statements from `'../ModalVideo/ModalVideo'` to `'../ModalVideo'`
-  - Run `yarn tsc --noEmit` and fix any TypeScript errors
+  - [x] Create new file `src/components/ModalVideo/index.tsx` and copy content from `ModalVideo.js`
+  - [x] Create `src/types/components/ModalVideo.d.ts` for:
+    - [x] Video data types
+    - [x] Modal state types
+  - [x] Type all props and state
+  - [x] Add proper types for video player integration
+  - [x] Delete `ModalVideo.js` after successful migration
+  - [x] Update all import statements from `'../ModalVideo/ModalVideo'` to `'../ModalVideo'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
-- [ ] `src/components/pagetitle/pagetitle.js` → `src/components/pagetitle/index.tsx`
+- [x] `src/components/pagetitle/pagetitle.js` → `src/components/pagetitle/index.tsx`
 
-  - Create new file `src/components/pagetitle/index.tsx` and copy content from `pagetitle.js`
-  - Create `src/types/components/pagetitle.d.ts` for:
-    - Page title data types
-    - Component props types
-  - Type all props
-  - Delete `pagetitle.js` after successful migration
-  - Update all import statements from `'../pagetitle/pagetitle'` to `'../pagetitle'`
-  - Run `yarn tsc --noEmit` and fix any TypeScript errors
+  - [x] Create new file `src/components/pagetitle/index.tsx` and copy content from `pagetitle.js`
+  - [x] Create `src/types/components/pagetitle.d.ts` for:
+    - [x] Page title data types
+    - [x] Component props types
+  - [x] Type all props
+  - [x] Delete `pagetitle.js` after successful migration
+  - [x] Update all import statements from `'../pagetitle/pagetitle'` to `'../pagetitle'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
-- [ ] `src/components/ProjectSection2/ProjectSection2.js` → `src/components/ProjectSection2/index.tsx`
+- [x] `src/components/ProjectSection2/ProjectSection2.js` → `src/components/ProjectSection2/index.tsx`
 
-  - Create new file `src/components/ProjectSection2/index.tsx` and copy content from `ProjectSection2.js`
-  - Create `src/types/components/ProjectSection2.d.ts` for:
-    - Project data types
-    - Component props types
-  - Type all props and state
-  - Delete `ProjectSection2.js` after successful migration
-  - Update all import statements from `'../ProjectSection2/ProjectSection2'` to `'../ProjectSection2'`
-  - Run `yarn tsc --noEmit` and fix any TypeScript errors
+  - [x] Create new file `src/components/ProjectSection2/index.tsx` and copy content from `ProjectSection2.js`
+  - [x] Create `src/types/components/ProjectSection2.d.ts` for:
+    - [x] Project data types
+    - [x] Component props types
+  - [x] Type all props and state
+  - [x] Delete `ProjectSection2.js` after successful migration
+  - [x] Update all import statements from `'../ProjectSection2/ProjectSection2'` to `'../ProjectSection2'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
-- [ ] `src/components/ProjectSection3/ProjectSection3.js` → `src/components/ProjectSection3/index.tsx`
+- [x] `src/components/ProjectSection3/ProjectSection3.js` → `src/components/ProjectSection3/index.tsx`
 
-  - Create new file `src/components/ProjectSection3/index.tsx` and copy content from `ProjectSection3.js`
-  - Create `src/types/components/ProjectSection3.d.ts` for:
-    - Project data types
-    - Component props types
-  - Type all props and state
-  - Delete `ProjectSection3.js` after successful migration
-  - Update all import statements from `'../ProjectSection3/ProjectSection3'` to `'../ProjectSection3'`
-  - Run `yarn tsc --noEmit` and fix any TypeScript errors
+  - [x] Create new file `src/components/ProjectSection3/index.tsx` and copy content from `ProjectSection3.js`
+  - [x] Create `src/types/components/ProjectSection3.d.ts` for:
+    - [x] Project data types
+    - [x] Component props types
+  - [x] Type all props and state
+  - [x] Delete `ProjectSection3.js` after successful migration
+  - [x] Update all import statements from `'../ProjectSection3/ProjectSection3'` to `'../ProjectSection3'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
-- [ ] `src/components/ServiceSectionS2/ServiceSectionS2.js` → `src/components/ServiceSectionS2/index.tsx`
+- [x] `src/components/ServiceSectionS2/ServiceSectionS2.js` → `src/components/ServiceSectionS2/index.tsx`
 
-  - Create new file `src/components/ServiceSectionS2/index.tsx` and copy content from `ServiceSectionS2.js`
-  - Create `src/types/components/ServiceSectionS2.d.ts` for:
-    - Service data types
-    - Component props types
-  - Type all props and state
-  - Delete `ServiceSectionS2.js` after successful migration
-  - Update all import statements from `'../ServiceSectionS2/ServiceSectionS2'` to `'../ServiceSectionS2'`
-  - Run `yarn tsc --noEmit` and fix any TypeScript errors
+  - [x] Create new file `src/components/ServiceSectionS2/index.tsx` and copy content from `ServiceSectionS2.js`
+  - [x] Create `src/types/components/ServiceSectionS2.d.ts` for:
+    - [x] Service data types
+    - [x] Component props types
+  - [x] Type all props and state
+  - [x] Delete `ServiceSectionS2.js` after successful migration
+  - [x] Update all import statements from `'../ServiceSectionS2/ServiceSectionS2'` to `'../ServiceSectionS2'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
-- [ ] `src/components/ServiceSectionS4/ServiceSectionS4.js` → `src/components/ServiceSectionS4/index.tsx`
+- [x] `src/components/ServiceSectionS4/ServiceSectionS4.js` → `src/components/ServiceSectionS4/index.tsx`
 
-  - Create new file `src/components/ServiceSectionS4/index.tsx` and copy content from `ServiceSectionS4.js`
-  - Create `src/types/components/ServiceSectionS4.d.ts` for:
-    - Service data types
-    - Component props types
-  - Type all props and state
-  - Delete `ServiceSectionS4.js` after successful migration
-  - Update all import statements from `'../ServiceSectionS4/ServiceSectionS4'` to `'../ServiceSectionS4'`
-  - Run `yarn tsc --noEmit` and fix any TypeScript errors
+  - [x] Create new file `src/components/ServiceSectionS4/index.tsx` and copy content from `ServiceSectionS4.js`
+  - [x] Create `src/types/components/ServiceSectionS4.d.ts` for:
+    - [x] Service data types
+    - [x] Component props types
+  - [x] Type all props and state
+  - [x] Delete `ServiceSectionS4.js` after successful migration
+  - [x] Update all import statements from `'../ServiceSectionS4/ServiceSectionS4'` to `'../ServiceSectionS4'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
-- [ ] `src/components/ServiceSectionS6/ServiceSectionS6.js` → `src/components/ServiceSectionS6/index.tsx`
+- [x] `src/components/ServiceSectionS6/ServiceSectionS6.js` → `src/components/ServiceSectionS6/index.tsx`
 
-  - Create new file `src/components/ServiceSectionS6/index.tsx` and copy content from `ServiceSectionS6.js`
-  - Create `src/types/components/ServiceSectionS6.d.ts` for:
-    - Service data types
-    - Component props types
-  - Type all props and state
-  - Delete `ServiceSectionS6.js` after successful migration
-  - Update all import statements from `'../ServiceSectionS6/ServiceSectionS6'` to `'../ServiceSectionS6'`
-  - Run `yarn tsc --noEmit` and fix any TypeScript errors
+  - [x] Create new file `src/components/ServiceSectionS6/index.tsx` and copy content from `ServiceSectionS6.js`
+  - [x] Create `src/types/components/ServiceSectionS6.d.ts` for:
+    - [x] Service data types
+    - [x] Component props types
+  - [x] Type all props and state
+  - [x] Delete `ServiceSectionS6.js` after successful migration
+  - [x] Update all import statements from `'../ServiceSectionS6/ServiceSectionS6'` to `'../ServiceSectionS6'`
+  - [x] Run `yarn tsc --noEmit` and fix any TypeScript errors
 
 - [ ] `src/components/TestimonialSection2/TestimonialSection2.js` → `src/components/TestimonialSection2/index.tsx`
 
