@@ -2,7 +2,7 @@ import React, { FC, ReactElement, Fragment } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Header6 from '../../components/Header6/Header6';
 import PageTitle from '../../components/pagetitle/PageTitle';
-import FooterScetion from '../../components/FooterScetion/FooterScetion';
+import FooterScetion from '../../components/FooterSection';
 import PortfolioItems from '../../api/Project';
 import ProjectSingleSlider from './ProjectSingleSlider';
 import VideoModal from '../../components/ModalVideo';

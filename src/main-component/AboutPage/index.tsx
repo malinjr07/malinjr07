@@ -5,7 +5,7 @@ import About2 from '../../components/about2';
 import ServiceSectionS6 from '../../components/ServiceSectionS6/ServiceSectionS6';
 import FeatureSection from '../../components/FeatureSection';
 import BlogSection from '../../components/BlogSection/BlogSection';
-import FooterScetion from '../../components/FooterScetion/FooterScetion';
+import FooterScetion from '../../components/FooterSection';
 
 const AboutPage = () => {
   return (

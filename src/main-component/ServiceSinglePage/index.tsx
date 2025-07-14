@@ -2,7 +2,7 @@ import React, { FC, ReactElement, Fragment, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Header6 from '../../components/Header6/Header6';
 import PageTitle from '../../components/pagetitle/PageTitle';
-import FooterScetion from '../../components/FooterScetion/FooterScetion';
+import FooterScetion from '../../components/FooterSection';
 import Services from '../../api/Services';
 import ServiceWidget from './ServiceWidget';
 
