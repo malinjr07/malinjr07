@@ -9,7 +9,7 @@ const VideoModal: FC<VideoModalProps> = (): ReactElement => {
   const [isOpen, setOpen] = useState<boolean>(false);
 
   return (
-    <React.Fragment>
+    <>
       <ModalVideo
         channel='youtube'
         isOpen={isOpen}
@@ -19,7 +19,7 @@ const VideoModal: FC<VideoModalProps> = (): ReactElement => {
       <a className='popup-youtube' onClick={() => setOpen(true)}>
         <img src={Img as unknown as string} alt='' />
       </a>
-    </React.Fragment>
+    </>
   );
 };
 

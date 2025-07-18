@@ -5,8 +5,8 @@ import FeatureSection from '../../components/FeatureSection';
 import About4 from '../../components/about4';
 import ServiceSectionS4 from '../../components/ServiceSectionS4';
 import ProjectSection3 from '../../components/ProjectSection3';
-import TestimonialSection3 from '../../components/TestimonialSection3/TestimonialSection3';
-import BlogSection from '../../components/BlogSection/BlogSection';
+import TestimonialSection3 from '../../components/TestimonialSection3';
+import BlogSection from '../../components/BlogSection';
 import ContactSection2 from '../../components/ContactSection2';
 
 /**
