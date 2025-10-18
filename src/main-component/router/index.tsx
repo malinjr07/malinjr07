@@ -7,8 +7,7 @@ import ServiceSinglePage from '../ServiceSinglePage';
 import ProjectPage from '../ProjectPage';
 import ProjectSinglePage from '../ProjectSinglePage';
 import TestimonialPage from '../TestimonialPage';
-import BlogPage from '../BlogPage';
-import BlogDetails from '../BlogDetails';
+
 import ContactPage from '../ContactPage';
 import ErrorPage from '../../components/404';
 
@@ -24,8 +23,6 @@ const AllRoute: React.FC = () => {
           <Route path='project' element={<ProjectPage />} />
           <Route path='project-single/:slug' element={<ProjectSinglePage />} />
           <Route path='testimonial' element={<TestimonialPage />} />
-          <Route path='blog' element={<BlogPage />} />
-          <Route path='blog-single/:slug' element={<BlogDetails />} />
           <Route path='contact' element={<ContactPage />} />
           <Route path='*' element={<ErrorPage />} />
         </Routes>

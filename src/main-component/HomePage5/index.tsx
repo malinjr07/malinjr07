@@ -6,7 +6,6 @@ import About4 from '../../components/about4';
 import ServiceSectionS4 from '../../components/ServiceSectionS4';
 import ProjectSection3 from '../../components/ProjectSection3';
 import TestimonialSection3 from '../../components/TestimonialSection3';
-import BlogSection from '../../components/BlogSection';
 import ContactSection2 from '../../components/ContactSection2';
 
 /**
@@ -33,7 +32,7 @@ const HomePage5: FC = (): ReactElement => {
             <ServiceSectionS4 />
             <ProjectSection3 hclass={'portfolio-section-s4'} />
             <TestimonialSection3 hclass={'testimonial-section-s3'} />
-            <BlogSection />
+
             <ContactSection2 Cclass={'contact-section-s2 section-padding'} />
           </div>
         </div>
