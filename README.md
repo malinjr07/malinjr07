@@ -10,7 +10,7 @@
   <img alt="" src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"/>
 </div>
 
-<h1> Hi There 👋! My name is Maruf and I'm a <img src="https://readme-typing-svg.demolab.com?font=&weight=700&size=28&pause=1000&color=000000&width=800&lines=ReactJs+Frontend+Developer;React+Native+Mobile+App+Developer;NodeJs+Back-End+Developer;NextJs+Scalable+Frontend+Engineer;NestJs+Microservice+OOP+Back-End+Architecture" alt="Typing SVG" /> <br/>
+<h1> Hi There 👋! My name is Maruf and I'm a <img src="https://readme-typing-svg.demolab.com?font=&weight=700&size=28&pause=1000&color=000000&width=800&lines=Frontend+Developer;Native+Mobile+App+Developer;Back-End+Developer;NextJs+Scalable+Frontend+Engineer;NestJs+Microservice+OOP+Back-End+Architecture" alt="Typing SVG" /> <br/>
 from Dhaka Bangladesh</h1>
 
 <p align="justify">I am a Full-Stack developer with 7 years of coding experience.</p>
